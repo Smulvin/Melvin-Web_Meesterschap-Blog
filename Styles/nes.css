@@ -1,0 +1,129 @@
+/* Source: https://font.download/font/nes-controller*/
+@font-face {
+    font-family: "Nes-Font";
+    src:url("../Assets/fonts/Nes-Font.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: hsl(60, 2%, 82%);
+    --secondary-color: hsl(348, 4%, 26%);
+    --tertiary-color: hsl(72, 3%, 61%);
+    --nes-red: hsl(6, 70%, 47%);
+    --nes-white: hsl(60, 2%, 80%);
+    --nes-black: hsl(150, 2%, 23%);
+
+    /* Normal size: 123.4m x 53.2mm x 17.5mm */
+    /* Dimensies bron: https://www.dimensions.com/element/nes-controller */
+    --nes-width: 740.4px;
+    --nes-height: 319.2px;
+    --nes-depth: 112.5px;
+
+    --font-family: "Nes-Font", sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+}
+
+#nes-controller {
+    width: var(--nes-width);
+    height: var(--nes-height);
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    position: absolute;
+}
+
+#nes-controller-black {
+    background: var(--secondary-color);
+    height: 80%;
+    width: 95%;
+    margin: 6% auto 0 auto;
+    border-radius: 10px;
+
+    #nes-grey-blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        letter-spacing: 2px;
+
+        div {
+            background: var(--tertiary-color);
+            height: 40px;
+            border-radius: 5px;
+            width: 25%;
+            margin-left: 35%;
+        }
+
+        div:first-of-type {
+            border-radius: 0 0 5px 5px;
+        }
+
+        /* Select / Start Texts */
+        div:nth-of-type(3) {
+            position: relative;
+            font-family: "Nes-Font", sans-serif;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 20px;
+
+
+            &:before, &:after {
+                text-transform: uppercase;
+                color: var(--nes-red);
+
+            }
+
+            &:before {
+                content: "Select";
+            }
+
+            &:after {
+                content: "Start";
+            }
+        }
+
+        /* Slect / Start buttons */
+        div:nth-of-type(4) {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 50px;
+            background: var(--nes-white);
+            position: relative;
+            padding: 10px;
+
+            &::after {
+                content: "";
+                border: 4px solid var(--tertiary-color);
+                border-radius: 5px;
+                inset: 3px;
+                position: absolute;
+            }
+
+            button {
+                width: 50px;
+                height: 20px;
+                border-radius: 10px;
+                border: none;
+                background: var(--nes-black);
+            }
+        }
+
+        div:last-of-type {
+            height: 30px;
+            border-radius: 5px 5px 0 0;
+        }
+    }
+}
