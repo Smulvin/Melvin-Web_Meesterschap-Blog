@@ -16,3 +16,7 @@ https://www.dimensions.com/element/nes-controller<br>
 Vandaag heb ik de standaard styling van mijn NES controller afgemaakt. Alleeen het uiterlijk is redellijk klaar. Ik wil misschien later nog wat gradients toevoegen op de buttons om ze meer diepte te geven. Ook hebben ze nog geen active state. 
 
 <img src="Assets/README_imgs/NES/Voortgang_4-4-2026.png" alt="Styling van de NES controller die bijna af is">
+
+#### Bronnen
+https://fontawesome.com/search?q=arrow&ic=free-collection<br>
+https://www.fontspace.com/ro-spritendo-font-f83198<br>
