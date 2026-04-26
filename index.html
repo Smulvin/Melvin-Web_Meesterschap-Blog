@@ -11,43 +11,54 @@
 
 <body>
     <main>
-        <div id="nes-controller">
-            <div id="nes-controller-black">
-                <div id="nes-left-half">
-                    <div id="nes-dpad">
-                        <!-- Icons: https://fontawesome.com/search?q=arrow&ic=free-collection -->
-                        <button id="nes-dpad-up"><i class="fa-solid fa-caret-up"></i></button>
-                        <button id="nes-dpad-left"><i class="fa-solid fa-caret-left"></i></button>
-                        <div></div>
-                        <button id="nes-dpad-right"><i class="fa-solid fa-caret-right"></i></button>
-                        <button id="nes-dpad-down"><i class="fa-solid fa-caret-down"></i></button>
-                    </div>
-                </div>
+        <div id="scene">
+            <div id="nes-controller">
+                <div id="nes-front">
+                    <div id="nes-controller-black">
+                        <div id="nes-left-half">
+                            <div id="nes-dpad">
+                                <!-- Icons: https://fontawesome.com/search?q=arrow&ic=free-collection -->
+                                <button id="nes-dpad-up"><i class="fa-solid fa-caret-up"></i></button>
+                                <button id="nes-dpad-left"><i class="fa-solid fa-caret-left"></i></button>
+                                <div></div>
+                                <button id="nes-dpad-right"><i class="fa-solid fa-caret-right"></i></button>
+                                <button id="nes-dpad-down"><i class="fa-solid fa-caret-down"></i></button>
+                            </div>
+                        </div>
 
-                <div id="nes-grey-blocks">
-                    <div></div>
-                    <div></div>
-                    <div></div><!--  Start / select teksten -->
-                    <div>
-                        <button id="nes-controller-select"></button>
-                        <button id="nes-controller-start"></button>
-                    </div>
-                    <div></div>
-                </div>
-                <div id="nes-right-half">
-                    <p>Nintendo&#169</p>
-                    <div id="nes-ab-container">
-                        <div>
-                            <button id="nes-controller-b"></button>
+                        <div id="nes-grey-blocks">
+                            <div></div>
+                            <div></div>
+                            <div></div><!--  Start / select teksten -->
+                            <div>
+                                <button id="nes-controller-select"></button>
+                                <button id="nes-controller-start"></button>
+                            </div>
+                            <div></div>
                         </div>
-                        <div>
-                            <button id="nes-controller-a"></button>
+                        <div id="nes-right-half">
+                            <p>Nintendo&#169</p>
+                            <div id="nes-ab-container">
+                                <div>
+                                    <button id="nes-controller-b"></button>
+                                </div>
+                                <div>
+                                    <button id="nes-controller-a"></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div id="nes-left"></div>
+                <div id="nes-right"></div>
+                <div id="nes-top"></div>
+                <div id="nes-bottom"></div>
+                <div id="nes-back"></div>
             </div>
         </div>
     </main>
+
+    <script src="Scripts/nes-spin.js"></script>
 </body>
 
 </html>
