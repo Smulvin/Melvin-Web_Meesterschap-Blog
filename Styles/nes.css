@@ -13,7 +13,7 @@
     font-weight: normal;
     font-style: normal;
 }
-    
+
 
 * {
     padding: 0;
@@ -60,8 +60,8 @@ main {
     height: var(--nes-height);
     transform-style: preserve-3d;
     transform: rotateX(-20deg) rotateY(-30deg);
-    
-    > div {
+
+    >div {
         position: absolute;
         background-color: var(--primary-color);
     }
@@ -84,12 +84,32 @@ main {
     height: var(--nes-height);
 }
 
-#nes-front  { transform: translateZ(calc(var(--nes-depth) / 2)); }
-#nes-back   { transform: rotateY(180deg) translateZ(calc(var(--nes-depth) / 2)); }
-#nes-left   { transform: rotateY(-90deg) translateZ(calc(var(--nes-depth) / 2)); left: 0; }
-#nes-right  { transform: rotateY(90deg) translateZ(calc(var(--nes-width) - var(--nes-depth) / 2)); }
-#nes-top    { transform: rotateX(90deg) translateZ(calc(var(--nes-depth) / 2)); top: 0; }
-#nes-bottom { transform: rotateX(-90deg) translateZ(calc(var(--nes-depth) / 2)); bottom: 0; }
+#nes-front {
+    transform: translateZ(calc(var(--nes-depth) / 2));
+}
+
+#nes-back {
+    transform: rotateY(180deg) translateZ(calc(var(--nes-depth) / 2));
+}
+
+#nes-left {
+    transform: rotateY(-90deg) translateZ(calc(var(--nes-depth) / 2));
+    left: 0;
+}
+
+#nes-right {
+    transform: rotateY(90deg) translateZ(calc(var(--nes-width) - var(--nes-depth) / 2));
+}
+
+#nes-top {
+    transform: rotateX(90deg) translateZ(calc(var(--nes-depth) / 2));
+    top: 0;
+}
+
+#nes-bottom {
+    transform: rotateX(-90deg) translateZ(calc(var(--nes-depth) / 2));
+    bottom: 0;
+}
 
 hr {
     border: 1px solid var(--secondary-color);
@@ -99,7 +119,7 @@ hr {
 #nes-top {
     hr {
         width: 100%;
-       top: 35%;
+        top: 35%;
     }
 
     &::after {
@@ -144,16 +164,116 @@ hr {
     }
 }
 
-#nes-back {    
-        &::after {
-            content: "";
-            position: absolute;
-            width: 30px;
-            height: 15px;
-            background: var(--tertiary-color);
-            top: 0;
-            right: 25%;
+#nes-back {
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
+        list-style: none;
+
+        li {
+            width: 20px;
+            height: 20px;
+            background: var(--nes-black);
+            border-radius: 50%;
+            margin-right: 15px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 18px;
+                margin-top: 8px;
+                margin-left: 1px;
+                height: 3px;
+                background: black;
+                border-radius: 2px;            
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 18px;
+                margin-top: 8px;
+                margin-left: 1px;
+                height: 3px;
+                background: black;
+                border-radius: 2px; 
+                transform: rotate(90deg);           
+            }
         }
+
+        li:nth-of-type(3n - 1) {
+            justify-self: center;
+        }
+
+        li:nth-of-type(3n) {
+            justify-self: end;
+        }
+
+        li:nth-of-type(1n + 4) {
+            align-self: end;
+        }
+
+        li:nth-of-type(5) {
+            margin-left: 50px;
+        }
+    }
+
+    .text-container {
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        right: 7%;
+        transform: translateY(-50%);
+        background: hsl(60, 4%, 73%);
+        padding: 5px 3rem;
+        color: var(--primary-color);
+        font-family: "Nintendo-Font", sans-serif;
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        hr {
+            width: 50%;
+            border: 1px solid var(--primary-color);
+        }
+
+        p:not(:first-of-type) {
+            text-transform: uppercase;
+            font-family: "Nes-Font", sans-serif;
+            font-size: 1.2rem;
+
+        }
+    }
+
+    ;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: var(--tertiary-color);
+        bottom: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 15px;
+        background: var(--tertiary-color);
+        top: 0;
+        right: 25%;
+    }
 }
 
 #nes-front {
@@ -370,10 +490,10 @@ hr {
                 &:first-of-type button::after {
                     content: "B";
                 }
-                
+
                 &:last-of-type button::after {
                     content: "A";
-                } 
+                }
             }
         }
     }

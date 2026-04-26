@@ -22,9 +22,10 @@ https://fontawesome.com/search?q=arrow&ic=free-collection<br>
 https://www.fontspace.com/ro-spritendo-font-f83198<br>
 
 ### Zondag 26 - 4 - 2026
-Vandaag ging ik verder aan mijn NES controller, ik wilde hem namelijk 3D hebben. Dit wordt waarschijnlijk de enige in 3D omdat deze controller de enige is die echt compleet vierkant is. Ik heb hier lang moeite mee gehad, en had uiteindelijk ChatGPT gevraagd om hulp. Ik had aan hem gevraagd of hij gewoon een 3D blok kon maken. Dat heb ik in een CodePen gezet en daarna zelf proberen na te maken voor mijn eigen ontwerp.
+Vandaag ging ik verder aan mijn NES controller, ik wilde hem namelijk 3D hebben. Dit wordt waarschijnlijk de enige in 3D omdat deze controller de enige is die echt compleet vierkant is. Ik heb hier lang moeite mee gehad, en had uiteindelijk ChatGPT gevraagd om hulp. Ik had aan hem gevraagd of hij gewoon een 3D blok kon maken. Dat heb ik in een CodePen gezet en daarna zelf proberen na te maken voor mijn eigen ontwerp. Later de dag heb ik de zijkanten en achterkant ook nog gestyled zoals die van de NES. Alleen de aansluiting voor waar normaal gesproken het draad zit heb ik niet gemaakt, ik vond het netter om die net te doen aangezien ik niet van plan was het echte draad te maken.
 
 <img src="Assets/README_imgs/NES/Voortgang_26-4-2026.png">
+<img src="Assets/README_imgs/NES/Voortgang2_26-4-2026.png">
 
 #### ChatGPT
 Prompt: make me a 3D cube using HTML and CSS 
