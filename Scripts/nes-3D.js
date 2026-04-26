@@ -1,3 +1,7 @@
+/* ---------------- */
+/* Making Cube Spin */
+/* ---------------- */  
+
 let cube = document.getElementById('nes-controller');
 
 let rotX = -20;
@@ -30,3 +34,4 @@ window.addEventListener('mousemove', (e) => {
     lastX = e.clientX;
     lastY = e.clientY;
 });
+

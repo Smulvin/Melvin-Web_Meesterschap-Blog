@@ -86,12 +86,75 @@ main {
 
 #nes-front  { transform: translateZ(calc(var(--nes-depth) / 2)); }
 #nes-back   { transform: rotateY(180deg) translateZ(calc(var(--nes-depth) / 2)); }
-
 #nes-left   { transform: rotateY(-90deg) translateZ(calc(var(--nes-depth) / 2)); left: 0; }
 #nes-right  { transform: rotateY(90deg) translateZ(calc(var(--nes-width) - var(--nes-depth) / 2)); }
-
 #nes-top    { transform: rotateX(90deg) translateZ(calc(var(--nes-depth) / 2)); top: 0; }
 #nes-bottom { transform: rotateX(-90deg) translateZ(calc(var(--nes-depth) / 2)); bottom: 0; }
+
+hr {
+    border: 1px solid var(--secondary-color);
+    position: absolute;
+}
+
+#nes-top {
+    hr {
+        width: 100%;
+       top: 35%;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 5px;
+        background: var(--tertiary-color);
+        bottom: 0;
+        left: 25%;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 5px;
+        background: var(--tertiary-color);
+        top: 0;
+        left: 25%;
+    }
+}
+
+#nes-bottom {
+    hr {
+        width: 100%;
+        bottom: 35%;
+    }
+}
+
+#nes-left {
+    hr {
+        height: 100%;
+        left: 35%;
+    }
+}
+
+#nes-right {
+    hr {
+        height: 100%;
+        right: 35%;
+    }
+}
+
+#nes-back {    
+        &::after {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 15px;
+            background: var(--tertiary-color);
+            top: 0;
+            right: 25%;
+        }
+}
 
 #nes-front {
     width: var(--nes-width);
