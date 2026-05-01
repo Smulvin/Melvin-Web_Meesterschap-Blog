@@ -97,3 +97,24 @@ Prompt: make me a 3D cube using HTML and CSS
 </body>
 </html>
 ```
+
+## Switch Controller
+
+### Vrijdag 1 - 5 - 2026
+Vandaag een klein begin gemaakt aan de switch controllers. Zo heb ik hem eerst op papier weer een beetje uitgetekend zodat ik hopelijk hem dan makkelijker kan namaken met code. Daarbij heb ik ook andere kleinere dingetjes gedaan. Zoals het volledig opzetten van mijn bestand, dus ik heb alle html en css bestanden aangemaakt en gelinkt via footer linkjes.
+```
+    <footer>
+        <a href="../index.html">NES Controller</a>
+        <a href="../Controllers/SNES.html">SNES Controller</a>
+        <a href="../Controllers/GameCube.html">GameCube Controller</a>
+        <a href="../Controllers/N64.html">N64 Controller</a>
+        <a href="../Controllers/Wii.html">Wii Controller</a>
+        <a href="../Controllers/Switch.html">Switch Controller</a>
+        <a href="../Controllers/Switch2.html">Switch 2 Controller</a>
+    </footer>
+```
+
+<img src="Assets/README_imgs/Switch/Switch_EersteSchets.jpg">
+<img src="Assets/README_imgs/Switch/Vooruitgang_1-5-2026.png">
+
+

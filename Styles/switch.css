@@ -1,0 +1,30 @@
+:root {
+    --switch-red: #fe6054;
+    --switch-blue: #01c4e0;
+    --switch-black: #403f3d;
+    --switch-white: #feffff;
+
+    /* Normal size: 102mm x 33mm */
+    /* Dimensies bron: https://www.dimensions.com/element/nintendo-switch */
+    --switch-width: 198px;
+    --switch-height: 612px;
+}
+
+.switch-controller {
+    display: flex;
+    gap: 4rem;
+
+    .switch-left {
+        background: var(--switch-blue);
+        width: var(--switch-width);
+        height: var(--switch-height);
+        border-radius: 8rem 1rem 1rem 8rem;
+    }
+
+    .switch-right {
+        background: var(--switch-red);
+        width: var(--switch-width);
+        height: var(--switch-height);
+        border-radius: 1rem 8rem 8rem 1rem;
+    }
+}

@@ -14,13 +14,6 @@
     font-style: normal;
 }
 
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 :root {
     --primary-color: hsl(60, 2%, 82%);
     --secondary-color: hsl(348, 4%, 26%);
@@ -29,25 +22,13 @@
     --nes-white: hsl(60, 2%, 80%);
     --nes-black: hsl(150, 2%, 23%);
 
-    /* Normal size: 123.4m x 53.2mm x 17.5mm */
+    /* Normal size: 123.4mm x 53.2mm x 17.5mm */
     /* Dimensies bron: https://www.dimensions.com/element/nes-controller */
     --nes-width: 740.4px;
     --nes-height: 319.2px;
     --nes-depth: 112.5px;
 
     --font-family: "Nes-Font", sans-serif;
-}
-
-body {
-    position: relative;
-    width: 100vw;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 #scene {
