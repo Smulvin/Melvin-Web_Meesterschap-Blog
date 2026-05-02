@@ -117,4 +117,9 @@ Vandaag een klein begin gemaakt aan de switch controllers. Zo heb ik hem eerst o
 <img src="Assets/README_imgs/Switch/Switch_EersteSchets.jpg">
 <img src="Assets/README_imgs/Switch/Vooruitgang_1-5-2026.png">
 
+### Zaterdag 2 - 5 - 2026
+Heb vandaag meer styling toegevoegd aan de switch onctrollers. Ik weet nog niet zeker wat ik wil doen met de binnen kant van de controller en hoe ik ze responsive wil maken, dus voor laat ik het hier bij. Ik heb wel al de joystick werkend en netjes gekregen, dus die soort code kan ik ook gebruiken voor andere controllers.
+
+<img src="Assets/README_imgs/Switch/Vooruitgang_2-5-2026.png">
+
 
