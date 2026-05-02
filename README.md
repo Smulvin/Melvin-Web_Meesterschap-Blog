@@ -123,3 +123,9 @@ Heb vandaag meer styling toegevoegd aan de switch onctrollers. Ik weet nog niet 
 <img src="Assets/README_imgs/Switch/Vooruitgang_2-5-2026.png">
 
 
+## Switch 2 Controller
+
+### Zaterdag 2 - 5 - 2026
+Eerder vandaag had ik de normale switch controllers gemaakt, aangezien deze er veel op lijkt, had ik deze niet eerst uitgeschets. Ik had wel nog geprobeerd om een aparte stylesheet te maken die voor beide bestanden zou werken, zodat ik niet veel dubbele code had. Maar kreeg daar nog niet het overzicht. Maar heb wel nog de active state voor sommige knoppen al toegevoegd. Die van de L en R knoppen wilde nog niet werken omdat die een z-index van -1 hebben voor de styling. Daar kijk ik later nog naar.
+
+<img src="Assets/README_imgs/Switch2/Vooruitgang_2-5-2026.png">

@@ -36,6 +36,9 @@
         aspect-ratio: 1;
         background: #202020;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .stick {
@@ -70,8 +73,14 @@
             aspect-ratio: 1;
             background: var(--switch-black);
             border-radius: 50%;
-            border-bottom: 3px solid black;;
+            box-shadow: 0px 5px 0px 0px black;
+
+            &:active {
+                box-shadow: 0px 2px 0px 0px black;
+                transform: translateY(3px);
+            }
         }
+
         button:first-of-type {
             grid-column: 2;
         }
@@ -124,6 +133,7 @@
             width: 2.8rem;
             aspect-ratio: 1;
             border-radius:3px;
+            border: none;
             background: var(--switch-black);
             font-size: 1.4rem;
             margin-right: -5rem;
@@ -174,3 +184,5 @@
         }
     }
 }
+
+

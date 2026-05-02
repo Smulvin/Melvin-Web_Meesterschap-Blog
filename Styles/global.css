@@ -15,3 +15,8 @@ main {
     align-items: center;
     height: 100vh;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
