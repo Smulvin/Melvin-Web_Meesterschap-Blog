@@ -98,6 +98,14 @@ Prompt: make me a 3D cube using HTML and CSS
 </html>
 ```
 
+## GameBoy
+
+### Donderdag 7 - 5 - 2026
+Vandaag heb ik een begin gemaakt aan de gameboy controller, origineel was het idee om alleen controllers te doen, maar om het scherm makkelijker te verwerken op de verschillende pagina's leek het me handiger om ook handheld controllers te maken. Ik ben begonnen met hem op papier weer uit te schetsen om daarna de html te schrijven.
+
+<img src="Assets/README_imgs/GameBoy/Gameboy_EersteSchets.jpg">
+<img src="Assets/README_imgs/GameBoy/Vooruitgang_7-5-2026.png">
+
 ## Switch Controller
 
 ### Vrijdag 1 - 5 - 2026
@@ -122,6 +130,11 @@ Heb vandaag meer styling toegevoegd aan de switch onctrollers. Ik weet nog niet 
 
 <img src="Assets/README_imgs/Switch/Vooruitgang_2-5-2026.png">
 
+### Donderdag 7 - 5 - 2026
+Aangezien het leuker is als er een scherm is waar de content op te zien is heb ik het scherm ook toegevoegd. Dat scheelt, want ik wist nog niet wat ik ging doen met de binnenkant.
+
+<img src="Assets/README_imgs/Switch/Vooruitgang_7-5-2026.png">
+
 
 ## Switch 2 Controller
 
@@ -129,3 +142,8 @@ Heb vandaag meer styling toegevoegd aan de switch onctrollers. Ik weet nog niet 
 Eerder vandaag had ik de normale switch controllers gemaakt, aangezien deze er veel op lijkt, had ik deze niet eerst uitgeschets. Ik had wel nog geprobeerd om een aparte stylesheet te maken die voor beide bestanden zou werken, zodat ik niet veel dubbele code had. Maar kreeg daar nog niet het overzicht. Maar heb wel nog de active state voor sommige knoppen al toegevoegd. Die van de L en R knoppen wilde nog niet werken omdat die een z-index van -1 hebben voor de styling. Daar kijk ik later nog naar.
 
 <img src="Assets/README_imgs/Switch2/Vooruitgang_2-5-2026.png">
+
+### Donderdag 7 - 5 - 2026
+Net zoals bij de switch controller, heb ik ook bij switch 2 een scherm toegevoegd.
+
+<img src="Assets/README_imgs/Switch2/Vooruitgang_7-5-2026.png">

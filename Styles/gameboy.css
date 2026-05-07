@@ -1,0 +1,24 @@
+:root {
+    --gameboy-grey: #dad5db;
+    --gameboy-grey-dark: #7a7788;
+    --gameboy-grey-btn: #8c8398;
+    --gameboy-green: #9ca04c;
+    --gameboy-red: #78001e;
+    --gameboy-blue: #2e2951;
+    --gameboy-black: #04030b;
+
+    /* Normaal 90mm x 148mm */
+    /* Dimensies bron: https://www.dimensions.com/element/game-boy */
+    --gameboy-width-controller: 540px;
+    --gameboy-height-controller: 888px;
+
+    --gameboy-width-screen: ;
+    --gameboy-height-screen: ;
+}
+
+.gameboy-controller {
+    width: var(--gameboy-width-controller);
+    height: var(--gameboy-height-controller);
+    background: var(--gameboy-grey);
+    border-radius: 1rem 1rem 10rem 1rem;
+}
