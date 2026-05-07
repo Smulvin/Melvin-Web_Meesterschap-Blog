@@ -7,13 +7,17 @@
 
     /* Normal size: 116mm x 30.7mm */
     /* Dimensies bron: https://www.nintendo.com/nl-nl/Hardware/Nintendo-Switch-2/Nintendo-Switch-2-Specificaties-2785627.html?srsltid=AfmBOoqZBPBSjOMNFwO9OwzFyUoCPXfzVXbFAFblwaFuebyZJF2gZzQ3 */
-    --switch-width: 200.2px;
-    --switch-height: 696px;
+    --switch-width-controller: 200.2px;
+    --switch-height-controller: 696px;
+
+    /* Normaal 200mm x 116mm */
+    --switch-width-screen: 1200px;
+    --switch-height-screen: 696px;
 }
 
 .switch2-controller {
     display: flex;
-    gap: 4rem;
+    /* gap: 4rem; */
 
     #btn-l, #btn-r {
         position: absolute;
@@ -101,8 +105,8 @@
 
     .switch-left {
         background: var(--switch-black);
-        width: var(--switch-width);
-        height: var(--switch-height);
+        width: var(--switch-width-controller);
+        height: var(--switch-height-controller);
         border-radius: 11rem 1rem 1rem 11rem;
         position: relative;
         padding: 6rem 0;
@@ -151,8 +155,8 @@
 
     .switch-right {
         background: var(--switch-black);
-        width: var(--switch-width);
-        height: var(--switch-height);
+        width: var(--switch-width-controller);
+        height: var(--switch-height-controller);
         border-radius: 1rem 11rem 11rem 1rem;
         position: relative;
         padding: 5rem 0;
@@ -205,6 +209,27 @@
 
         .joystick {
             background: var(--switch-red);
+        }
+    }
+
+    .switch-screen {
+        width: var(--switch-width-screen);
+        height: var(--switch-height-screen);
+        background: var(--switch-black);
+        border-radius: 1rem;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding: 1rem;
+
+        .content {
+            width: 100%;
+            height: 100%;
+            padding: 5rem;
+            background: red;
+            border-radius: 1rem;
+            border: 3rem solid black;
+            border-top: 1rem solid black;
+            border-bottom: 1rem solid black;
         }
     }
 }
