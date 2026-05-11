@@ -106,6 +106,11 @@ Vandaag heb ik een begin gemaakt aan de gameboy controller, origineel was het id
 <img src="Assets/README_imgs/GameBoy/Gameboy_EersteSchets.jpg">
 <img src="Assets/README_imgs/GameBoy/Vooruitgang_7-5-2026.png">
 
+### Maandag 11 - 5 - 2026
+Ik heb vandaag de styling gedaan van de controller. Hier liep ik soms tegen iets meer dingen aan, ik had namelijk oorspronkelijk gepland om de teksten van buttons via een ::after te doen, maar realiseerde me tijdens het maken al snel dat dat niet kan op een button. Dus heb ik het veranderd naar een div container. Voor de rest ging de styling vrij soepel. Ik kon nog gebruik maken van een lineair gradient voor de lijnen boven het beeldscherm, dat vond ik een slimme oplossing voor dat probleem.
+
+<img src="Assets/README_imgs/GameBoy/VOoruitgang_11-5-2026.png">
+
 ## Switch Controller
 
 ### Vrijdag 1 - 5 - 2026

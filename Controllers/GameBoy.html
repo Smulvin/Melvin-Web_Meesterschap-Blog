@@ -10,7 +10,9 @@
 <body>
     <main>
         <div class="gameboy-controller">
-            <p class="off-on">&lt;off-on&gt;</p>
+            <div class="on-off-container">
+                <p class="off-on">&lt; off-on &gt;</p>
+            </div>
             <div class="gameboy-screen-container">
                 <p>Dot matrix with stereo sound</p>
                 <div class="battery-container">
@@ -18,22 +20,38 @@
                     <p>Battery</p>
                 </div>
                 <div class="gameboy-screen"></div>
-                <h1>Nintendo <span class="brand">Game Boy</span>tm</h1>
+                <h1>Nintendo <span>Game Boy</span>tm</h1>
             </div>
-            <div class="gameboy-dpad">
-                <button id="gameboy-dpad-up"><i class="fa-solid fa-caret-up"></i></button>
-                <button id="gameboy-dpad-left"><i class="fa-solid fa-caret-left"></i></button>
-                <div></div>
-                <button id="gameboy-dpad-right"><i class="fa-solid fa-caret-right"></i></button>
-                <button id="gameboy-dpad-down"><i class="fa-solid fa-caret-down"></i></button>
+            <div class="center-buttons-container">
+                <div class="gameboy-dpad">
+                    <button id="gameboy-dpad-up"><i class="fa-solid fa-caret-up"></i></button>
+                    <button id="gameboy-dpad-left"><i class="fa-solid fa-caret-left"></i></button>
+                    <div></div>
+                    <button id="gameboy-dpad-right"><i class="fa-solid fa-caret-right"></i></button>
+                    <button id="gameboy-dpad-down"><i class="fa-solid fa-caret-down"></i></button>
+                </div>
+                <div class="a-b-container">
+                    <div>
+                        <button id="gameboy-b"></button>
+                        <p>B</p>
+                    </div>
+                    <div>
+                        <button id="gameboy-a"></button>
+                        <p>A</p>
+                    </div>
+                </div>
             </div>
-            <div class="a-b-container">
-                <button id="gameboy-a"></button>
-                <button id="gameboy-b"></button>
-            </div>
-            <div class="start-select-container">
-                <button id="gameboy-start"></button>
-                <button id="gameboy-select"></button>
+            
+            <div class="select-start-container">
+                <div class="select-container">
+                    <button id="gameboy-select"></button>
+                    <p>Select</p>
+                </div>
+                <div class="start-container">
+                    <button id="gameboy-start"></button>
+                    <p>Start</p>
+                </div>
+                
             </div>
             <ul class="sound-holes">
                 <li class="hole"></li>
@@ -43,10 +61,7 @@
                 <li class="hole"></li>
                 <li class="hole"></li>
             </ul>
-            <div class="headphone-container">
-                <p class="headphones"><i class="fa-solid fa-headphones"></i>phone</p>
-                <div class="line"></div>
-            </div>
+            <p class="headphones"><i class="fa-solid fa-headphones"></i>phone</p>
         </div>
 
     </main>
