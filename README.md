@@ -109,7 +109,15 @@ Vandaag heb ik een begin gemaakt aan de gameboy controller, origineel was het id
 ### Maandag 11 - 5 - 2026
 Ik heb vandaag de styling gedaan van de controller. Hier liep ik soms tegen iets meer dingen aan, ik had namelijk oorspronkelijk gepland om de teksten van buttons via een ::after te doen, maar realiseerde me tijdens het maken al snel dat dat niet kan op een button. Dus heb ik het veranderd naar een div container. Voor de rest ging de styling vrij soepel. Ik kon nog gebruik maken van een lineair gradient voor de lijnen boven het beeldscherm, dat vond ik een slimme oplossing voor dat probleem.
 
-<img src="Assets/README_imgs/GameBoy/VOoruitgang_11-5-2026.png">
+<img src="Assets/README_imgs/GameBoy/Vooruitgang_11-5-2026.png">
+
+## DS 
+
+### Maandag 11 - 5 - 2026
+Ik ben eerst weer begonnen met het maken van een schets van de controller. Hoe meer ik codeer, hoe beter ik in de schets al rekening kan houden met latere styling. Zo kon ik bijvoorbeeld bij de gaten voor start en select button dat ik niet de tekst in een after kan doen omdat buttons geen after kunnen hebben. Het helpt dus wel. Ik ben niet klaar met de styling vandaag. Maar ik heb flink op kunnen schieten. Veel styling voor buttons lijkt wel op onderdelen van andere controllers, dus daar kan ik veel code van kopiëren.
+
+<img src="Assets/README_imgs/DS/DS_EersteSchets.jpg">
+<img src="Assets/README_imgs/DS/Vooruitgang_11-5-2026.png">
 
 ## Switch Controller
 

@@ -1,0 +1,196 @@
+:root {
+    --ds-color-primary: #45464a;
+    --ds-color-primary-dark: #363638;
+    --ds-color-secondary: #7e8187;
+    --ds-color-button: #201c6a;
+
+    /* Open normaal: 133mm x 139mm */
+    /* Dicht normaal: 133mm x 74mm */
+    /* Dimensies bron: https://www.dimensions.com/element/nintendo-ds-lite */
+    --section-width: 798px;
+    --section-height: 390px;
+    --mid-height: 54px;
+
+    --screen-width: 366px;
+    --screen-height: 276px;
+}
+
+.DS-controller {
+    #top-section {
+        position: relative;
+        width: var(--section-width);
+        height: calc(var(--section-height) + var(--mid-height));
+        background: var(--ds-color-primary);
+        corner-bottom-left-shape: notch;
+        corner-bottom-right-shape: notch;
+        border-radius: 1rem 1rem 13% 13%;
+        z-index: 2;
+
+        #top-screen {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 3rem;
+            width: var(--screen-width);
+            height: var(--screen-height);
+            background: blue;
+            border: 10px solid black;
+            border-radius: 1rem;
+
+        }
+
+        #holes-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+
+            .sound-holes {
+                list-style: none;
+                position: absolute;
+                top: 35%;
+
+
+                li {
+                    width: 0.5rem;
+                    aspect-ratio: 1;
+                    background: black;
+                    border-radius: 50%;
+                    position: relative;
+                    margin: 1em;
+
+                    &::before,
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background: black;
+                        border-radius: 50%;
+                    }
+
+                    &::before {
+                        left: -300%;
+                    }
+
+                    &::after {
+                        left: 300%;
+                    }
+                }
+            }
+
+            .sound-holes:first-of-type {
+                left: 10%;
+            }
+
+            .sound-holes:last-of-type {
+                right: 10%;
+            }
+        }
+
+        #screw-covers {
+            position: absolute;
+            inset: 0rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            list-style: none;
+
+            li {
+                width: 1.5rem;
+                aspect-ratio: 1;
+                background: var(--ds-color-primary-dark);
+                border-radius: 0.3rem;
+                justify-self: center;
+            }
+        }
+
+        ;
+
+        .microphone {
+            width: 0.5rem;
+            height: 1.5rem;
+            background: black;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    #middle-section {
+        position: relative;
+        width: var(--section-width);
+        height: var(--mid-height);
+        background: red;
+        border-radius: 2rem;
+        margin-top: calc(var(--mid-height) * -1);
+        z-index: 1;
+    }
+
+    #bottom-section {
+        position: relative;
+        width: var(--section-width);
+        height: var(--section-height);
+        background: var(--ds-color-primary);
+        border-radius: 2rem 2rem 1rem 1rem;
+        margin-top: calc(var(--mid-height) * -1);
+
+
+        #bottom-screen {
+            width: var(--screen-width);
+            height: var(--screen-height);
+            background: blue;
+            border: 10px solid black;
+            border-radius: 1rem;
+            position: absolute;
+            left: 50%;
+            bottom: 3rem;
+            transform: translateX(-50%);
+        }
+
+        .abxy-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 0.1rem;
+            width: 8rem;
+            aspect-ratio: 1;
+
+            button {
+                border: none;
+                width: 2.7rem;
+                aspect-ratio: 1;
+                border-radius: 50%;
+                background: var(--ds-color-primary);
+                color: var(--ds-color-secondary);
+                box-shadow: 0px 5px 0px 0px black;
+                font-size: 1.5rem;
+
+                &:active {
+                    box-shadow: 0px 2px 0px 0px black;
+                    transform: translateY(3px);
+                }
+            }
+
+            button:first-of-type {
+                grid-column: 2;
+            }
+
+            button:nth-of-type(2) {
+                grid-column: 1;
+                grid-row: 2;
+            }
+
+            button:nth-of-type(3) {
+                grid-column: 3;
+                grid-row: 2;
+            }
+
+            button:nth-of-type(4) {
+                grid-column: 2;
+                grid-row: 3;
+            }
+        }
+    }
+}
