@@ -119,6 +119,12 @@ Ik ben eerst weer begonnen met het maken van een schets van de controller. Hoe m
 <img src="Assets/README_imgs/DS/DS_EersteSchets.jpg">
 <img src="Assets/README_imgs/DS/Vooruitgang_11-5-2026.png">
 
+### Dinsdag 12 - 5 - 2026
+De DS styling heb ik vandaag qua uiterlijk vandaag afgemaakt, ik zou later alleen nog active styling voor buttons enzo. Maar het is me wel vandaag gelukt om de DS open en dicht te laten flippen. Dat was even lastig weer met 3D, maar is wel uiteindelijk gelukt.
+
+<img src="Assets/README_imgs/DS/Vooruitgang_12-5-2026.png">
+<img src="Assets/README_imgs/DS/Vooruitgang-Dicht_12-5-2026.png">
+
 ## Switch Controller
 
 ### Vrijdag 1 - 5 - 2026
