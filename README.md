@@ -114,10 +114,10 @@ Ik heb vandaag de styling gedaan van de controller. Hier liep ik soms tegen iets
 ## Game and Watch 
 
 ### Dinsdag 12 - 5 - 2026
-Ik moest nog een paar controllers bedenken, want ik moest er nog meer hebben. In eerste instantie wilde ik die van n64 of gamecube namaken, maar die hadden een iets te moeilijke vorm. Dus koos ik voor een simpele Game & Watch, en dan specifiek Parachute, een controller die mijn vader vroeger had. Deze had ik weer eerst op papier geschetst. Deze keer kon ik hem helemaal namaken zoals ik hem eerst op papier had geschetst. Omdat ik deze niet zelf heb, moest ik wel een voorbeeld gebruiken. Ik ben nog niet helemaal tevreden over de styling. Maar die puntjes op de i kunnen later nog.
+Ik moest nog een paar controllers bedenken, want ik moest er nog meer hebben. In eerste instantie wilde ik die van n64 of gamecube namaken, maar die hadden een iets te moeilijke vorm. Dus koos ik voor een simpele Game & Watch, en dan specifiek Parachute, een controller die mijn vader vroeger had. Deze had ik weer eerst op papier geschetst. Deze keer kon ik hem helemaal namaken zoals ik hem eerst op papier had geschetst. Omdat ik deze niet zelf heb, moest ik wel een voorbeeld gebruiken. De styling is nog niet helemaal perfect. Maar die puntjes op de i kunnen later nog.
 
 <img src="Assets/README_imgs/GameWatch/Voorbeeld.jpg">
-<img src="Assets/README_imgs/GameWatch/GameWatch_EersteSchets.jpg">
+<img src="Assets/README_imgs/GameWatch/GameWatch_EersteSchets.jpg" style="rotate: -90deg">
 <img src="Assets/README_imgs/GameWatch/Voortuitgang_12-5-2026.png">
 
 ## DS 
