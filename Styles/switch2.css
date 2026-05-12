@@ -115,10 +115,11 @@
             right: 2.5rem;
             border-radius: 90% 0rem 0rem 0rem;
 
-            &:hover {
+            /* &:hover {
                 transform: translate(3px, 3px);
-            }
+            } */
         }
+
 
         #btn-minus {
             position: absolute;
