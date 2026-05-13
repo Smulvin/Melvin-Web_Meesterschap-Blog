@@ -208,7 +208,11 @@
             font-family: Nes-Font;
             font-size: 1.7rem;
             color: var(--gameboy-blue);
-            rotate: -30deg;
+
+            p {
+                rotate: -30deg;
+                margin-right: -3rem;
+            }
 
             button {
                 width: 5rem;
@@ -216,6 +220,17 @@
                 border: none;
                 background: var(--gameboy-red);
                 border-radius: 50%;
+                box-shadow: 0px 4px 0px 0px #5a133a;
+                transform: translateY(-3px);
+                
+                &:active {
+                    box-shadow: 0px 0px 0px 0px #5a133a;
+                    transform: translateY(0px);
+                }
+            }
+
+            div:last-of-type{
+                margin-top: -4rem;
             }
         }
     }
@@ -243,6 +258,13 @@
                 background: var(--gameboy-grey-btn);
                 border-radius: 3rem;
                 border: none;
+                box-shadow: -2px 3px 0px 0px #424242;
+                transform: translate(-2px, -3px);
+
+                &:active {
+                    box-shadow: -2px 2px 0px 0px #424242;
+                    transform: translate(-2px, -1px);
+                }
             }
         }
     }
