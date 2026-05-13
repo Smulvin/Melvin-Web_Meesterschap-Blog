@@ -120,6 +120,11 @@ Ik moest nog een paar controllers bedenken, want ik moest er nog meer hebben. In
 <img src="Assets/README_imgs/GameWatch/GameWatch_EersteSchets.jpg" style="rotate: -90deg">
 <img src="Assets/README_imgs/GameWatch/Voortuitgang_12-5-2026.png">
 
+### Woensdag 13 - 5 - 2026
+Vandaag heb ik de styling afgemaakt van de game en watch. Dit was het centereren van het middelste scherm en de puntjes op de i. Die puntjes waren bijvoorbeeld de groter van buttons, witruimtes, styling van teksten.
+
+<img src="Assets/README_imgs/GameWatch/Voortuitgang_13-5-2026.png">
+
 ## DS 
 
 ### Maandag 11 - 5 - 2026
