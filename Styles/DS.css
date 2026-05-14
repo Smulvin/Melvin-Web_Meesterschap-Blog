@@ -50,7 +50,6 @@
 
         .back {
             background: var(--ds-color-blue);
-            transform: rotateX(180deg) translateZ(2px);
             corner-top-left-shape: notch;
             corner-top-right-shape: notch;
             border-radius: 13% 13% 1rem 1rem;

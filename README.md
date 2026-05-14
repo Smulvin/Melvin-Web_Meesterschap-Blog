@@ -139,6 +139,15 @@ De DS styling heb ik vandaag qua uiterlijk vandaag afgemaakt, ik zou later allee
 <img src="Assets/README_imgs/DS/Vooruitgang_12-5-2026.png">
 <img src="Assets/README_imgs/DS/Vooruitgang-Dicht_12-5-2026.png">
 
+## 3DS 
+
+### Donderdag 14 - 5 - 2026
+Vandaag heb ik de volledige styling gedaan van de 3DS. Ik heb geprobeerd mijn code deze keer minder herhalend te maken, door hetzelfde script te gebruiken voor het openklappen als de DS, en hetzelfde script voor de joystick als die van beide switch controllers. Aangezien ik nu al meerdere keren eerst een schets had gemaakt van te voren ging heel soepel bij het maken van de HTML.
+
+<img src="Assets/README_imgs/3DS/3DS_EersteSchets.jpg">
+<img src="Assets/README_imgs/3DS/Voortuitgang_14-5-2026.png">
+<img src="Assets/README_imgs/3DS/Voortuitgang-Dicht_14-5-2026.png">
+
 ## Switch Controller
 
 ### Vrijdag 1 - 5 - 2026

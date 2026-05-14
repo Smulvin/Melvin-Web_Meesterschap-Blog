@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles/global.css">
-    <link rel="stylesheet" href="../Styles/wii.css">
+    <link rel="stylesheet" href="../Styles/3ds.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>API</title>
 </head>
@@ -30,11 +30,11 @@
     </section>
     <main>
 
-        <div class="3DS-controller">
-            <div class="top-section">
+        <div class="DS3-controller">
+            <div id="top-section">
                 <div class="face front">
                     <div class="camera-container">
-                        <div id="camera"></div>
+                        <div class="camera"></div>
                         <div id="infrared"></div>
                     </div>
                     <div id="holes-container">
@@ -54,6 +54,13 @@
                         </ul>
                     </div>
 
+
+                    <ul class="softclose-container">
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+
                     <ul id="screw-covers">
                         <li></li>
                         <li></li>
@@ -63,21 +70,25 @@
 
                     <div id="top-screen"></div>
 
-                    <div id="volume-control">
-                        <div id="volume-slider"></div>
+                    <div id="volume-control" class="side-slider">
+                        <div class="slider"></div>
+                        <div class="illustration"></div>
                     </div>
 
-                    <div class="3D-control">
-                        <div id="3d-slider"></div>
-                    </div>
-
+                    <div id="D3-control" class="side-slider">
+                        <div class="slider"></div>
+                        <div class="illustration"></div>
                     </div>
 
                 </div>
                 <div class="face back">
-
+                    <ul>
+                        <li class="camera"></li>
+                        <li class="camera"></li>
+                    </ul>
                 </div>
             </div>
+
 
             <div class="middle-section">
                 <div class="notification-light"></div>
@@ -134,6 +145,13 @@
 
                 </div>
 
+                <div id="information-lights">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
             </div>
         </div>
     </main>
@@ -147,5 +165,8 @@
         <a href="Switch.html">Switch</a>
         <a href="Switch2.html">Switch 2</a>
     </footer>
+    <script src="../Scripts/ds-flip.js"></script>
+    <script src="../Scripts/joystick.js"></script>
+</body>
 
 </html>
