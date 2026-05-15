@@ -2,7 +2,8 @@
     --gameboy-grey: #dad5db;
     --gameboy-grey-dark: #7a7788;
     --gameboy-grey-btn: #8c8398;
-    --gameboy-green: #6d7b00;
+    --gameboy-green: #a3b434;
+    --gameboy-green-dark:#1f4b1b;
     --gameboy-red: #89245c;
     --gameboy-blue: #53558b;
     --gameboy-black: #04030b;
@@ -12,8 +13,8 @@
     --gameboy-width-controller: 540px;
     --gameboy-height-controller: 888px;
 
-    --gameboy-width-screen: ;
-    --gameboy-height-screen: ;
+    --gameboy-width-screen: 396px;
+    --gameboy-height-screen: 318px;
 }
 
 .gameboy-controller {
@@ -108,6 +109,50 @@
             background: var(--gameboy-green);
             margin: 0.5rem auto;
             border-radius: 0.5rem;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .slide {
+                position: absolute;
+                inset: 0;
+                opacity: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+
+                &.active {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+
+                h2 {
+                    font-family: "Pixel-Font";
+                    font-size: 1.2rem;
+                    color: var(--gameboy-green-dark);
+                    text-align: center;
+                }
+
+                p {
+                    font-family: "Pixel-Font";
+                    color: var(--gameboy-green-dark);
+                    font-size: 0.7rem;
+                    line-height: 1.2rem;
+                }
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            } 
+            
+            .slide:has(:not(img)) {
+                padding: 2rem 1rem;
+            }
         }
 
         .battery-container {

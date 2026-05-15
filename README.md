@@ -211,3 +211,8 @@ Vandaag had ik al mijn teksten uitgetypt in een google document. Het was namelij
 
 ### Vrijdag 15 - 5 - 2026
 Vandaag heb ik voor elke controller waarvan het project al afgerond is, heb ik de github pagina en website toegevoegd aan knoppen zodat je die vanaf een controller kan bereiken.
+
+Ook heb ik vandaag gefixt dat de bij de game and watch en gameboy controllers de tekst nu wordt laten zien in slides. Dit zijn namelijk de 2 controllers waarbij ik wel een scherm heb, maar een kleintje. Het leek me dus handig om via losse slides de content te laten zien. Voor nu is de styling nog vrij simpel, al heeft de game en watch wel een overlay over een LCD vibe over te brengen. Maar het voelt buiten een pixel font nog niet echt gamy.
+
+<img src="Assets/README_imgs/GameWatch/Voortuitgang_15-5-2026.png">
+<img src="Assets/README_imgs/GameBoy/Voortuitgang_15-5-2026.png">
