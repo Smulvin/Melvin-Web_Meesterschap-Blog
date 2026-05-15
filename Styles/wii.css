@@ -1,7 +1,7 @@
 /* Bron: https://famfonts.com/wii/ */
 @font-face {
     font-family: "Wii-Font";
-    src:url("../Assets/fonts/Wii-Font.ttf") format("truetype");
+    src: url("../Assets/fonts/Wii-Font.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -9,42 +9,51 @@
 :root {
     --wii-color: #efefef;
     --wii-color-text: #000000;
-    
 
-    --color-red: #e2dfe0;
+
+    --color-red: #d3507c;
     --color-blue: #1d95ba;
     --color-light: #1d95ba;
     --color-light-off: #67686c;
     --color-btn-border: #c4c7cc;
     --color-btn-border-shadow: #a7a7a7;
-    --btn-shadow: drop-shadow(0 2px 0px var(--color-btn-border-color-shadow));
+    --btn-shadow: drop-shadow(0 4px 0px var(--color-btn-border-shadow));
 
 
     /* Normaal 36.2mm x 160mm */
     /* Dimensions bron: https://www.dimensions.com/element/wii-remote */
-    --controller-width: 217.4px;
-    --controller-height: 960px;
+    --controller-width: 200px;
+    --controller-height: 884px;
 }
 
 .wii-controller {
     width: var(--controller-width);
     height: var(--controller-height);
     background-color: var(--wii-color);
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--wii-color-text);
+    font-family: "Jost";
+    border-radius: 1rem;
     position: relative;
-    font-family: "Wii-Font", sans-serif;
+    transition: transform 0.4s ease;
 
-    .power-button {
+    @media (width > 30em) and (height > 55em) {
+        transform: scale(1.5);
+    }
+
+    @media (width > 60em) {
+        transform: rotate(-90deg) scale(1.5);
+    }
+
+    #power-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         position: absolute;
-        top: 5px;
-        left: 5px;
+        top: 1rem;
+        left: 1rem;
 
         button {
             color: var(--color-red);
@@ -52,9 +61,14 @@
             border-radius: 50%;
             padding: 2px;
             aspect-ratio: 1;
+
+            i {
+                font-size: 1.5rem;
+            }
         }
 
         p {
+            font-size: 0.8rem;
             text-transform: uppercase;
         }
     }
@@ -63,188 +77,188 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        width: 120px;
+        aspect-ratio: 1;
+        margin-top: 6rem;
 
         button {
+            aspect-ratio: 1;
+            border: none;
+            background: var(--wii-color);
+            padding: 0.5rem;
+        }
+
+        #dpad-up {
+            grid-area: 1 / 2;
+            border-radius: 5px 5px 0 0;
             border: 2px solid var(--color-btn-border);
+            border-bottom: none;
+        }
+
+        #dpad-left {
+            grid-area: 2 / 1;
+            border-radius: 5px 0 0 5px;
+            border: 2px solid var(--color-btn-border);
+            border-right: none;
+        }
+
+        div {
+            grid-column: 2;
+            grid-row: 2;
             background: var(--wii-color);
         }
 
-        button:nth-of-type(1) {
-            grid-area: 1 / 2;
-            border-bottom: none;
-            aspect-ratio: 1/1;
-            width: 20px;
-        }
-
-        button:nth-of-type(2) {
-            grid-row: 2;
-            grid-column: 1;
-            border-right: none;
-            filter: var(--wii-button-shadow);
-        }
-
-        button:nth-of-type(3) {
-            grid-row: 2;
-            grid-column: 3;
+        #dpad-right {
+            grid-area: 2 / 3;
+            border-radius: 0 5px 5px 0;
+            border: 2px solid var(--color-btn-border);
             border-left: none;
-            filter: var(--wii-button-shadow);
+
         }
 
-        button:nth-of-type(4) {
-            grid-row: 3;
-            grid-column: 2;
+        #dpad-down {
+            grid-area: 3 / 2;
+            border-radius: 0 0 5px 5px;
+            border: 2px solid var(--color-btn-border);
             border-top: none;
-            filter: var(--wii-button-shadow);
         }
 
-        #top-pressed #button-top {transform: rotateX(22.5deg);}
-        #top-pressed #button-left {filter: drop-shadow(0 4px 0 var(--wii-button-border-color-shadow)); transform: rotateX(22.5deg); margin-top: -2px;}
-        #top-pressed #button-right {filter: drop-shadow(0 4px 0 var(--wii-button-border-color-shadow)); transform: rotateX(22.5deg); margin-top: -2px;}
-        #top-pressed #button-bottom {filter: drop-shadow(0 6px 0 var(--wii-button-border-color-shadow)); transform: rotateX(-45deg); margin-top: -4px;}
+        hr {
+            border: 3px solid var(--color-btn-border);
+        }
 
-        /* Left Button */
-        #left-pressed #button-left {transform: rotateY(-30deg);}
-        #left-pressed #button-top {filter: drop-shadow(4px 0 0 var(--wii-button-border-color-shadow)); transform:rotateY(22.5deg); margin-left: -2px;}
-        #left-pressed #button-bottom {filter: drop-shadow(4px 2px 0 var(--wii-button-border-color-shadow)); transform:rotateY(22.5deg); margin-left: -2px; }
-        #left-pressed #button-right {transform: rotateY(-30deg); filter: drop-shadow(3px 2px 0 var(--wii-button-border-color-shadow));  margin-left: -4px;}
-
-        /* Right Button */
-        #right-pressed #button-right {transform: rotateY(-22.5deg);}
-        #right-pressed #button-top { filter: drop-shadow(-4px 0 var(--wii-button-border-color-shadow)); transform:rotateY(-22.5deg); margin-right: -2px;}
-        #right-pressed #button-bottom { filter: drop-shadow(-4px 2px 0 var(--wii-button-border-color-shadow)); transform:rotateY(-22.5deg); margin-right: -2px;}
-        #right-pressed #button-left {transform: rotateY(30deg); filter: drop-shadow(-3px 2px 0 var(--wii-button-border-color-shadow)); margin-right: -4px;}
-
-        /* Bottom Button */
-        #bottom-pressed #button-bottom {filter: drop-shadow(0 0px 0 var(--wii-button-border-color-shadow));}
-        #bottom-pressed #button-left {filter: drop-shadow(0 -2px 0 var(--wii-button-border-color-shadow)); transform: rotateX(-22.5deg); margin-bottom: -2px;}
-        #bottom-pressed #button-right {filter: drop-shadow(0 -2px 0 var(--wii-button-border-color-shadow)); transform: rotateX(-22.5deg); margin-bottom: -2px;}
-        #bottom-pressed #button-top { filter: drop-shadow(0 -2px 0 var(--wii-button-border-color-shadow)); transform: rotateX(40deg);}
+        #dpad-up,
+        #dpad-down {
+            hr {
+                rotate: 90deg;
+            }
+        }
     }
 
-    #btn-A {
+    #btn-a {
         aspect-ratio: 1;
-        width: 35px;
         border: 2px solid var(--color-btn-border);
         border-radius: 50%;
-        text-align: center;
+        width: 75px;
         display: flex;
         align-items: center;
         justify-content: center;
-        filter: var(--wii-button-shadow);
-        color: var(--wii-color-text);
+        font-size: 2rem;
+        margin-top: 3rem;
+        filter: var(--btn-shadow);
+
+        &:active {
+            filter: inner-shadow(0 0 0px var(--wii-button-border-color-shadow));
+            transform: translateY(4px);
+        }
     }
 
-    .center-buttons {
+    #center-buttons-container {
         display: flex;
         justify-content: space-evenly;
+        width: 100%;
+        margin-top: 3rem;
 
-        div {
+        >button {
+            filter: var(--btn-shadow);
+
+            &:active {
+                filter: inner-shadow(0 0 0px var(--wii-button-border-color-shadow));
+                transform: translateY(4px);
+            }
+            
+        }
+
+        #btn-home {
             display: flex;
             flex-direction: column;
             align-items: center;
             text-transform: uppercase;
 
-            button {
-                border: none;
-                
-                i {
-                    color: var(--color-blue);
-                    border: 2px solid var(--color-btn-border);
-                    border-radius: 50%;
-                    aspect-ratio: 1;
-                    height: 20px;
-                    text-align: center;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
+            button>i {
+                color: var(--color-light);
+                font-size: 1.4rem;
             }
         }
-
-        >button {
-            border: 2px solid var(--color-btn-border);
-            border-radius: 50%;
-            aspect-ratio: 1;
-            height: 20px;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--wii-color-text);
-            filter: var(--wii-button-shadow);
-        }
-    }
-
-    .sound-holes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-
-        div {
-            aspect-ratio: 1;
-            border-radius: 50%;
-            background: black;
-            position: relative;
-
-            &::before, 
-            &::after {
-                content: "";
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                width: 100%;
-                height: 100%;
-                border-radius: 50%;
-                background: black;
-            }
-
-            &::before {
-                left: -20px;
-            }
-
-            &::after {
-                left: 20px;
-            }
-        }
-
-        .hole-small {
-            width: 1.5px;
-        }
-
-        .hole-medium {
-            width: 3px;
-        }
-
-        .hole-big {
-            width: 5px;
-        }
-    }
-
-    .btn-1-2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
 
         button {
             border: 2px solid var(--color-btn-border);
             border-radius: 50%;
             aspect-ratio: 1;
-            width: 25px;
-            text-align: center;
-            filter: var(--btn-shadow);
-            color: var(--wii-color-text);
+            width: 40px;
+            height: 40px;
+            font-size: 1rem;        
         }
     }
 
-    .player-lights {
+    #sound-holes {
         display: flex;
-        justify-content: space-between;
-        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.7rem;
+        margin-top: 2rem;
 
         div {
-            width: 8px;
+            aspect-ratio: 1;
+            background: black;
+            border-radius: 50%;
+            position: relative;
+
+            &::before, &::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                aspect-ratio: 1;
+                top: 50%;
+                transform: translateY(-50%);
+                background: black;
+                border-radius: 50%;
+            }
+
+            &::before {
+                left: -1rem;
+            }
+
+            &::after {
+                right: -1rem;
+            }
+        }
+
+        .hole-small { width: 3px; }
+        .hole-medium { width: 6px; }
+        .hole-large { width: 10px; }
+    }
+
+    #container-1-2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        gap: 2rem;
+        
+        button {
+            border: 2px solid var(--color-btn-border);
+            border-radius: 50%;
+            aspect-ratio: 1;
+            width: 50px;
+            text-align: center;
+            font-size: 1.3rem;
+            filter: var(--btn-shadow);
+
+            &:active {
+                filter: inner-shadow(0 0 0px var(--wii-button-border-color-shadow));
+                transform: translateY(4px);
+            }
+        }
+    }
+
+    #player-lights {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0.7rem;
+        margin-top: 2rem;
+
+        div {
+            width: 1rem;
             aspect-ratio: 1;
             background: var(--color-light-off);
         }
@@ -255,9 +269,8 @@
         }
     }
 
-    .wii-text {
-        font-size: 2rem;
-
-    } 
+    #wii-text {
+        font-size: 2.3rem;
+        margin-top: 1rem;
+    }
 }
-

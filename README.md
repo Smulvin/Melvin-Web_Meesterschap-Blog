@@ -125,6 +125,13 @@ Vandaag heb ik de styling afgemaakt van de game en watch. Dit was het centereren
 
 <img src="Assets/README_imgs/GameWatch/Voortuitgang_13-5-2026.png">
 
+## Wii 
+
+### Vrijdag 15 - 5 - 2026
+Aangezien ik de wii controller al eerder had gemaakt voor sprint 0, heb ik van deze geen schets gemaakt. Maar ik hem wel mijn html code wat netter gemaakt. Zo maak ik gebruik van before en after voor de geluid gaten om regels html te besparen.
+
+<img src="Assets/README_imgs/Wii/Vooruitgang_15-5-2026.png">
+
 ## DS 
 
 ### Maandag 11 - 5 - 2026
