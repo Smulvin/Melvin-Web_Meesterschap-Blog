@@ -53,6 +53,7 @@
             corner-top-left-shape: notch;
             corner-top-right-shape: notch;
             border-radius: 13% 13% 1rem 1rem;
+            transform: rotateX(180deg) translateZ(2px);
 
             ul {
                 width: 100%;
