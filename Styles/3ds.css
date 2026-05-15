@@ -546,7 +546,7 @@
                     color: var(--color-tertiary);
                 }
 
-                button {
+                a {
                     width: 1.4rem;
                     aspect-ratio: 1;
                     border: none;

@@ -235,14 +235,20 @@
         margin-top: 3rem;
         gap: 2rem;
         
-        button {
+        a {
             border: 2px solid var(--color-btn-border);
             border-radius: 50%;
             aspect-ratio: 1;
             width: 50px;
             text-align: center;
             font-size: 1.3rem;
+            background: var(--wii-color);
+            color: var(--wii-color-text);
+            text-decoration: none;
             filter: var(--btn-shadow);
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             &:active {
                 filter: inner-shadow(0 0 0px var(--wii-button-border-color-shadow));

@@ -320,7 +320,7 @@
                 width: 150px;
                 aspect-ratio: 1;
 
-                button {
+                button, a {
                     border: none;
                     width: 2.5rem;
                     aspect-ratio: 1;
@@ -369,7 +369,7 @@
                     text-transform: uppercase;
                 }
 
-                button {
+                a {
                     width: 1rem;
                     aspect-ratio: 1;
                     border: none;

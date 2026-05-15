@@ -184,6 +184,13 @@ Aangezien het leuker is als er een scherm is waar de content op te zien is heb i
 
 <img src="Assets/README_imgs/Switch/Vooruitgang_7-5-2026.png">
 
+### Vrijdag 15 - 5 - 2026
+Easter egg toegevoegd, de switch controllers kwamen in veel verschillende kleuren. Ik heb toegevoegd dat als je op de + of - van een controller drukt, dat de kleur van die kant veranderd.
+
+Bron kleuren: https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTYwY-w_I479WtU86ChXSwaWMJ_rT2GSUoILEcc6AADpwJnBXPFzl10Ckr4oc5XBoAs4j8agIUVv_HNU3zlHvDFhvo9sfnIk593Xn4JsS36Bltfv0zy9YRXKMVtKxAWB337klS9i0zNhOM&usqp=CAc
+
+<img src="Assets/README_imgs/Switch/EasterEgg_Kleuren.png">
+
 
 ## Switch 2 Controller
 
@@ -196,3 +203,11 @@ Eerder vandaag had ik de normale switch controllers gemaakt, aangezien deze er v
 Net zoals bij de switch controller, heb ik ook bij switch 2 een scherm toegevoegd.
 
 <img src="Assets/README_imgs/Switch2/Vooruitgang_7-5-2026.png">
+
+## Algemeen
+
+### Dinsdag 12 - 5 - 2026
+Vandaag had ik al mijn teksten uitgetypt in een google document. Het was namelijk belangrijk dat dit gedaan was voor het gesprek van woensdag zodat ik kon laten zien dat ik helemaal up to date was qua content. Ik had vandaag alleen geen tijd meer om dit ook meteen al vorm te geven voor elke controller die ik op het moment heb.
+
+### Vrijdag 15 - 5 - 2026
+Vandaag heb ik voor elke controller waarvan het project al afgerond is, heb ik de github pagina en website toegevoegd aan knoppen zodat je die vanaf een controller kan bereiken.

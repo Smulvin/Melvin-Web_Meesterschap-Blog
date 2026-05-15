@@ -252,7 +252,7 @@
             font-family: "Nes-Font";
             rotate: -30deg;
 
-            button {
+            a {
                 width: 80px;
                 height: 15px;
                 background: var(--gameboy-grey-btn);
