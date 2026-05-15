@@ -40,8 +40,8 @@ let leftIndex = 0;
 let rightIndex = 0;
 
 /* Smooth transition */
-leftJoycon.style.transition = "background 0.3s ease";
-rightJoycon.style.transition = "background 0.3s ease";
+// leftJoycon.style.transition = "background 0.3s ease";
+// rightJoycon.style.transition = "background 0.3s ease";
 
 /* LEFT only */
 minusBtn.addEventListener("click", () => {

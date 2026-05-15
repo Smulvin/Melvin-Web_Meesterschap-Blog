@@ -11,18 +11,9 @@
 </head>
 
 <body>
-    <section style="display: none;">
-        <p>
-            Dit was het eerste groepsproject van de minor. Aangezien ik al flink wat had gecodeerd, had ik eerst alleen
-            in Figma even wat assets gemaakt. Maar daarna ging ik al weer bezig met easter eggs. Ik vind dit namelijk
-            een van de leukste dingen om te maken voor een website. Ook hier kon ik weer gebruik maken van animaties
-            voor mijn eerste leerdoel. Zo zat er een animatie op Nyan Cat en op de ufo met de banner.
-
-            Ook kon ik tijdens dit project een beetje game identiteit toevoegen door een kleine variant van space
-            invaders te maken. Was niet nodig, maar maakte de website leuker en meer herkenbaar.
-        </p>
-    </section>
     <main>
+
+
         <div class="gamewatch">
 
             <div class="left-side">
@@ -31,7 +22,7 @@
                 </div>
                 <div class="bottom">
                     <div class="red-button">
-                        <button></button>
+                        <button id="left-btn"></button>
                     </div>
                     <p><i class="fa-solid fa-caret-left"></i>Left</p>
                 </div>
@@ -39,7 +30,98 @@
 
             <div class="center-screen">
                 <div class="word-border">
-                    <div class="screen"></div>
+                    <div class="screen">
+                        <div class="lcd-overlay"></div>
+
+                        <div class="slide active">
+                            <h2>Hackathon</h2>
+                            <p>
+                                Dit was een kort groepsproject dat we met 4 mensen samen deden. Tijdens het project heb
+                                ik gewerkt aan assets, easter eggs, effecten en een minigame.
+                            </p>
+                        </div>
+
+                        <div class="slide">
+                            <h2>Assets</h2>
+                            <p>
+                                Aangezien we tijdens de minor bijna alleen maar code schrijven, vond ik het wel fijn om
+                                ook wel eens even wat assets in Figma te maken voor de verandering. Ik heb assets
+                                gemaakt van de aarde, ufo, raket, satteliet, maan, mars sterren en alles voor de
+                                minigame.
+                            </p>
+                        </div>
+
+                        <div class="slide">
+                            <h2>Easter Eggs - UFO</h2>
+                            <p>
+                                Ik heb een animatie gemaakt voor een ufo die af en toe langskomt, achter de ufo
+                                hangt een banner met het logo van het bedrijf. Dit was een creatieve manier om het
+                                logo te verwerken in de website.
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <img src="../Assets/Hackaton/UFO.png" alt="UFO">
+                        </div>
+
+                        <div class="slide">
+                            <h2>Easter Egg - Cat</h2>
+                            <p>
+                                Om gewoon een kleine easter egg toe te voegen die niks extra biedt, maar wel de
+                                website meer herinnerbaar maakt, had ik een nyan cat animatie toegevoegd met sfx.
+                                Deze gebruikte bijna dezelfde aniamtie als de ufo.
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <img src="../Assets/Hackaton/NyanCat.png" alt="Nyan Cat">
+                        </div>
+
+                        <div class="slide">
+                            <h2>Effect - Black Hole</h2>
+                            <p>
+                                Om een easter egg toe te voegen maar ook de website leuker te maken en meer interactie
+                                te geven hadden we wat effecten toegevoegd. Zelf had ik een black hole effect gemaakt
+                                gebasseerd op een fish lens.
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <img src="../Assets/Hackaton/BlackHole.png" alt="Black Hole">
+                        </div>
+
+                        <div class="slide">
+                            <h2>Effect - Alien</h2>
+                            <p>
+                                Een ander effect dat ik had toegevoegd aan dit project was het alien effect. Bij dit
+                                effect komt er een particle system aan aliens uit de je muis, deze is dus ook goed te
+                                combineren met andere effecten.
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <img src="../Assets/Hackaton/Alien.png" alt="Alien">
+                        </div>
+
+                        <div class="slide">
+                            <h2>Game - Space Invaders</h2>
+                            <p>
+                                Om een beetje eigen identiteit aan het project toe te voegen had ik een kleine game
+                                toegevoegd. Deze was geinspireerd op space invaders. Wat tevens ook onze teamnaam was.
+                                Dit vond ik het leukste om te maken.
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <img src="../Assets/Hackaton/SpaceInvaders.png" alt="Space Invaders">
+                        </div>
+
+                        <div class="slide">
+                            <h2>Reflectie</h2>
+                            <p>
+                                Tijdens dit project heb ik goed kunnen samenwerken met mijn team. Ik merkte dat ik vaak
+                                met ideeën kwam voor de easter eggs, wat ik zelf ook leuk vond om te maken. Daarbij heb
+                                ik veel kunnen oefenen met animaties tijdens dit project. Ik had soms wel nog een beetje
+                                moeite met mergen van code, maar qua samenwerking was ik blij verrast hoe soepel alles
+                                ging.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -48,13 +130,15 @@
                     <div class="grey-buttons-container">
                         <div class="grey-button">
                             <div>
-                                <a href="https://github.com/hendrythomas/wdd-meesterschap-hackathon" target="_blank"></a>
+                                <a href="https://github.com/hendrythomas/wdd-meesterschap-hackathon"
+                                    target="_blank"></a>
                             </div>
                             <p>Github</p>
                         </div>
                         <div class="grey-button">
                             <div>
-                                <a href="https://hendrythomas.github.io/wdd-meesterschap-hackathon/" target="_blank"></a>
+                                <a href="https://hendrythomas.github.io/wdd-meesterschap-hackathon/"
+                                    target="_blank"></a>
                             </div>
                             <p>Website</p>
                         </div>
@@ -78,12 +162,13 @@
                 </div>
                 <div class="bottom">
                     <div class="red-button">
-                        <button></button>
+                        <button id="right-btn"></button>
                     </div>
                     <p>Right<i class="fa-solid fa-caret-right"></i></p>
                 </div>
             </div>
         </div>
+
     </main>
     <footer>
         <a href="../index.html">NES Controller</a>
@@ -95,5 +180,8 @@
         <a href="Switch.html">Switch</a>
         <a href="Switch2.html">Switch 2</a>
     </footer>
+
+    <script src="../Scripts/gamewatch-screen.js"></script>
+</body>
 
 </html>

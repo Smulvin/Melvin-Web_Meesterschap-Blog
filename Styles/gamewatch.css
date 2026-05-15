@@ -41,7 +41,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            
+
             button {
                 width: 90%;
                 aspect-ratio: 1;
@@ -56,7 +56,7 @@
                     box-shadow: 0px 1px 0px 0px #4b1111;
                     transform: translateY(0px);
                 }
-            } 
+            }
         }
 
         p {
@@ -121,7 +121,8 @@
             position: relative;
             padding: 1.5rem;
 
-            &::before, &::after {
+            &::before,
+            &::after {
                 position: absolute;
                 font-family: "Jost";
                 background: var(--color-yellow);
@@ -138,17 +139,75 @@
             }
 
             &::after {
-                content: "Wide Screen";       
+                content: "Wide Screen";
                 bottom: -1rem;
             }
 
             .screen {
                 width: 100%;
-                height: 100%;
-                background: blue;
+                aspect-ratio: 4 / 3;
+                background:
+                    linear-gradient(to bottom,
+                        #b9c7a1,
+                        #a8b58f);
+
                 border: 1.3rem solid var(--color-brown);
                 border-radius: 1rem;
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: monospace;
 
+                .lcd-overlay {
+                    position: absolute;
+                    inset: 0;
+                    background:
+                        repeating-linear-gradient(
+                            to bottom,
+                            rgba(255,255,255,0.10) 0px,
+                            rgba(255,255,255,0.10) 2px,
+                            rgba(0,0,0,0.05) 2px,
+                            rgba(0,0,0,0.05) 4px
+                        );
+                    opacity: 0.8;
+                    mix-blend-mode: soft-light;
+                }
+
+                .slide {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    padding: 2rem 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1rem;
+                    opacity: 0;
+                    transform: scale(0.96);
+                    transition: opacity 0.3s ease, transform 0.3s ease;
+                    color: #2d331f;
+
+                    &.active {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+
+                    h2 {
+                        font-size: 2rem;
+                        text-transform: uppercase;
+                        letter-spacing: 4px;
+                        text-align: center;
+                        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.15);
+                    }
+
+                    p {
+                        line-height: 1.5;
+                        font-size: 1rem;
+                    }
+                }
             }
         }
     }
@@ -185,7 +244,8 @@
                         justify-content: center;
                         align-items: center;
 
-                        button, a {
+                        button,
+                        a {
                             width: 80%;
                             height: 70%;
                             background: var(--color-grey);
