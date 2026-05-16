@@ -19,7 +19,8 @@
     display: flex;
     /* gap: 4rem; */
 
-    #btn-l, #btn-r {
+    #btn-l,
+    #btn-r {
         position: absolute;
         width: 9.5rem;
         height: 8rem;
@@ -29,13 +30,14 @@
         border: none;
     }
 
-    .switch-left, .switch-right {
+    .switch-left,
+    .switch-right {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 3rem;
     }
-    
+
     .joystick {
         width: 7rem;
         aspect-ratio: 1;
@@ -93,10 +95,12 @@
             grid-column: 1;
             grid-row: 2;
         }
+
         button:nth-of-type(3) {
             grid-column: 3;
             grid-row: 2;
         }
+
         button:nth-of-type(4) {
             grid-column: 2;
             grid-row: 3;
@@ -141,7 +145,7 @@
         #btn-screenshot {
             width: 2.8rem;
             aspect-ratio: 1;
-            border-radius:3px;
+            border-radius: 3px;
             border: none;
             background: var(--switch-black-accent);
             font-size: 1.4rem;
@@ -189,7 +193,7 @@
         #btn-home {
             width: 2.8rem;
             aspect-ratio: 1;
-            border-radius:50%;
+            border-radius: 50%;
             background: var(--switch-black-accent);
             border: none;
             font-size: 1.4rem;
@@ -197,7 +201,8 @@
         }
 
         #btn-online {
-            width: 2.8rem;width: 2.8rem;
+            width: 2.8rem;
+            width: 2.8rem;
             aspect-ratio: 1;
             border-radius: 3px;
             border: none;
@@ -231,6 +236,46 @@
             border: 3rem solid black;
             border-top: 1rem solid black;
             border-bottom: 1rem solid black;
+
+            .nerd-screen {
+                display: none;
+            }
+
+
+            .nerd-menu.active-menu {
+                display: flex;
+            }
+
+            .nerd-screen {
+                display: none;
+            }
+
+            .nerd-screen.active-screen {
+                display: block;
+            }
+
+            .nerd-menu {
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                height: 100%;
+            }
+
+            .nerd-menu.hidden {
+                display: none;
+            }
+
+            .nerd-screen {
+                display: none;
+                height: 100%;
+                overflow-y: auto;
+            }
+
+            .nerd-screen.active-screen {
+                display: block;
+            }
+
+
         }
     }
 }
