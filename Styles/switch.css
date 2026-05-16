@@ -186,6 +186,9 @@
             border: 6px solid #535353;
             font-size: 1.4rem;
             margin-left: -5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
@@ -209,6 +212,31 @@
             border: 2rem solid black;
             border-top: 1.5rem solid black;
             border-bottom: 1.5rem solid black;
+
+            .detail-screen.active-screen {
+                display: block;
+            }
+
+            .screen-menu {
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                height: 100%;
+            }
+
+            .screen-menu.hidden {
+                display: none;
+            }
+
+            .detail-screen {
+                display: none;
+                height: 100%;
+                overflow-y: auto;
+            }
+
+            .detail-screen.active-screen {
+                display: block;
+            }
         }
     }
 }

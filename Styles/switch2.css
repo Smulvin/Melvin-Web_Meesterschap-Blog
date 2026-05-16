@@ -237,17 +237,9 @@
             border-top: 1rem solid black;
             border-bottom: 1rem solid black;
 
-            .nerd-screen {
-                display: none;
-            }
-
 
             .nerd-menu.active-menu {
                 display: flex;
-            }
-
-            .nerd-screen {
-                display: none;
             }
 
             .nerd-screen.active-screen {
