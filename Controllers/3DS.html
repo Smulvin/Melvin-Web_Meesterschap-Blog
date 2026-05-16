@@ -11,25 +11,7 @@
 </head>
 
 <body>
-    <section style="display:none;">
-        <p>
-            Voor dit vak moest ik een website maken die gebruikt maakte van 1 content API en 2 web API’s. Ik had
-            oorspronkelijk het idee om iets te doen met een canvas en een gamepad. Maar de docenten vonden dat ik wel
-            iets uitdagenders aan kon. Ze hadden me aangeraden om AR te gaan proberen, dan hoefde ik namelijk ook maar 1
-            web API.
-            <br>
-            Ik had hier wel gewerkt aan mijn derde leerdoel, het maken van schetsen voordat ik ging beginnen met
-            coderen. Ik had voordat ik ging coderen 4 verschillende schetsen gemaakt. Een overview pagina, een detail
-            pagina, een canvas pagina (die later AR werd) en een loading state. Het was een goede houvast voordat ik
-            begon met coderen, maar ik merkte ook er niks in steen stond. Want de canvas pagina werd dus al een beetje
-            anders en de detailpagina kreeg later ook een andere styling. Maar het was fijn om die houvast te hebben.
-            Want de algemene styling van de header en de footer bleven wel hetzelfde en gaven de hele website dezelfde
-            stijl.
-
-        </p>
-    </section>
     <main>
-
         <div class="DS3-controller">
             <div id="top-section">
                 <div class="face front">
@@ -68,7 +50,27 @@
                         <li></li>
                     </ul>
 
-                    <div id="top-screen"></div>
+                    <div id="top-screen">
+                        <div class="slide">
+                            <img src="../Assets/API/Overview.png" alt="overview pagina">
+                        </div>
+
+                        <div class="slide">
+                            <img src="../Assets/API/AR.png" alt="AR pagina">
+                        </div>
+
+                        <div class="slide">
+                            <img src="../Assets/API/Detail.png" alt="AR pagina">
+                        </div>
+
+                        <div class="slide">
+                            <img src="../Assets/API/Schets.png" alt="AR pagina">
+                        </div>
+
+                        <div class="slide">
+                            <img src="../Assets/API/Overview.png" alt="AR pagina">
+                        </div>
+                    </div>
 
                     <div id="volume-control" class="side-slider">
                         <div class="slider"></div>
@@ -118,7 +120,61 @@
                 </div>
 
                 <div id="bottom-screen-container">
-                    <div id="bottom-screen"></div>
+                    <div id="bottom-screen">
+                        <div class="slide">
+                            <h2>
+                                Opdracht
+                            </h2>
+                            <p>
+                                Voor dit vak moest ik een website maken die gebruikt maakte van 1 content API en 2 web
+                                APIs. Oorspronkelijk wilde ik iets met een canvas en een gamepad doen, maar er werd mij
+                                aangeraden om de AR API te gebruiken, later werd dit een library vanwege browser
+                                restricties.
+                            </p>
+                        </div>
+
+                        <div class="slide">
+                            <h2>Easter Eggs</h2>
+                            <p>
+                                Tijdens het maken van dit project kon ik leuk spelen met easter eggs, Zo zijn er sfx
+                                toegevoegd om het meer een game te laten lijken en zitten er toetscombinaties op de
+                                website voor leuke andere sfx.
+                            </p>
+                        </div>
+
+                        <div class="slide">
+                            <h2>Leerdoelen</h2>
+                            <p>
+                                Tijdens dit vak heb ik veel kunnen werken aan mijn leerdoeln. Ik heb aan mijn tweede
+                                leerdoel kunnen werken, het goed responsive maken. Voor veel onderdelen zoals de
+                                overview ging het vrij vanzelf. Maar in de detailpagina heb ik daar veel aandacht aan
+                                besteed. Het was namelijk lastig vanwege de styling die ik had. Uiteindelijk lukte het
+                                niet om dit volledig zonder media quereis te doen.
+                            </p>
+                        </div>
+
+                        <div class="slide">
+                            <h2>Leerdoelen</h2>
+                            <p>
+                                Ook kon ik tijdens dit vak goed werken aan mijn derde leerdoel. Zo heb ik voor mijn
+                                derde leerdoel mooi eerst schetsen kunnen maken voordat ik begon met coderen. Dit gaf me
+                                een goede houvast van hoe elke pagina eruit kwam te zien. Zoals de header en de footer
+                                als constante componenten.
+                            </p>
+                        </div>
+
+                        <div class="slide">
+                            <h2>Reflectie</h2>
+                            <p>
+                                In dit vak had ik veel aandacht besteed. Ik vond het namelijk leuk om aan dit project te
+                                werken om het een onderwerp had wat ik zelf kon uitkiezen. Helaas verloor ik mezelf
+                                misschien alleen een beetje te veel in het leuk maken en minder op de netheid. Minder
+                                code was namelijk ingewikkeld vanwege de AR library waardoor ik het overzicht verloor.
+                                Hierdoor was mijn code niet heel robust en overzichtelijk. Daar kan ik op een volgend
+                                project beter op letten.
+                            </p>
+                        </div>
+                    </div>
                     <button id="home-button"><i class="fa-solid fa-house"></i></button>
                 </div>
 
@@ -167,6 +223,7 @@
     </footer>
     <script src="../Scripts/ds-flip.js"></script>
     <script src="../Scripts/joystick.js"></script>
+    <script src="../Scripts/slideshow-duo.js"></script>
 </body>
 
 </html>

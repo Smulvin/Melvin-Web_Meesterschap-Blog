@@ -84,6 +84,12 @@
             background: blue;
             border: 10px solid black;
             border-radius: 1rem;
+            overflow: hidden;
+
+            video {
+                width: auto;
+                height: 100%;
+            }
         }
 
         #holes-container {
@@ -302,6 +308,32 @@
             left: 50%;
             bottom: 4rem;
             transform: translateX(-50%);
+
+            .slide {
+                position: absolute;
+                inset: 0;
+                opacity: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+
+                &.active {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+
+                h2 {
+                    color: var(--gameboy-green-dark);
+                    text-align: center;
+                }
+
+                p {
+                    font-size: 0.7rem;
+                    line-height: 1.2rem;
+                }
+            } 
         }
 
         .bottom-right {

@@ -220,12 +220,12 @@
                 }
             }
 
-            #gameboy-dpad-up {
+            #dpad-up {
                 grid-area: 1 / 2 / 2 / 3;
                 border-radius: 10px 10px 0 0;
             }
 
-            #gameboy-dpad-down {
+            #dpad-down {
                 grid-area: 3 / 2 / 4 / 3;
                 border-radius: 0 0 10px 10px;
             }
@@ -235,12 +235,12 @@
                 background: var(--gameboy-black);
             };
 
-            #gameboy-dpad-left {
+            #dpad-left {
                 grid-area: 2 / 1 / 3 / 2;
                 border-radius: 10px 0 0 10px;
             }
 
-            #gameboy-dpad-right {
+            #dpad-right {
                 grid-area: 2 / 3 / 3 / 4;
                 border-radius: 0 10px 10px 0;
             }

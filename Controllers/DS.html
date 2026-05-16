@@ -11,23 +11,6 @@
 </head>
 
 <body>
-    <section style="display: none;">
-        <p>
-            Voor het vak CSS mochten we geen gebruik maken van JavaScript, maar toch zo veel mogelijk interactie
-            proberen te maken op een website. Ik had gekozen om de Silly Walk opdracht te doen, maar in plaats van
-            lopen, zou mijn karakter zwemmen. Om er een beetje een game thema aan geven koos ik voor Octodad, een
-            karakter dat van zichzelf al raar beweegt. Ik vond dit een van de leukste vakken van de minor. Ik vond het
-            een leuke uitdaging dat je één van de talen niet mocht gebruiken, dit zorgde ervoor dat je anders ging
-            denken en op nieuwe ideeën kwam om een probleem op te lossen. Het leukste idee waar ik op kwam is om radio
-            buttons te gebruiken om te zien waar een gebruiker heeft geklikt om op die manier de armen de juiste kant op
-            te laten bewegen. Met JavaScript had dit veel makkelijker gekund, maar deze oplossing vond ik zelf leuker.
-            <br>
-            Tijdens dit vak heb ik vooral veel kunnen werken voor mijn eerste leerdoel, het veel gebruik maken van
-            animaties. Zo had ik een animatie voor de benen, die ik per been anders maakte door gebruik van
-            animation-delay. Maar ook zat er een animatie op de armen en bubbels. Allemaal op de website levendiger te
-            maken.
-        </p>
-    </section>
     <main>
         <div class="DS-controller">
             <div id="top-section">
@@ -43,7 +26,9 @@
                         </ul>
                     </div>
 
-                    <div id="top-screen"></div>
+                    <div id="top-screen">
+                        <video src="../Assets/CSS/OctoDad_Video.mkv" autoplay muted loop></video>
+                    </div>
 
                     <ul id="screw-covers">
                         <li></li>
@@ -86,7 +71,51 @@
                     </button>
                 </div>
 
-                <div id="bottom-screen"></div>
+                <div id="bottom-screen">
+                    <div class="slide active">
+                        <h2>CSS</h2>
+                    </div>
+
+                    <div class="slide">
+                        <h2>Opdracht</h2>
+                        <p>
+                            Voor deze opdracht was het de bedoeling om een Silly Walk te maken, of in mijn geval een
+                            Silly Swim. De uitdaging zit hem in dat je geen JavaScript mag gebruiken.
+                        </p>
+                    </div>
+
+                    <div class="slide">
+                        <h2>OctoDad</h2>
+                        <p>
+                            Om er een beetje een game thema aan te geven had ik gekozen om OctoDad na te maken, een
+                            karakter dat van zichzelf al raar beweegt. Ik vond dit een van de leukste vakken van de
+                            minor. Ik vond het een leuke uitdaging dat je één van de talen niet mocht gebruiken, dit
+                            zorgde ervoor dat je anders ging denken en op nieuwe ideeën kwam om een probleem op te
+                            lossen.
+                        </p>
+                    </div>
+
+                    <div class="slide">
+                        <h2>Ideeën</h2>
+                        <p>
+                            Gedurende het project kreeg ik steeds meer leuke ideeën om toe te voegen. Het leukste idee
+                            vond ik hoe de armen bewogen. Ik had radio buttons gebruikt om te zien waar een gebruiker
+                            heeft geklikt om op die manier de armen de juiste kant op te laten bewegen. Met JavaScript
+                            had dit veel makkelijker gekund, maar deze oplossing vond ik zelf leuker.
+                        </p>
+                    </div>
+
+                    <div class="slide">
+                        <h2>Reflectie</h2>
+                        <p>
+                            Tijdens dit project heb ik goed kunnen samenwerken met mijn team. Ik merkte dat ik vaak
+                            met ideeën kwam voor de easter eggs, wat ik zelf ook leuk vond om te maken. Daarbij heb
+                            ik veel kunnen oefenen met animaties tijdens dit project. Ik had soms wel nog een beetje
+                            moeite met mergen van code, maar qua samenwerking was ik blij verrast hoe soepel alles
+                            ging.
+                        </p>
+                    </div>
+                </div>
 
                 <div class="bottom-right">
                     <div class="abxy-container">
@@ -122,6 +151,7 @@
     </footer>
 
     <script src="../Scripts/ds-flip.js"></script>
+    <script src="../Scripts/slideshow.js"></script>
 </body>
 
 </html>
