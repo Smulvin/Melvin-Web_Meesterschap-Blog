@@ -11,8 +11,6 @@ const bBtn = document.getElementById("btn-b");
 let currentNerd = 0;
 let viewingScreen = false;
 
-
-
 function updateSelection() {
 
     nerdButtons.forEach(button => {

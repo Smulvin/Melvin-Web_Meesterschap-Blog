@@ -216,3 +216,13 @@ Ook heb ik vandaag gefixt dat de bij de game and watch en gameboy controllers de
 
 <img src="Assets/README_imgs/GameWatch/Voortuitgang_15-5-2026.png">
 <img src="Assets/README_imgs/GameBoy/Voortuitgang_15-5-2026.png">
+
+### Zaterdag 16 - 5 - 2026
+Vandaag heb ik voor verschillende controllers toegevoegd dat de teksten erin staan. Dit ging vooral om de functionaliteit en ik had nog niet al te veel aandacht besteed aan de styling van de teksten, dat kan later. Voor de beide switches kon ik bijna hetzelfde script gebruiken, maar ik kreeg de variabel namen nog niet helemaal goed voor elkaar. Dus voor nu zijn dat nog losse scripts. Maar voor de game en watch, gameboy en DS kon ik wel het script schrijven / samenvoegen. De DS heeft namelijk 2 schermen, maar ik gebruik alleen de onderste als slideshows, de bovenste is namelijk gewoon een video zodat ik de animaties op die pagina goed kon laten zien. Ik wilde hem ook gebruiken voor de 3DS, maar kreeg dit ook niet voor elkaar omdat hij met de 3DS 2 verschillende slideshows heeft die tegelijk naar de volgende slide moeten gaan.
+
+<img src="Assets/README_imgs/DS/Vooruitgang_16-5-2026.png">
+<img src="Assets/README_imgs/3DS/Voortuitgang_16-5-2026.png">
+<img src="Assets/README_imgs/Switch/Vooruitgang_16-5-2026.png">
+<img src="Assets/README_imgs/Switch/Vooruitgang-Detail_16-5-2026.png">
+<img src="Assets/README_imgs/Switch2/Vooruitgang_16-5-2026.png">
+<img src="Assets/README_imgs/Switch2/Vooruitgang-Detali_16-5-2026.png">
