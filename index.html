@@ -11,17 +11,6 @@
 </head>
 
 <body>
-    <section style="display: none;">
-        <p>
-            Voor het vak HCD moest ik op een andere manier denken. DIt product moest ik namelijk echt specifiek voor één
-            persoon maken. Ik had dus meteen het gevoel dat ik minder van mijn eigen identiteit kon toevoegen, maar dat
-            had ik mis. Door mijn manier van denken om soms gewoon rare ideeën uit te voeren, kwamen juist hele
-            interessante dingen naar boven. Zo was mijn idee om het probleem van Roger te visualiseren door een soort
-            blinde vlek te creëren later heel nuttig. Hierdoor kwamen ik op het idee om zebra strepen te gebruiken voor
-            de tekst. Wat Roger juist heel nuttig vond. Ook al zei Roger dat hij het blinde vlek systeem waarschijnlijk
-            niet serieus zou gaan gebruiken, vond hij het zo’n leuk idee dat hij wilde dat ik het er wel in zou houden.
-        </p>
-    </section>
     <main>
         <div id="scene">
             <div id="nes-controller">
@@ -30,11 +19,15 @@
                         <div id="nes-left-half">
                             <div id="nes-dpad">
                                 <!-- Icons: https://fontawesome.com/search?q=arrow&ic=free-collection -->
-                                <button id="nes-dpad-up"><i class="fa-solid fa-caret-up"></i></button>
-                                <button id="nes-dpad-left"><i class="fa-solid fa-caret-left"></i></button>
+                                <button id="nes-dpad-up" popovertarget="popup-up"><i
+                                        class="fa-solid fa-caret-up"></i></button>
+                                <button id="nes-dpad-left" popovertarget="popup-left"><i
+                                        class="fa-solid fa-caret-left"></i></button>
                                 <div></div>
-                                <button id="nes-dpad-right"><i class="fa-solid fa-caret-right"></i></button>
-                                <button id="nes-dpad-down"><i class="fa-solid fa-caret-down"></i></button>
+                                <button id="nes-dpad-right" popovertarget="popup-right"><i
+                                        class="fa-solid fa-caret-right"></i></button>
+                                <button id="nes-dpad-down" popovertarget="popup-down"><i
+                                        class="fa-solid fa-caret-down"></i></button>
                             </div>
                         </div>
 
@@ -43,8 +36,10 @@
                             <div></div>
                             <div></div><!--  Start / select teksten -->
                             <div>
-                                <a id="nes-controller-select" href="https://github.com/Smulvin/Melvin-Web_HCD" target="_blank"></a>
-                                <a id="nes-controller-start" href="https://smulvin.github.io/Melvin-Web_HCD/" target="_blank"></a>
+                                <a id="nes-controller-select" href="https://github.com/Smulvin/Melvin-Web_HCD"
+                                    target="_blank"></a>
+                                <a id="nes-controller-start" href="https://smulvin.github.io/Melvin-Web_HCD/"
+                                    target="_blank"></a>
                             </div>
                             <div></div>
                         </div>
@@ -93,6 +88,55 @@
             </div>
         </div>
     </main>
+
+    <div id="popup-up" popover class="nes-popup">
+        <h2>Opdracht</h2>
+        <p>
+            Voor dit vak moesten we een product maken voor een specifiek iemand. Ik kreeg Roger als doelgroep. Een man
+            met een oog aandoening. Op dit product te maken moest ik dan ook op een andere manier denken en het vanuit
+            zijn oogpunt proberen te zien. Dit was soms lastig, maar gelukkig kon ik vaak met hem testen. Hierdoor kwam
+            ik steeds dichterbij een goed product. Roger wilde een product waarmee hij makkelijk annotaties kan maken en
+            terugvinden wanneer hij teksten aan het lezen is.Er werd ons vooral aangeraden om focus te leggen op 4
+            exclusive design principles. Ik heb met alle 4 rekening gehouden, maar mijn product sloeg vooral op de
+            laatste, het toevoegen van nonsense.
+        </p>
+    </div>
+
+    <div id="popup-left" popover class="nes-popup">
+        <h2>Nonsense</h2>
+        <p>
+            Vanaf het eerste moment dat ik aan dit project begon, had ik meteen dit idee. Roger heeft maculadegeratie,
+            dus hij heeft een soort blinde vlek in zijn zicht. Ik dacht van waarom maak ik niet gewoon die vlek dan na
+            op de website, zodat de tekst erom heen kan bewegen zodat hij het kan blijven lezen. Na een paar keer
+            testen, bleek dit niet al te best te werken, maar het bracht me wel op andere oplossingen. Zoals een zebra
+            patroon op de tekst voor makkelijker overzicht. Ook al werkte het niet al te best voor Roger, wilde hij wel
+            dat ik het in het product laat.
+        </p>
+    </div>
+
+    <div id="popup-right" popover class="nes-popup">
+        <h2>Testen</h2>
+        <p>
+            Het project duurde in totaal 4 weken. Gedurende deze 4 weken, heb ik ook 4x met Roger getest. Met elke test
+            merkte ik dat ik dichter in de buurt kwam van een product dat beter bij hem paste. Bij de eerste test liet
+            ik hem alleen wat zien, kijken of de blinde vlek systeem een beetje zou werken. Maar bij elke opvolgende
+            test heb ik Roger zelf het programma laten besturen. Op die manier kwam ik er steeds meer achter waar ik op
+            moest letten qua de screenreader en wat wel en niet voor hem werkt. Dit was heel fijn. Het testen deden we
+            in een groep. Ik haalde ook veel uit testen van andere, zoals een kleurenpalet of een toetscombinatie die
+            hij fijn vindt.
+        </p>
+    </div>
+
+    <div id="popup-down" popover class="nes-popup">
+        <h2>Reflectie</h2>
+        <p>
+            Tijdens dit project heb ik vooral gemerkt hoe goed het is om meerdere keren met dezelfde persoon te testen
+            als je voor exlusive design gaat. Ik merkte op dat je echt met elke test meer in de buurt komt van een goed
+            product voor die persoon. Daarbij merkte ik hoe goed het is om gewoon rare ideeën te proberen, want meestal
+            zit er wel iets in wat je verder kan helpen. Want standaard design werken vaak niet voor mensen met een
+            beperking, dus een raar idee misschien wel.
+        </p>
+    </div>
 
     <footer>
         <a href="index.html">NES Controller</a>

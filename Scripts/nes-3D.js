@@ -1,8 +1,5 @@
-/* ---------------- */
-/* Making Cube Spin */
-/* ---------------- */  
-
 let cube = document.getElementById('nes-controller');
+let scene = document.getElementById('scene');
 
 let rotX = -20;
 let rotY = -30;
@@ -10,7 +7,16 @@ let rotY = -30;
 let isDragging = false;
 let lastX, lastY;
 
-window.addEventListener('mousedown', (e) => {
+scene.addEventListener('mousedown', (e) => {
+
+    // Ignore clicks on buttons or links
+    if (
+        e.target.closest('button') ||
+        e.target.closest('a')
+    ) {
+        return;
+    }
+
     isDragging = true;
     lastX = e.clientX;
     lastY = e.clientY;
@@ -29,9 +35,9 @@ window.addEventListener('mousemove', (e) => {
     rotY += deltaX * 0.5;
     rotX -= deltaY * 0.5;
 
-    cube.style.transform = `rotateX(${rotX}deg) rotateY(${rotY}deg)`;
+    cube.style.transform =
+        `rotateX(${rotX}deg) rotateY(${rotY}deg)`;
 
     lastX = e.clientX;
     lastY = e.clientY;
 });
-

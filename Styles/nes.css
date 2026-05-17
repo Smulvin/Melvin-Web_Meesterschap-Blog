@@ -30,7 +30,6 @@
     height: var(--nes-height);
     transform-style: preserve-3d;
     transform: rotateX(-20deg) rotateY(-30deg);
-    pointer-events: none;
 
     >div {
         position: absolute;
@@ -250,7 +249,6 @@ hr {
 #nes-front {
     width: var(--nes-width);
     height: var(--nes-height);
-    pointer-events: auto;
 
     &::after {
         content: "";
@@ -300,6 +298,9 @@ hr {
             border: none;
             background: black;
             color: white;
+            position: relative;
+            display: block;
+            z-index: 10;
 
             i {
                 font-size: 20px;
@@ -380,7 +381,7 @@ hr {
             }
         }
 
-        /* Slect / Start buttons */
+        /* Select / Start buttons */
         div:nth-of-type(4) {
             display: flex;
             justify-content: space-evenly;
@@ -404,6 +405,9 @@ hr {
                 border-radius: 10px;
                 border: none;
                 background: var(--nes-black);
+                position: relative;
+                display: block;
+                z-index: 10;
             }
         }
 
@@ -447,6 +451,8 @@ hr {
                     border: none;
                     border-radius: 50%;
                     position: relative;
+                    display: block;
+                    z-index: 10;
 
                     &::after {
                         content: "";
