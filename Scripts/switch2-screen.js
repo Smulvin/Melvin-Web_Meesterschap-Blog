@@ -17,7 +17,15 @@ function updateSelection() {
         button.classList.remove("active");
     });
 
-    nerdButtons[currentNerd].classList.add("active");
+    const activeButton = nerdButtons[currentNerd];
+
+    activeButton.classList.add("active");
+
+    activeButton.scrollIntoView({
+        behavior: "smooth",
+        inline: "center",
+        block: "nearest"
+    });
 }
 
 

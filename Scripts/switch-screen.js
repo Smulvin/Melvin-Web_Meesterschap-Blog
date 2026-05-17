@@ -16,7 +16,15 @@ function updateSelection() {
         button.classList.remove("active");
     });
 
-    screenButtons[currentIndex].classList.add("active");
+    const activeButton = screenButtons[currentIndex];
+    activeButton.classList.add("active");
+
+    // 👇 keep active button visible + centered in scroll area
+    activeButton.scrollIntoView({
+        behavior: "smooth",
+        inline: "center",
+        block: "nearest"
+    });
 }
 
 // LEFT

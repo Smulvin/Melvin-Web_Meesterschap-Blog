@@ -226,3 +226,24 @@ Vandaag heb ik voor verschillende controllers toegevoegd dat de teksten erin sta
 <img src="Assets/README_imgs/Switch/Vooruitgang-Detail_16-5-2026.png">
 <img src="Assets/README_imgs/Switch2/Vooruitgang_16-5-2026.png">
 <img src="Assets/README_imgs/Switch2/Vooruitgang-Detali_16-5-2026.png">
+
+### Zondag 17 - 5 - 2026
+Vandaag ben ik bezig geweest met verschillende onderdelen. Zo ben ik begonnen met het regelen dat de knoppen van de NES controller werken, door hun z-index wat te verhogen en de js aan te passen zodat het ronddraaien genegeerd wordt als je op een knop wilt drukken. Daarbij heb ik voor beide de NES en de Wii de popovers toegevoegd zodat de teksten op de juiste manier gezien kunnen worden.
+
+Voor de rest heb ik styling gemaakt voor de overzicht pagina voor beide switch controllers. Hierbij was het een beetje lastig voor de horizontale scroll. En dat de focus goed komt te liggen in het midden van het scherm. 
+
+Ook heb ik de footer styling afgemaakt. Ik had wel wat plaatjes van het internet afgenomen. Die plaatjes staan hieronder in de bronnenlijst.
+
+<img src="Assets/README_imgs/Switch/Vooruitgang_17-5-2026.png">
+<img src="Assets/README_imgs/Switch2/Vooruitgang-Detali_17-5-2026.png">
+<img src="Assets/README_imgs/Algemeen/Footer.png">
+
+#### Bronnen:
+NES: https://seeklogo.com/vector-logo/312569/nintendo-entertainment-system
+Game&Watch: https://commons.wikimedia.org/wiki/File:Game_and_watch_logo.svg
+GameBoy: https://commons.wikimedia.org/wiki/File:Nintendo_Game_Boy_Logo.svg
+Wii: https://nl.wikipedia.org/wiki/Bestand:Wii_logo.png
+DS: https://nl.wikipedia.org/wiki/Bestand:Nintendo_DS_logo.png
+3DS: https://commons.wikimedia.org/wiki/File:3ds_logo.svg
+Switch: https://brandlogos.net/nintendo-switch-logo-vector-91545.html
+Switch 2: https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_Red_Logo.svg

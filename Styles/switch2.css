@@ -5,6 +5,9 @@
     --switch-white: #feffff;
     --switch-black-accent: #2b2a28;
 
+    --switch-screen-color: #2d2d2d;
+    --switch-screen-text: #2083ad;
+
     /* Normal size: 116mm x 30.7mm */
     /* Dimensies bron: https://www.nintendo.com/nl-nl/Hardware/Nintendo-Switch-2/Nintendo-Switch-2-Specificaties-2785627.html?srsltid=AfmBOoqZBPBSjOMNFwO9OwzFyUoCPXfzVXbFAFblwaFuebyZJF2gZzQ3 */
     --switch-width-controller: 200.2px;
@@ -231,15 +234,17 @@
             width: 100%;
             height: 100%;
             padding: 5rem;
-            background: red;
+            background: var(--switch-screen-color);
             border-radius: 1rem;
             border: 3rem solid black;
             border-top: 1rem solid black;
             border-bottom: 1rem solid black;
+            overflow-x: auto;
 
-
-            .nerd-menu.active-menu {
-                display: flex;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            &::-webkit-scrollbar {
+                display: none; 
             }
 
             .nerd-screen.active-screen {
@@ -248,9 +253,48 @@
 
             .nerd-menu {
                 display: flex;
-                gap: 1rem;
+                gap: 0.1rem;
                 align-items: center;
                 height: 100%;
+
+                div {
+                    display: flex;
+                    color: var(--switch-screen-text);
+                    flex-direction: column;
+                    font-family: "Jost";
+                    font-weight: bold;
+                    font-size: 1.5rem;
+
+                    .button-border {
+                        padding: 0.3rem;
+                        border: 5px solid transparent;
+                        border-radius: 1rem;
+                        transition: padding 0.3s ease, border 0.3s ease;
+                    }
+
+                    p {
+                        opacity: 0;
+                        transition: opacity 0.3s ease;
+                    }
+
+                    &:has(.active) {
+                        p {
+                            opacity: 1;  
+                        }
+
+                        .button-border {
+                            padding: 0.3rem;
+                            border: 5px solid var(--switch-screen-text);
+                            border-radius: 1rem;
+                            transition: padding 0.3s ease, border 0.3s ease;
+                        }
+                    }
+                }
+
+                .nerd-btn {
+                    width: 220px;
+                    aspect-ratio: 1;
+                }
             }
 
             .nerd-menu.hidden {
