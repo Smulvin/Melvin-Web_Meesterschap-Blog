@@ -85,13 +85,7 @@ footer {
         border: none;
     }
 
-    &:hover {
-        bottom: 0;
-    }
 
-    .open {
-        bottom: 0;
-    }
 
     a {
         display: flex;
@@ -144,4 +138,8 @@ footer {
     }
 
 
+}
+
+.footer-open {
+    bottom: 0;
 }

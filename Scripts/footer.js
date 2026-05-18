@@ -30,5 +30,5 @@ footer.addEventListener("mouseleave", () => {
 
 const openBtn = document.getElementById("open-footer");
 openBtn.addEventListener("click", () => {
-    footer.classList.toggle("open");
+    footer.classList.toggle("footer-open");
 });
