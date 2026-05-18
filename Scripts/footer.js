@@ -27,3 +27,8 @@ footer.addEventListener("mouseleave", () => {
         item.style.transform = "scale(1)";
     });
 });
+
+const openBtn = document.getElementById("open-footer");
+openBtn.addEventListener("click", () => {
+    footer.classList.toggle("open");
+});

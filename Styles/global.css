@@ -57,15 +57,39 @@ main {
 
 footer {
     position: fixed;
+    background: #46464699;
     left: 50%;
-    bottom: -120px;
+    bottom: -160px;
     transform: translateX(-50%);
+    border-radius: 2rem 2rem 0 0;
     display: flex;
     gap: 10px;  
     transition: bottom 0.3s ease, transform 0.3s ease, background 0.3s ease;
     z-index: 1000;
 
+    button {
+        position: absolute;
+        font-family: "Jost";
+        color: white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        top: -5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 5rem;
+        width: 10rem;
+        corner-top-left-shape: bevel;
+        corner-top-right-shape: bevel;
+        border-radius: 2rem 2rem 0 0;
+        background: #46464699;
+        border: none;
+    }
+
     &:hover {
+        bottom: 0;
+    }
+
+    .open {
         bottom: 0;
     }
 
@@ -118,4 +142,6 @@ footer {
             opacity: 1;
         }
     }
+
+
 }
