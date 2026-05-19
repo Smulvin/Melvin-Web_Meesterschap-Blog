@@ -239,18 +239,19 @@ Ook heb ik de footer styling afgemaakt. Ik had wel wat plaatjes van het internet
 <img src="Assets/README_imgs/Algemeen/Footer.png">
 
 #### Bronnen:
-NES: https://seeklogo.com/vector-logo/312569/nintendo-entertainment-system
-Game&Watch: https://commons.wikimedia.org/wiki/File:Game_and_watch_logo.svg
-GameBoy: https://commons.wikimedia.org/wiki/File:Nintendo_Game_Boy_Logo.svg
-Wii: https://nl.wikipedia.org/wiki/Bestand:Wii_logo.png
-DS: https://nl.wikipedia.org/wiki/Bestand:Nintendo_DS_logo.png
-3DS: https://commons.wikimedia.org/wiki/File:3ds_logo.svg
-Switch: https://brandlogos.net/nintendo-switch-logo-vector-91545.html
-Switch 2: https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_Red_Logo.svg
+NES: https://seeklogo.com/vector-logo/312569/nintendo-entertainment-system <br>
+Game&Watch: https://commons.wikimedia.org/wiki/File:Game_and_watch_logo.svg <br>
+GameBoy: https://commons.wikimedia.org/wiki/File:Nintendo_Game_Boy_Logo.svg <br>
+Wii: https://nl.wikipedia.org/wiki/Bestand:Wii_logo.png <br>
+DS: https://nl.wikipedia.org/wiki/Bestand:Nintendo_DS_logo.png <br>
+3DS: https://commons.wikimedia.org/wiki/File:3ds_logo.svg <br>
+Switch: https://brandlogos.net/nintendo-switch-logo-vector-91545.html <br>
+Switch 2: https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_Red_Logo.svg <br>
 
 ### Dinsdag 19 - 5 - 2025
 Vandaag ben ik begonnen met het beter maken van mijn footer, het was namelijk niet duidelijk dat het uberhaupt bestond en zou ook niet werken op een mobiel formaat. Dus heb ik een losse knop gemaakt die de footer in en uit klapt. Ook heb gewerkt aan de styling van verschillende controller. Ik heb geprobeerd die van beide switches op elkaar te laten lijken en ook die van beide DS controllers.
 
+<img src="Assets/README_imgs/Algemeen/Footer_Knop.png">
 <img src="Assets/README_imgs/DS/Vooruitgang_19-5-2026.png">
 <img src="Assets/README_imgs/3DS/Voortuitgang_19-5-2026.png">
 <img src="Assets/README_imgs/Switch/Vooruitgang_19-5-2026.png">
