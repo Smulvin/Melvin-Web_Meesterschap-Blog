@@ -256,3 +256,105 @@ Vandaag ben ik begonnen met het beter maken van mijn footer, het was namelijk ni
 <img src="Assets/README_imgs/3DS/Voortuitgang_19-5-2026.png">
 <img src="Assets/README_imgs/Switch/Vooruitgang_19-5-2026.png">
 <img src="Assets/README_imgs/Switch2/Vooruitgang_19-5-2026.png">
+
+### Button functionaliteiten lijst
+#### NES
+* Dpad-up: Pop-up
+* Dpad-left: Pop-up
+* Dpad-right: Pop-up
+* Dpad-down: Pop-up
+* Start: Github pagina
+* Select: Website
+* A:
+* B:
+
+#### Game and Watch
+* Left: Vorige slide
+* Right: Volgende slide
+* Game A: Github pagina
+* Game B: Website
+* Time:
+
+#### Gameboy
+* Dpad-up:
+* Dpad-left: Vorige slide
+* Dpad-right: Volgende slide
+* Dpad-down
+* Start: Github
+* Select: Website
+* A:
+* B:
+
+#### Wii
+* Dpad-up: Pop-up
+* Dpad-left: Pop-up
+* Dpad-right: Pop-up
+* Dpad-down: Pop-up
+* A: Pop-up
+* Plus:
+* Home:
+* Minus:
+* 1: Github
+* 2: Website
+
+#### DS
+* Dpad-up:
+* Dpad-left: Vorige slide
+* Dpad-right: Volgende slide
+* Dpad-down:
+* X:
+* Y:
+* A:
+* B:
+* Start: Gihtub
+* Select: Website
+
+#### 3DS
+* Joystick:
+* Dpad-up:
+* Dpad-left: Vorige slide
+* Dpad-right: Volgende slide
+* Dpad-down:
+* Home:
+* C-stick:
+* X:
+* Y:
+* A:
+* B:
+* Start: Github
+* Select: Website
+* Volume-slider:
+* 3D-slider:
+
+#### Switch
+* Minus: Verander kleur linker kant
+* Left-joystick:
+* Up:
+* Left: Vorige button
+* Right: Volgende button
+* Down:
+* Screenshot: Github
+* Plus: Verander kleur rechter kant
+* X:
+* Y:
+* A: Selecteer button
+* B: Terug naar buttons vanaf detail
+* Right joystick:
+* Home: Website
+
+#### Switch
+* Minus:
+* Left-joystick:
+* Up:
+* Left: Vorige button
+* Right: Volgende button
+* Down:
+* Screenshot: 
+* Plus:
+* X:
+* Y:
+* A: Selecteer button
+* B: Terug naar buttons vanaf detail
+* Right joystick:
+* Home:
+* Online:
