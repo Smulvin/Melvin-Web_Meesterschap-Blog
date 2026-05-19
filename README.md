@@ -247,3 +247,11 @@ DS: https://nl.wikipedia.org/wiki/Bestand:Nintendo_DS_logo.png
 3DS: https://commons.wikimedia.org/wiki/File:3ds_logo.svg
 Switch: https://brandlogos.net/nintendo-switch-logo-vector-91545.html
 Switch 2: https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_Red_Logo.svg
+
+### Dinsdag 19 - 5 - 2025
+Vandaag ben ik begonnen met het beter maken van mijn footer, het was namelijk niet duidelijk dat het uberhaupt bestond en zou ook niet werken op een mobiel formaat. Dus heb ik een losse knop gemaakt die de footer in en uit klapt. Ook heb gewerkt aan de styling van verschillende controller. Ik heb geprobeerd die van beide switches op elkaar te laten lijken en ook die van beide DS controllers.
+
+<img src="Assets/README_imgs/DS/Vooruitgang_19-5-2026.png">
+<img src="Assets/README_imgs/3DS/Voortuitgang_19-5-2026.png">
+<img src="Assets/README_imgs/Switch/Vooruitgang_19-5-2026.png">
+<img src="Assets/README_imgs/Switch2/Vooruitgang_19-5-2026.png">
