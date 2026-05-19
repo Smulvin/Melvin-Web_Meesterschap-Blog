@@ -4,6 +4,9 @@
     --switch-black: #403f3d;
     --switch-white: #feffff;
 
+    --switch-red-glow: #fe605438;
+    --switch-blue-glow: #01c4e038;
+
     --switch-screen-color: #2d2d2d;
     --switch-screen-text: #2083ad;
 
@@ -11,7 +14,7 @@
     /* Dimensies bron: https://www.dimensions.com/element/nintendo-switch */
     --switch-width-controller: 198px;
     --switch-height-controller: 612px;
-    
+
     /* Normaal 175mm x 102mm */
     --switch-width-screen: 1050px;
     --switch-height-screen: 612px;
@@ -22,7 +25,8 @@
     /* gap: 4rem; */
 
 
-    #btn-l, #btn-r {
+    #btn-l,
+    #btn-r {
         position: absolute;
         width: 8.9rem;
         height: 5rem;
@@ -32,13 +36,14 @@
         border: none;
     }
 
-    .switch-left, .switch-right {
+    .switch-left,
+    .switch-right {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 3rem;
     }
-    
+
     .joystick {
         width: 6.5rem;
         aspect-ratio: 1;
@@ -97,10 +102,12 @@
             grid-column: 1;
             grid-row: 2;
         }
+
         button:nth-of-type(3) {
             grid-column: 3;
             grid-row: 2;
         }
+
         button:nth-of-type(4) {
             grid-column: 2;
             grid-row: 3;
@@ -140,7 +147,7 @@
         #btn-screenshot {
             width: 2.8rem;
             aspect-ratio: 1;
-            border-radius:3px;
+            border-radius: 3px;
             border: none;
             background: var(--switch-black);
             font-size: 1.4rem;
@@ -184,7 +191,7 @@
         #btn-home {
             width: 2.8rem;
             aspect-ratio: 1;
-            border-radius:50%;
+            border-radius: 50%;
             background: var(--switch-black);
             border: 6px solid #535353;
             font-size: 1.4rem;
@@ -199,7 +206,22 @@
     .switch-screen {
         width: var(--switch-width-screen);
         height: var(--switch-height-screen);
-        background: var(--switch-black);
+        background:
+            radial-gradient(circle at left center,
+                var(--switch-blue-glow) 0%,
+                transparent 22%),
+
+            radial-gradient(circle at right center,
+                var(--switch-red-glow) 0%,
+                transparent 22%),
+
+            radial-gradient(circle at top,
+                rgba(255, 255, 255, 0.08),
+                transparent 40%),
+
+            linear-gradient(145deg,
+                #2c2c2c 0%,
+                #181818 100%);
         corner-top-left-shape: scoop;
         corner-top-right-shape: scoop;
         border-radius: 1.5rem 1.5rem 2rem 2rem;
@@ -210,7 +232,7 @@
         .content {
             width: 100%;
             height: 100%;
-            padding: 5rem;
+            padding: 3rem;
             background: var(--switch-screen-color);
             border-radius: 1rem;
             border: 2rem solid black;
@@ -220,8 +242,50 @@
 
             scrollbar-width: none;
             -ms-overflow-style: none;
+
             &::-webkit-scrollbar {
-                display: none; 
+                display: none;
+            }
+
+            .detail-screen {
+                display: none;
+                height: 100%;
+                overflow-y: auto;
+                animation: fadeScreen 0.35s ease;
+                font-family: "Jost";
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+                h2 {
+                    font-size: 3rem;
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+
+                h3 {
+                    color: #7be7ff;
+                    font-size: 1.3rem;
+                    margin-top: 2rem;
+                    margin-bottom: 1rem;
+                    line-height: 1.5;
+
+                    span {
+                        color: white;
+                    }
+                }
+
+                p {
+                    color: rgba(255, 255, 255, 0.78);
+                    font-size: 1.05rem;
+                    line-height: 1.9;
+                    max-width: 90ch;
+                    margin-bottom: 1.5rem;
+                    font-family: "Jost", sans-serif;
+                }
             }
 
             .detail-screen.active-screen {
@@ -257,7 +321,7 @@
                     &:has(.active) {
                         p {
                             opacity: 1;
-                            transition: opacity 0.3s ease;  
+                            transition: opacity 0.3s ease;
                         }
 
                         .button-border {
@@ -269,7 +333,7 @@
                     }
                 }
 
-                
+
 
                 .screen-btn {
                     width: 220px;
@@ -280,18 +344,19 @@
             .screen-menu.hidden {
                 display: none;
             }
-
-            .detail-screen {
-                display: none;
-                height: 100%;
-                overflow-y: auto;
-            }
-
-            .detail-screen.active-screen {
-                display: block;
-            }
         }
     }
 }
 
 
+@keyframes fadeScreen {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

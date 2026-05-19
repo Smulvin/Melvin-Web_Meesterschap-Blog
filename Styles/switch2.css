@@ -233,8 +233,15 @@
         .content {
             width: 100%;
             height: 100%;
-            padding: 5rem;
-            background: var(--switch-screen-color);
+            padding: 3rem;
+            background:
+                radial-gradient(circle at top left,
+                    #53b8dc14,
+                    transparent 30%),
+                radial-gradient(circle at bottom right,
+                    #fd886f14,
+                    transparent 30%),
+                var(--switch-screen-color);
             border-radius: 1rem;
             border: 3rem solid black;
             border-top: 1rem solid black;
@@ -243,8 +250,9 @@
 
             scrollbar-width: none;
             -ms-overflow-style: none;
+
             &::-webkit-scrollbar {
-                display: none; 
+                display: none;
             }
 
             .nerd-screen.active-screen {
@@ -279,7 +287,7 @@
 
                     &:has(.active) {
                         p {
-                            opacity: 1;  
+                            opacity: 1;
                         }
 
                         .button-border {
@@ -305,13 +313,62 @@
                 display: none;
                 height: 100%;
                 overflow-y: auto;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+                padding: 3rem;
+                border-radius: 2rem;
+                background: linear-gradient(180deg,
+                    rgba(255, 255, 255, 0.04),
+                    rgba(255, 255, 255, 0.02));
+                backdrop-filter: blur(20px);
+                color: white;
+                font-family: "Jost";
+                animation: fadeIn 0.4s ease;
+
+
+                h2 {
+                    font-size: 3.5rem;
+                    font-weight: 700;
+                    margin-bottom: 0.5rem;
+                }
+
+                .subtitle {
+                    color: var(--switch-blue);
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    margin-bottom: 3rem;
+                }
+
+                h3 {
+                    margin-top: 3rem;
+                    margin-bottom: 1rem;
+                    font-size: 1.5rem;
+                    color: white;
+                }
+
+                p {
+                    line-height: 1.8;
+                    font-size: 1.05rem;
+                    max-width: 85ch;
+                }
             }
-
-            .nerd-screen.active-screen {
-                display: block;
-            }
-
-
         }
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
