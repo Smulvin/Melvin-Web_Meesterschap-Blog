@@ -258,28 +258,139 @@ Vandaag ben ik begonnen met het beter maken van mijn footer, het was namelijk ni
 <img src="Assets/README_imgs/Switch2/Vooruitgang_19-5-2026.png">
 
 ### Zaterdag 23 - 5 - 2026
-Vandaag een beetje verschillende dingen gedaan, ik heb een script geschreven waarbij ik makkelijk voor verschillende controllers het responsive kon maken. Dit script werkt goed voor de game and watch, de gameboy, de DS en de 3DS. Voor de switch en switch 2 had ik een ander idee om het repsonsive te maken, maar kreeg dat nog niet werkend. Voor de rest heb ik nog wat icoontjes en plaatjes toegevoegd aan mijn switch 1 en switch 2 scheremn. Zodat ze iets meer vorm krijgen.
+Vandaag een beetje verschillende dingen gedaan, ik heb een script geschreven waarbij ik makkelijk voor verschillende controllers het responsive kon maken. Dit script werkt goed voor de game and watch, de gameboy, de DS en de 3DS. Voor de switch en switch 2 had ik een ander idee om het repsonsive te maken, maar kreeg dat nog niet werkend. Voor de rest heb ik nog wat icoontjes en plaatjes toegevoegd aan mijn switch 1 en switch 2 scheremn. Zodat ze iets meer vorm krijgen. 
 
-Easter eggs toegevoegd
-Konami code, tijd laten zien
-Kirby suck op gameboy
-Pokemon encounter
+Verder heb ik later op de dag ook nog gekeken naar een paar easter eggs. Zo heb ik aan de NES de wel bekende konami code toegevoegd, en heb ik voor de gameboy een easter egg toegevoegd van kirby en eentje van pokemon. Voor die van pokemon had ik wel wat hulp nodig van AI. 
+
+#### ChatGPT hulp
+Prompt 1: New idea. When you press the A button I would like it to "start" a pokemon encounter. I actually just want a visual effect on the screen display of little squares going in a loop from outside to the inside filling the display and having a sfx start
+
+Propmt 2: Okay so none of that was a spiral. I would like it to be just the way it was on a normal gameboy. Little squares filled the screen in a spiral shape going from outside to the middle until the whole screen was covered
+```
+const aButton = document.getElementById("gameboy-a");
+const screen = document.querySelector(".gameboy-screen");
+
+const encounterSfx = new Audio("../Assets/SFX/pokemon-encounter.mp3");
+
+aButton.addEventListener("click", startEncounter);
+
+function startEncounter() {
+
+    const sfx = encounterSfx.cloneNode();
+    sfx.play();
+
+    runSpiralEncounter();
+}
+
+function runSpiralEncounter() {
+
+    const overlay = document.createElement("div");
+    overlay.classList.add("encounter-overlay");
+    screen.appendChild(overlay);
+
+    const size = 10;
+    const cols = Math.floor(screen.clientWidth / size);
+    const rows = Math.floor(screen.clientHeight / size);
+
+    const grid = [];
+
+    // build grid
+    for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+
+            const square = document.createElement("div");
+            square.classList.add("encounter-square");
+
+            square.style.left = `${x * size}px`;
+            square.style.top = `${y * size}px`;
+
+            overlay.appendChild(square);
+
+            grid.push({ el: square });
+        }
+    }
+
+    const spiralOrder = getSpiralOrder(cols, rows);
+
+    // animate spiral
+    spiralOrder.forEach((index, i) => {
+
+        const cell = grid[index];
+
+        if (!cell) return;
+
+        setTimeout(() => {
+            cell.el.classList.add("active");
+        }, i * 8);
+    });
+
+    // cleanup
+    setTimeout(() => {
+        overlay.remove();
+    }, spiralOrder.length * 8 + 500);
+}
+
+function getSpiralOrder(cols, rows) {
+
+    const result = [];
+
+    let top = 0;
+    let bottom = rows - 1;
+    let left = 0;
+    let right = cols - 1;
+
+    while (left <= right && top <= bottom) {
+
+        // left → right
+        for (let x = left; x <= right; x++) {
+            result.push(top * cols + x);
+        }
+        top++;
+
+        // top → bottom
+        for (let y = top; y <= bottom; y++) {
+            result.push(y * cols + right);
+        }
+        right--;
+
+        if (top <= bottom) {
+
+            // right → left
+            for (let x = right; x >= left; x--) {
+                result.push(bottom * cols + x);
+            }
+            bottom--;
+        }
+
+        if (left <= right) {
+
+            // bottom → top
+            for (let y = bottom; y >= top; y--) {
+                result.push(y * cols + left);
+            }
+            left++;
+        }
+    }
+
+    return result;
+}
+```
 
 #### Bronnenlijst
-Kilian Valkhof: https://webdirections.org/hover/speakers/kilian-valkhof.php
-Peter Paul Koch: https://www.quirksmode.org/about/
-Nils Binder: https://9elements.com/blog/author/nils-binder/
-Robbert Broersma: https://www.linkedin.com/in/robbertbroersma/
-Yolijn van der Kolk: https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/
-Johan Huijkman: https://media.licdn.com/dms/image/v2/D4E03AQGNr6TCw7ccgQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1666277475310?e=2147483647&v=beta&t=dUOV--XMVKsf4fcZTzu--HOp_-YPIOLEgOxjFwOdD6U
-General foto: https://www.pinterest.com/pin/pfps--26247610322356687/
+Kilian Valkhof: https://webdirections.org/hover/speakers/kilian-valkhof.php <br>
+Peter Paul Koch: https://www.quirksmode.org/about/<br>
+Nils Binder: https://9elements.com/blog/author/nils-binder/<br>
+Robbert Broersma: https://www.linkedin.com/in/robbertbroersma/<br>
+Yolijn van der Kolk: https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/<br>
+Johan Huijkman: https://media.licdn.com/dms/image/v2/D4E03AQGNr6TCw7ccgQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1666277475310?e=2147483647&v=beta&t=dUOV--XMVKsf4fcZTzu--HOp_-YPIOLEgOxjFwOdD6U<br>
+General foto: https://www.pinterest.com/pin/pfps--26247610322356687/<br>
 
-Leerdoelen: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F
-Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F
+Leerdoelen: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F<br>
+Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F<br>
 
-SFX 1-up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&t=3s
-SFX Kirby: https://www.youtube.com/watch?v=9wOgtUvZ9xc
-SFX Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4
+SFX 1-up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&t=3s<br>
+SFX Kirby: https://www.youtube.com/watch?v=9wOgtUvZ9xc<br>
+SFX Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4<br>
 
 ### Button functionaliteiten lijst
 #### NES
@@ -291,7 +402,7 @@ SFX Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4
 * Select: Website
 * A:
 * B:
-
+-
 #### Game and Watch
 * Left: Vorige slide
 * Right: Volgende slide
