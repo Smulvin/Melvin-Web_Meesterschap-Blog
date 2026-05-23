@@ -257,6 +257,21 @@ Vandaag ben ik begonnen met het beter maken van mijn footer, het was namelijk ni
 <img src="Assets/README_imgs/Switch/Vooruitgang_19-5-2026.png">
 <img src="Assets/README_imgs/Switch2/Vooruitgang_19-5-2026.png">
 
+### Zaterdag 23 - 5 - 2026
+Vandaag een beetje verschillende dingen gedaan, ik heb een script geschreven waarbij ik makkelijk voor verschillende controllers het responsive kon maken. Dit script werkt goed voor de game and watch, de gameboy, de DS en de 3DS. Voor de switch en switch 2 had ik een ander idee om het repsonsive te maken, maar kreeg dat nog niet werkend. Voor de rest heb ik nog wat icoontjes en plaatjes toegevoegd aan mijn switch 1 en switch 2 scheremn. Zodat ze iets meer vorm krijgen.
+
+#### Bronnenlijst
+Kilian Valkhof: https://webdirections.org/hover/speakers/kilian-valkhof.php
+Peter Paul Koch: https://www.quirksmode.org/about/
+Nils Binder: https://9elements.com/blog/author/nils-binder/
+Robbert Broersma: https://www.linkedin.com/in/robbertbroersma/
+Yolijn van der Kolk: https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/
+Johan Huijkman: https://media.licdn.com/dms/image/v2/D4E03AQGNr6TCw7ccgQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1666277475310?e=2147483647&v=beta&t=dUOV--XMVKsf4fcZTzu--HOp_-YPIOLEgOxjFwOdD6U
+General foto: https://www.pinterest.com/pin/pfps--26247610322356687/
+
+Leerdoelen: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F
+Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up

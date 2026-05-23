@@ -23,6 +23,7 @@
     background: var(--gameboy-grey);
     border-radius: 1rem 1rem 10rem 1rem;
     position: relative;
+    transform-origin: center;
 
     .on-off-container {
         width: 100%;
