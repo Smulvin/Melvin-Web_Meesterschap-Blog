@@ -260,6 +260,11 @@ Vandaag ben ik begonnen met het beter maken van mijn footer, het was namelijk ni
 ### Zaterdag 23 - 5 - 2026
 Vandaag een beetje verschillende dingen gedaan, ik heb een script geschreven waarbij ik makkelijk voor verschillende controllers het responsive kon maken. Dit script werkt goed voor de game and watch, de gameboy, de DS en de 3DS. Voor de switch en switch 2 had ik een ander idee om het repsonsive te maken, maar kreeg dat nog niet werkend. Voor de rest heb ik nog wat icoontjes en plaatjes toegevoegd aan mijn switch 1 en switch 2 scheremn. Zodat ze iets meer vorm krijgen.
 
+Easter eggs toegevoegd
+Konami code, tijd laten zien
+Kirby suck op gameboy
+Pokemon encounter
+
 #### Bronnenlijst
 Kilian Valkhof: https://webdirections.org/hover/speakers/kilian-valkhof.php
 Peter Paul Koch: https://www.quirksmode.org/about/
@@ -271,6 +276,10 @@ General foto: https://www.pinterest.com/pin/pfps--26247610322356687/
 
 Leerdoelen: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F
 Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F
+
+SFX 1-up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&t=3s
+SFX Kirby: https://www.youtube.com/watch?v=9wOgtUvZ9xc
+SFX Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4
 
 ### Button functionaliteiten lijst
 #### NES
@@ -288,7 +297,7 @@ Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-ele
 * Right: Volgende slide
 * Game A: Github pagina
 * Game B: Website
-* Time:
+* Time: Laat huidige tijd zien
 
 #### Gameboy
 * Dpad-up:
@@ -297,8 +306,8 @@ Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-ele
 * Dpad-down
 * Start: Github
 * Select: Website
-* A:
-* B:
+* A: Pokemon Encounter
+* B: Kirby Suck
 
 #### Wii
 * Dpad-up: Pop-up

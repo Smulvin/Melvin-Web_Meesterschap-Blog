@@ -303,3 +303,27 @@
         }
     }
 }
+
+.time-display {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-family: "Pixel-Font", monospace;
+    font-size: 1.4rem;
+    color: #1b3b1b;
+
+    background: rgba(168, 181, 143, 0.6);
+    padding: 0.8rem 1.2rem;
+    border: 3px solid #2d331f;
+    border-radius: 0.5rem;
+
+    opacity: 0;
+    transition: opacity 0.2s ease;
+
+    z-index: 5;
+}
+
+.time-display.active {
+    opacity: 1;
+    transform: scale(1);
+}
