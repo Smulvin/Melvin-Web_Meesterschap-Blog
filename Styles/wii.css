@@ -280,3 +280,38 @@
         margin-top: 1rem;
     }
 }
+
+.controller-shake {
+    animation: shake-controller 0.3s ease-in-out both;
+}
+
+@keyframes shake-controller {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    33% {
+        transform: rotate(30deg);
+    }
+
+    66% {
+        transform: rotate(-60deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.wii-sports-mode {
+    animation: wiiBounce 1.2s ease-in-out infinite;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+@keyframes wiiBounce {
+    0% { transform: translateY(0px) rotate(0deg); }
+    25% { transform: translateY(-4px) rotate(-0.5deg); }
+    50% { transform: translateY(0px) rotate(0.5deg); }
+    75% { transform: translateY(-2px) rotate(-0.3deg); }
+    100% { transform: translateY(0px) rotate(0deg); }
+}

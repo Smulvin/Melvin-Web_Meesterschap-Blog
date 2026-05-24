@@ -12,61 +12,63 @@
 
 <body>
     <main>
-        <div class="wii-controller">
-            <div id="power-container">
-                <button><i class="fa-solid fa-power-off"></i></button>
-                <p>Power</p>
-            </div>
-
-            <div class="dpad">
-                <button id="dpad-up" popovertarget="popup-up">
-                    <hr>
-                </button>
-                <button id="dpad-left" popovertarget="popup-left">
-                    <hr>
-                </button>
-                <button id="dpad-right" popovertarget="popup-right">
-                    <hr>
-                </button>
-                <button id="dpad-down" popovertarget="popup-down">
-                    <hr>
-                </button>
-            </div>
-
-            <button id="btn-a" popovertarget="popup-a">A</button>
-
-            <div id="center-buttons-container">
-                <button id="btn-minus"><i class="fa-solid fa-minus"></i></button>
-                <div id="btn-home">
-                    <button><i class="fa-solid fa-house"></i></button>
-                    <p>Home</p>
+        <div id="shake-wrapper">
+            <div class="wii-controller">
+                <div id="power-container">
+                    <button id="power-btn"><i class="fa-solid fa-power-off"></i></button>
+                    <p>Power</p>
                 </div>
-                <button id="btn-plus"><i class="fa-solid fa-plus"></i></button>
+
+                <div class="dpad">
+                    <button id="dpad-up" popovertarget="popup-up">
+                        <hr>
+                    </button>
+                    <button id="dpad-left" popovertarget="popup-left">
+                        <hr>
+                    </button>
+                    <button id="dpad-right" popovertarget="popup-right">
+                        <hr>
+                    </button>
+                    <button id="dpad-down" popovertarget="popup-down">
+                        <hr>
+                    </button>
+                </div>
+
+                <button id="btn-a" popovertarget="popup-a">A</button>
+
+                <div id="center-buttons-container">
+                    <button id="btn-minus"><i class="fa-solid fa-minus"></i></button>
+                    <div id="btn-home">
+                        <button id="home-button"><i class="fa-solid fa-house"></i></button>
+                        <p>Home</p>
+                    </div>
+                    <button id="btn-plus"><i class="fa-solid fa-plus"></i></button>
+                </div>
+
+                <div id="sound-holes">
+                    <div class="hole-small"></div>
+                    <div class="hole-medium"></div>
+                    <div class="hole-large"></div>
+                    <div class="hole-large"></div>
+                    <div class="hole-medium"></div>
+                    <div class="hole-small"></div>
+                </div>
+
+                <div id="container-1-2">
+                    <a id="btn-1" href="https://github.com/Smulvin/Melvin-Web_Sprint0" target="_blank">1</a>
+                    <a id="btn-2" href="https://smulvin.github.io/Melvin-Web_Sprint0/" target="_blank">2</a>
+                </div>
+
+                <div id="player-lights">
+                    <div id="player-light"></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <p id="wii-text">Wii</p>
+
             </div>
-
-            <div id="sound-holes">
-                <div class="hole-small"></div>
-                <div class="hole-medium"></div>
-                <div class="hole-large"></div>
-                <div class="hole-large"></div>
-                <div class="hole-medium"></div>
-                <div class="hole-small"></div>
-            </div>
-
-            <div id="container-1-2">
-                <a id="btn-1" href="https://github.com/Smulvin/Melvin-Web_Sprint0" target="_blank">1</a>
-                <a id="btn-2" href="https://smulvin.github.io/Melvin-Web_Sprint0/" target="_blank">2</a>
-            </div>
-
-            <div id="player-lights">
-                <div id="player-light"></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-
-            <p id="wii-text">Wii</p>
-
         </div>
     </main>
 
@@ -149,6 +151,7 @@
     </footer>
 
     <script src="../Scripts/footer.js"></script>
+    <script src="../Scripts/wii-easter.js"></script>
 </body>
 
 </html>

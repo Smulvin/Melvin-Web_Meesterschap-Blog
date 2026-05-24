@@ -139,3 +139,39 @@ function getSpiralOrder(cols, rows) {
 
     return result;
 }
+
+// Themes: Zelda and Tetris
+const dpadUp = document.getElementById("dpad-up");
+const dpadDown = document.getElementById("dpad-down");
+
+// Music tracks
+const zeldaTheme = new Audio("../Assets/SFX/theme-zelda.mp3");
+const tetrisTheme = new Audio("../Assets/SFX/theme-tetris.mp3");
+
+// Loop both songs
+zeldaTheme.loop = true;
+tetrisTheme.loop = true;
+
+// UP = play Zelda theme
+dpadUp.addEventListener("click", () => {
+
+    // stop Tetris music if playing
+    tetrisTheme.pause();
+    tetrisTheme.currentTime = 0;
+
+    // play Zelda music
+    zeldaTheme.volume = 0.5;
+    zeldaTheme.play();
+});
+
+// DOWN = play Tetris theme
+dpadDown.addEventListener("click", () => {
+
+    // stop Zelda music if playing
+    zeldaTheme.pause();
+    zeldaTheme.currentTime = 0;
+
+    // play Tetris music
+    tetrisTheme.volume = 0.5;
+    tetrisTheme.play();
+});

@@ -157,9 +157,20 @@
                 justify-self: center;
             }
 
-            li:nth-of-type(1), li:nth-of-type(3) { margin-right: 5rem;}
-            li:nth-of-type(2), li:nth-of-type(4) { margin-left: 5rem;}
-            li:nth-of-type(3), li:nth-of-type(4) { align-self: center;}
+            li:nth-of-type(1),
+            li:nth-of-type(3) {
+                margin-right: 5rem;
+            }
+
+            li:nth-of-type(2),
+            li:nth-of-type(4) {
+                margin-left: 5rem;
+            }
+
+            li:nth-of-type(3),
+            li:nth-of-type(4) {
+                align-self: center;
+            }
         }
 
         ;
@@ -187,7 +198,8 @@
         z-index: 1;
         border: 2px solid black;
 
-        &::after, &::before {
+        &::after,
+        &::before {
             content: "";
             position: absolute;
             width: 2px;
@@ -302,7 +314,7 @@
             width: var(--screen-width);
             height: var(--screen-height);
             background:
-                radial-gradient(circle at top, rgba(43,102,255,0.14), transparent 55%),
+                radial-gradient(circle at top, rgba(43, 102, 255, 0.14), transparent 55%),
                 linear-gradient(180deg, #ffffff 0%, #f3f6fb 100%);
             border: 10px solid black;
             border-radius: 1rem;
@@ -317,13 +329,11 @@
                 position: absolute;
                 inset: 0;
                 background:
-                    repeating-linear-gradient(
-                        0deg,
-                        rgba(0,0,0,0.04) 0px,
-                        rgba(0,0,0,0.04) 1px,
+                    repeating-linear-gradient(0deg,
+                        rgba(0, 0, 0, 0.04) 0px,
+                        rgba(0, 0, 0, 0.04) 1px,
                         transparent 1px,
-                        transparent 5px
-                    );
+                        transparent 5px);
                 pointer-events: none;
                 opacity: 0.4;
             }
@@ -333,11 +343,9 @@
                 position: absolute;
                 inset: 0;
 
-                background: radial-gradient(
-                    circle at bottom,
-                    rgba(43,102,255,0.12),
-                    transparent 60%
-                );
+                background: radial-gradient(circle at bottom,
+                        rgba(43, 102, 255, 0.12),
+                        transparent 60%);
 
                 pointer-events: none;
             }
@@ -364,7 +372,7 @@
                     font-size: 1.6rem;
                     text-transform: uppercase;
                     letter-spacing: 0.08em;
-                    text-shadow: 2px 2px 0 rgba(255,255,255,0.15);
+                    text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.15);
                     position: relative;
 
                     &::after {
@@ -389,13 +397,13 @@
                     padding: 1rem;
                     max-width: 40ch;
                     border-radius: 1rem;
-                    background: rgba(255,255,255,0.18);
+                    background: rgba(255, 255, 255, 0.18);
                     backdrop-filter: blur(2px);
                     box-shadow:
-                        inset 0 1px 0 rgba(255,255,255,0.3),
-                        0 6px 12px rgba(0,0,0,0.12);
+                        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+                        0 6px 12px rgba(0, 0, 0, 0.12);
                 }
-            } 
+            }
         }
 
         .bottom-right {
@@ -414,7 +422,8 @@
                 width: 150px;
                 aspect-ratio: 1;
 
-                button, a {
+                button,
+                a {
                     border: none;
                     width: 2.5rem;
                     aspect-ratio: 1;
@@ -477,4 +486,68 @@
 
 
     }
+}
+
+
+/* Wanted easter egg */
+#wanted-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 9999;
+}
+
+#wanted-overlay.hidden,
+#wanted-bottom.hidden {
+    display: none;
+}
+
+#wanted-bottom {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #282828;
+    overflow: hidden;
+    display: block;
+}
+
+#wanted-top {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* top screen */
+#wanted-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* bouncing heads */
+.wanted-head {
+    position: absolute;
+    width: 48px;
+    aspect-ratio: 1;
+    z-index: 10;
+}
+
+#wanted-ui {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#wanted-target {
+    position: absolute;
+    width: auto;
+    height: 90px;
+    z-index: 10;
+    top: 5rem;
 }

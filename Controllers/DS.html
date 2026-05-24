@@ -29,6 +29,13 @@
 
                     <div id="top-screen">
                         <video src="../Assets/Images/CSS/OctoDad_Video.mkv" autoplay muted loop></video>
+
+                        <div id="wanted-overlay" class="hidden">
+                            <div id="wanted-top">
+                                <img id="wanted-ui" src="../Assets/Images/FindLuigi/Wanted.png" alt="">
+                                <img id="wanted-target" src="" alt="wanted target">
+                            </div>
+                        </div>
                     </div>
 
                     <ul id="screw-covers">
@@ -115,14 +122,15 @@
                             ging.
                         </p>
                     </div>
+                    <div id="wanted-bottom" class="hidden"></div>
                 </div>
 
                 <div class="bottom-right">
                     <div class="abxy-container">
                         <button class="x-button">X</button>
                         <button class="y-button">Y</button>
-                        <button class="a-button">A</button>
-                        <button class="b-button">B</button>
+                        <button class="a-button" id="a-button">A</button>
+                        <button class="b-button" id="b-button">B</button>
                     </div>
 
                     <div class="start-select-container">
@@ -155,6 +163,7 @@
     <script src="../Scripts/slideshow.js"></script>
     <script src="../Scripts/footer.js"></script>
     <script src="../Scripts/responsive.js"></script>
+    <script src="../Scripts/ds-wanted.js"></script>
 </body>
 
 </html>

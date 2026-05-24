@@ -392,6 +392,21 @@ SFX 1-up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&t=3s<br>
 SFX Kirby: https://www.youtube.com/watch?v=9wOgtUvZ9xc<br>
 SFX Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4<br>
 
+### Zondag 24 - 5 - 2026
+
+#### Bronnenlijst
+Info over reverse: https://manual.audacityteam.org/man/reverse.html
+
+Assets: https://www.spriters-resource.com/ds_dsi/supermario64ds/asset/6856/
+
+Tetris: https://www.youtube.com/watch?v=NmCCQxVBfyM
+Zelda: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2
+Mario Shake: https://www.youtube.com/watch?v=P1gJJqYXpTc
+Wii startup: https://www.youtube.com/watch?v=x1FM5uM_998
+Wii Sports: https://www.youtube.com/watch?v=2qvAxPqy2wA&list=RD2qvAxPqy2wA&start_radio=1
+Mario Wanted Theme: https://www.youtube.com/watch?v=qTrzAk7p2rE
+Mario Wanted SFX: https://sounds.spriters-resource.com/ds_dsi/supermario64ds/asset/519578/
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
@@ -411,24 +426,25 @@ SFX Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4<br>
 * Time: Laat huidige tijd zien
 
 #### Gameboy
-* Dpad-up:
+* Dpad-up: Zelda muziek
 * Dpad-left: Vorige slide
 * Dpad-right: Volgende slide
-* Dpad-down
+* Dpad-down: Tetris muziek
 * Start: Github
 * Select: Website
 * A: Pokemon Encounter
 * B: Kirby Suck
 
 #### Wii
+* Power Button: Afsluit geluid / afsluiten
 * Dpad-up: Pop-up
 * Dpad-left: Pop-up
 * Dpad-right: Pop-up
 * Dpad-down: Pop-up
 * A: Pop-up
-* Plus:
-* Home:
-* Minus:
+* Plus: Begin wii sports modus
+* Home: Mario Shake
+* Minus: Beeindig wii sport modus
 * 1: Github
 * 2: Website
 
