@@ -263,8 +263,7 @@ Vandaag een beetje verschillende dingen gedaan, ik heb een script geschreven waa
 Verder heb ik later op de dag ook nog gekeken naar een paar easter eggs. Zo heb ik aan de NES de wel bekende konami code toegevoegd, en heb ik voor de gameboy een easter egg toegevoegd van kirby en eentje van pokemon. Voor die van pokemon had ik wel wat hulp nodig van AI. 
 
 #### ChatGPT hulp
-Prompt 1: New idea. When you press the A button I would like it to "start" a pokemon encounter. I actually just want a visual effect on the screen display of little squares going in a loop from outside to the inside filling the display and having a sfx start
-
+Prompt 1: New idea. When you press the A button I would like it to "start" a pokemon encounter. I actually just want a visual effect on the screen display of little squares going in a loop from outside to the inside filling the display and having a sfx start<br>
 Propmt 2: Okay so none of that was a spiral. I would like it to be just the way it was on a normal gameboy. Little squares filled the screen in a spiral shape going from outside to the middle until the whole screen was covered
 ```
 const aButton = document.getElementById("gameboy-a");
@@ -393,19 +392,210 @@ SFX Kirby: https://www.youtube.com/watch?v=9wOgtUvZ9xc<br>
 SFX Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4<br>
 
 ### Zondag 24 - 5 - 2026
+Vandaag ben ik veel bezig geweest met verschillende easter eggs. Niet per se op volgorde van de controllers. Maar gewoon waar ik op dat moment een idee bij had. Aangezien ik heel veel knoppen heb die nog geen nuttige functie hebben, heb ik ook veel easter eggs te bedenken. Daarom had ik wel al besloten dat ik soms 2 verschillende knoppen gebruik voor dezelfde easter egg, eentje om hem te starten en de andere om hem te eindigen. Ook heb ik besloten dat de dpad knoppen altijd alleen maar een nummer afspelen. Alle easter eggs zijn wel in het thema van die controller. Dus muziek stukken van een DS game zijn hoor je niet bij een andere controller. Er was één easter egg waar ik wat AI hulp bij nodig had. Daar waren veel prompts voor nodig, maar de eerste twee staan hieronder.
+
+#### ChatGPT hulp
+Verschillende prompts waren gebruikt om het eindelijk goed werkend te krijgen, maar de eerste twee waren de eerste. <br>
+Prompt 1: Are you familiar with the "Wanted" minigame on New super mario bros DS?<br>
+Prompt 2: Alright I dont need your specific reasoning, but I would like to make a variation on it. So lets start with some simple coding. I have assets for the Wanted Screen, the heads of all 4 characters that can appear on the wanted screen and the little heads for the bottom screen. Could you make some sort of minigame where the heads bounce around the bottom screen, with obviously 1 correct one that is shown on the screen on the top screen?
+```
+const btnA = document.getElementById("a-button");
+const btnB = document.getElementById("b-button");
+
+const overlay = document.getElementById("wanted-overlay");
+const topScreen = document.getElementById("wanted-top");
+const bottomScreen = document.getElementById("wanted-bottom");
+const targetImg = document.getElementById("wanted-target");
+
+const wantedTheme = new Audio("../Assets/SFX/theme-wanted.mp3");
+wantedTheme.volume = 0.2;
+wantedTheme.loop = true;
+
+// Characters (source of truth)
+const characters = [
+    {
+        name: "mario",
+        head: "../Assets/Images/FindLuigi/Mario-Head.png",
+        icon: "../Assets/Images/FindLuigi/Mario-icon.png"
+    },
+    {
+        name: "luigi",
+        head: "../Assets/Images/FindLuigi/Luigi-Head.png",
+        icon: "../Assets/Images/FindLuigi/Luigi-icon.png"
+    },
+    {
+        name: "wario",
+        head: "../Assets/Images/FindLuigi/Wario-Head.png",
+        icon: "../Assets/Images/FindLuigi/Wario-icon.png"
+    },
+    {
+        name: "yoshi",
+        head: "../Assets/Images/FindLuigi/Yoshi-Head.png",
+        icon: "../Assets/Images/FindLuigi/Yoshi-icon.png"
+    }
+];
+
+// SFX per character
+const headSFX = {
+    mario: "../Assets/SFX/FoundMario.wav",
+    luigi: "../Assets/SFX/FoundLuigi.wav",
+    wario: "../Assets/SFX/FoundWario.wav",
+    yoshi: "../Assets/SFX/FoundYoshi.wav"
+};
+
+let objects = [];
+let running = false;
+let correctName = null;
+let correctIcon = null;
+
+btnA.addEventListener("click", startGame);
+btnB.addEventListener("click", stopGame);
+
+function playWinSFX(name) {
+    const audio = new Audio(headSFX[name]);
+    audio.volume = 0.5;
+    audio.play();
+}
+
+function startGame() {
+    wantedTheme.currentTime = 0;
+    wantedTheme.play();
+
+    overlay.classList.remove("hidden");
+    bottomScreen.classList.remove("hidden");
+
+    bottomScreen.innerHTML = "";
+    objects = [];
+
+    // 🎯 pick target character
+    const char = characters[Math.floor(Math.random() * characters.length)];
+
+    targetImg.src = char.head;
+    correctIcon = char.icon;
+    correctName = char.name;
+
+    // build pool (exactly 1 correct)
+    const pool = [];
+
+    pool.push({
+        src: correctIcon,
+        name: correctName,
+        correct: true
+    });
+
+    while (pool.length < 30) {
+        const randChar = characters[Math.floor(Math.random() * characters.length)];
+
+        if (randChar.icon === correctIcon) continue;
+
+        pool.push({
+            src: randChar.icon,
+            name: randChar.name,
+            correct: false
+        });
+    }
+
+    pool.sort(() => Math.random() - 0.5);
+
+    pool.forEach(item => {
+        const el = document.createElement("img");
+        el.src = item.src;
+        el.classList.add("wanted-head");
+
+        const obj = {
+            el,
+            x: Math.random() * (bottomScreen.clientWidth - 50),
+            y: Math.random() * (bottomScreen.clientHeight - 50),
+            vx: (Math.random() - 0.5) * 1.2,
+            vy: (Math.random() - 0.5) * 1.2,
+            correct: item.correct,
+            name: item.name
+        };
+
+        el.addEventListener("click", () => {
+            if (obj.correct) {
+                playWinSFX(obj.name);
+                endGame(true);
+            } else {
+                el.style.opacity = "0.2";
+            }
+        });
+
+        bottomScreen.appendChild(el);
+        objects.push(obj);
+    });
+
+    if (!running) {
+        running = true;
+        animate();
+    }
+}
+
+function animate() {
+    if (!running) return;
+
+    const w = bottomScreen.clientWidth;
+    const h = bottomScreen.clientHeight;
+
+    objects.forEach(obj => {
+        obj.x += obj.vx;
+        obj.y += obj.vy;
+
+        if (obj.x <= 0 || obj.x >= w - 48) obj.vx *= -1;
+        if (obj.y <= 0 || obj.y >= h - 48) obj.vy *= -1;
+
+        obj.el.style.transform = `translate(${obj.x}px, ${obj.y}px)`;
+    });
+
+    requestAnimationFrame(animate);
+}
+
+function stopAudio() {
+    wantedTheme.pause();
+    wantedTheme.currentTime = 0;
+}
+
+function endGame(success) {
+    running = false;
+
+    stopAudio();
+
+    overlay.classList.add("hidden");
+    bottomScreen.classList.add("hidden");
+}
+
+function stopGame() {
+    running = false;
+
+    stopAudio();
+
+    bottomScreen.innerHTML = "";
+    objects = [];
+
+    overlay.classList.add("hidden");
+    bottomScreen.classList.add("hidden");
+}
+```
 
 #### Bronnenlijst
-Info over reverse: https://manual.audacityteam.org/man/reverse.html
+Info <br>
+https://manual.audacityteam.org/man/reverse.html <br>
 
-Assets: https://www.spriters-resource.com/ds_dsi/supermario64ds/asset/6856/
+Assets: <br> 
+https://www.spriters-resource.com/ds_dsi/supermario64ds/asset/6856/ <br>
+https://www.deviantart.com/marioandme64/art/THE-COMPLETE-SUPER-MARIO-BROS-1-MARIO-SPRITE-RIG-1171963856 <br>
 
-Tetris: https://www.youtube.com/watch?v=NmCCQxVBfyM
-Zelda: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2
-Mario Shake: https://www.youtube.com/watch?v=P1gJJqYXpTc
-Wii startup: https://www.youtube.com/watch?v=x1FM5uM_998
-Wii Sports: https://www.youtube.com/watch?v=2qvAxPqy2wA&list=RD2qvAxPqy2wA&start_radio=1
-Mario Wanted Theme: https://www.youtube.com/watch?v=qTrzAk7p2rE
-Mario Wanted SFX: https://sounds.spriters-resource.com/ds_dsi/supermario64ds/asset/519578/
+Muziek / SFX <br>
+Tetris: https://www.youtube.com/watch?v=NmCCQxVBfyM <br>
+Zelda: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2 <br>
+Mario Shake: https://www.youtube.com/watch?v=P1gJJqYXpTc <br>
+Wii startup: https://www.youtube.com/watch?v=x1FM5uM_998 <br>
+Wii Sports: https://www.youtube.com/watch?v=2qvAxPqy2wA&list=RD2qvAxPqy2wA&start_radio=1 <br>
+Mario Wanted Theme: https://www.youtube.com/watch?v=qTrzAk7p2rE <br>
+Mario Wanted SFX: https://sounds.spriters-resource.com/ds_dsi/supermario64ds/asset/519578/ <br>
+Bowsers Inside Story: https://www.youtube.com/watch?v=Ckxy-i7Dc5U <br>
+Mario Jump: https://www.youtube.com/watch?v=37-paiEz0mQ <br>
+Duck Hit: https://sounds.spriters-resource.com/nes/duckhunt/asset/397761/ <br>
 
 ### Button functionaliteiten lijst
 #### NES
@@ -415,9 +605,9 @@ Mario Wanted SFX: https://sounds.spriters-resource.com/ds_dsi/supermario64ds/ass
 * Dpad-down: Pop-up
 * Start: Github pagina
 * Select: Website
-* A:
-* B:
--
+* A: Mario Jump
+* B: Duck Hunt
+
 #### Game and Watch
 * Left: Vorige slide
 * Right: Volgende slide
@@ -449,10 +639,10 @@ Mario Wanted SFX: https://sounds.spriters-resource.com/ds_dsi/supermario64ds/ass
 * 2: Website
 
 #### DS
-* Dpad-up:
+* Dpad-up: Mario Kart Theme
 * Dpad-left: Vorige slide
 * Dpad-right: Volgende slide
-* Dpad-down:
+* Dpad-down: Bowser Inside Story Theme
 * X:
 * Y:
 * A: Start wanted minigame

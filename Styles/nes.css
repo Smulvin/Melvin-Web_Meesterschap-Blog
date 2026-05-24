@@ -476,3 +476,22 @@ hr {
         }
     }
 }
+
+/* Mario Easter Egg */
+.nes-mario {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    height: 64px;
+    image-rendering: pixelated;
+}
+
+.nes-bird {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    z-index: -9999;
+    transform-origin: center;
+    image-rendering: pixelated;
+}
