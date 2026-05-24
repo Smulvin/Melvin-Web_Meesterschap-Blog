@@ -455,8 +455,8 @@ Mario Wanted SFX: https://sounds.spriters-resource.com/ds_dsi/supermario64ds/ass
 * Dpad-down:
 * X:
 * Y:
-* A:
-* B:
+* A: Start wanted minigame
+* B: Stop wanted minigame
 * Start: Gihtub
 * Select: Website
 
