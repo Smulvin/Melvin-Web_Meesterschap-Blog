@@ -599,10 +599,28 @@ Duck Hit: https://sounds.spriters-resource.com/nes/duckhunt/asset/397761/ <br>
 
 
 ### Maandag 25 - 5 -2026
+wii responsive, sports animation smooth
+Pictochat
+3DS muziek
+Switch music
+Switch 2 music
+
+Vandaag weer verchillende dingen gedaan. Zo was ik begonnen met mijn DS controller afmaken door er nog een easter egg aan toe te voegen. Maar alles dat ik kon bedenken zou al snel te veel werk zijn of wist ik niet zeker of het zou gaan lukken. En die tijd wilde ik er op dit moment niet meer echt aan besteden, want er zit al heel veel uur in deze website. Dus bedacht ik om gewoon alleen het laadscherm van iets te doen. Ik koos hier voor pictochat. Hiervoor heb ik dus alleen een laadscherm ontworpen die blijft hangen op 130%. Ook heb ik de wii controller nu beter responsive gemaakt en heb ik er ook voor gezorgd dat de transitie voor de wii sports easter egg soepeler verloopt als de controller horizontaal ligt. De styling voor de NES en Wii pop-ups heb ik ook vandaag gedaan. Deze wilde ik namelijk in de stijl van een oud en een nieuw beeldscherm. Deze zouden nog wel beter kunnen, maar voor nu ben ik er tevreden mee.
+
+Voor een paar simpele en snelle easter eggs heb ik muziekstuken toegevoegd aan de 3DS, Switch en Switch 2. Hiervoor kon ik veel dezelfde code steeds gebruiken dus ging het vrij snel. Het langste was nog het bedenken welke nummers ik steeds wilde gaan gebruiken. Voor de switch 2 heb ik nu ook toegevoegd dat je de controller van kleur kan veranderen. Maar omdat deze controller nog vrij nieuw is, zijn er nog niet heel veel varianten van.
 
 #### Bronnenlijst
 Assets <br>
-https://freeavmhzwr.click/product_tag/46272586_.html
+https://freeavmhzwr.click/product_tag/46272586_.html <br>
+https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/nintendo_switch2_joycons1.jpg?quality=90&strip=all&crop=16.658266129032,0,66.683467741935,100 <br>
+
+SFX <br>
+Gym Leader theme: https://www.youtube.com/watch?v=hcV6xVukj60 <br>
+Super Star Theme: https://www.youtube.com/watch?v=e9r5hx47kxM&list=RDe9r5hx47kxM&start_radio=1 <br>
+DK Rap: https://www.youtube.com/watch?v=rWSgsbWiX_g&list=RDrWSgsbWiX_g&start_radio=1 <br>
+Comet Observatory Theme: https://www.youtube.com/watch?v=wBhzmys2-eU&list=RDwBhzmys2-eU&start_radio=1 <br>
+Mario 3D land theme: https://www.youtube.com/watch?v=elpT7gEgffQ&list=PLESFnlO3kNnqPB453OFSGS5AkfhBmcr7t&index=2 <br>
+XY Gym leader: https://www.youtube.com/watch?v=zQzl9_ja99s <br>
 
 ### Button functionaliteiten lijst
 #### NES
@@ -659,10 +677,10 @@ https://freeavmhzwr.click/product_tag/46272586_.html
 
 #### 3DS
 * Joystick:
-* Dpad-up:
+* Dpad-up: Mario 3D land theme
 * Dpad-left: Vorige slide
 * Dpad-right: Volgende slide
-* Dpad-down:
+* Dpad-down: Pokemon XY Gym Leader theme
 * Home:
 * C-stick:
 * X:
@@ -677,10 +695,10 @@ https://freeavmhzwr.click/product_tag/46272586_.html
 #### Switch
 * Minus: Verander kleur linker kant
 * Left-joystick:
-* Up:
+* Up: Gym Leader Theme
 * Left: Vorige button
 * Right: Volgende button
-* Down:
+* Down: Super Star theme
 * Screenshot: Github
 * Plus: Verander kleur rechter kant
 * X:
@@ -691,14 +709,14 @@ https://freeavmhzwr.click/product_tag/46272586_.html
 * Home: Website
 
 #### Switch
-* Minus:
+* Minus: Verander kleur linker kant
 * Left-joystick:
-* Up:
+* Up: DK Rap uit Donkey Kong Bananza
 * Left: Vorige button
 * Right: Volgende button
-* Down:
+* Down: Comet Observatory uit Mario Galaxy Bundel
 * Screenshot: 
-* Plus:
+* Plus: Verander kleur rechter kant
 * X:
 * Y:
 * A: Selecteer button
