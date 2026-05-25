@@ -551,3 +551,75 @@
     z-index: 10;
     top: 5rem;
 }
+
+#pictochat-loading {
+    position: absolute;
+    inset: 0;
+    z-index: 500;
+    background: #d9f4ff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    font-family: "Jost";
+}
+
+#pictochat-loading.hidden {
+    display: none;
+}
+
+#pictochat-loading p {
+    font-size: 1.4rem;
+    color: #1f3f5b;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.loading-outline {
+    width: 80%;
+    height: 2rem;
+    border: 4px solid #1f3f5b;
+    background: white;
+    position: relative;
+    overflow: visible;
+}
+
+/* moving fill */
+.loading-fill {
+    width: 40%;
+    height: 100%;
+    background: #3d8bfd;
+    position: absolute;
+    left: 0; 
+    animation: fakeLoad 20s linear infinite;
+}
+
+@keyframes fakeLoad {
+    0% { width: 0;}
+    10% { width: 10%;}
+    20% { width: 10%;}
+    50% { width: 40%;}
+    65% { width: 40%;}
+    80% { width: 75%;}
+    85% { width: 65%;}
+    100% { width: 130%;}
+}
+
+#pictochat-top {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    image-rendering: pixelated;
+    top: 0;
+
+    &.hidden {
+        display: none;
+    }
+
+
+}

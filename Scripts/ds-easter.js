@@ -57,6 +57,7 @@ function playWinSFX(name) {
 }
 
 function startGame() {
+    stopPictoChat();
     KartTheme.pause();
     KartTheme.currentTime = 0;
     bowsersInsideTheme.pause();
@@ -217,3 +218,25 @@ dpadDown.addEventListener("click", () => {
     bowsersInsideTheme.volume = 0.2;
     bowsersInsideTheme.play();
 });
+
+
+const btnX = document.querySelector(".x-button");
+const btnY = document.querySelector(".y-button");
+
+const pictoTop = document.getElementById("pictochat-top");
+const pictoLoading = document.getElementById("pictochat-loading");
+
+btnX.addEventListener("click", startPictoChat);
+btnY.addEventListener("click", stopPictoChat);
+
+function startPictoChat() {
+    stopGame();
+
+    pictoTop.classList.remove("hidden");
+    pictoLoading.classList.remove("hidden");
+}
+
+function stopPictoChat() {
+    pictoTop.classList.add("hidden");
+    pictoLoading.classList.add("hidden");
+}

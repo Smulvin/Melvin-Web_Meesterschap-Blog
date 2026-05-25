@@ -597,6 +597,13 @@ Bowsers Inside Story: https://www.youtube.com/watch?v=Ckxy-i7Dc5U <br>
 Mario Jump: https://www.youtube.com/watch?v=37-paiEz0mQ <br>
 Duck Hit: https://sounds.spriters-resource.com/nes/duckhunt/asset/397761/ <br>
 
+
+### Maandag 25 - 5 -2026
+
+#### Bronnenlijst
+Assets <br>
+https://freeavmhzwr.click/product_tag/46272586_.html
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
@@ -643,8 +650,8 @@ Duck Hit: https://sounds.spriters-resource.com/nes/duckhunt/asset/397761/ <br>
 * Dpad-left: Vorige slide
 * Dpad-right: Volgende slide
 * Dpad-down: Bowser Inside Story Theme
-* X:
-* Y:
+* X: Start PicoChat
+* Y: Stop PictoChat
 * A: Start wanted minigame
 * B: Stop wanted minigame
 * Start: Gihtub
