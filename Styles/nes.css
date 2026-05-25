@@ -477,6 +477,59 @@ hr {
     }
 }
 
+.nes-popup {
+    border: 1rem solid rgb(122, 69, 9);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.crt-screen {
+    width: min(600px, 90vw);
+    background: #111;
+    border: 0.5rem solid #292929;
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+        0 0 30px rgba(0,0,0,0.8),
+        inset 0 0 40px rgba(0,255,100,0.05);
+}
+
+/* scanlines */
+.crt-screen::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(255,255,255,0.03),
+        rgba(255,255,255,0.03) 2px,
+        transparent 2px,
+        transparent 4px
+    );
+}
+
+/* slight flicker */
+.crt-screen::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,255,120,0.03);
+    animation: flicker 0.15s infinite;
+}
+
+@keyframes flicker {
+    0% { opacity: 0.9; }
+    50% { opacity: 1; }
+    100% { opacity: 0.85; }
+}
+
+.crt-content {
+    position: relative;
+    padding: 2rem;
+    color: #b6ffb6;
+    font-family: monospace;
+}
+
 /* Mario Easter Egg */
 .nes-mario {
     position: absolute;

@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const plusButton = document.getElementById("btn-plus");
 const minusButton = document.getElementById("btn-minus");
-const controller = document.querySelector(".wii-controller");
+const controller = document.getElementById("sports-wrapper");
 
 // Audio (replace with your own Wii Sports sound)
 const wiiSportsTheme = new Audio("../Assets/SFX/theme-wiisports.mp3");
@@ -64,6 +64,8 @@ plusButton.addEventListener("click", () => {
 
     // audio
     wiiSportsTheme.currentTime = 0;
+    wiiSportsTheme.volume = 0.3;
+    wiiSportsTheme.loop = true;
     wiiSportsTheme.play();
 });
 

@@ -143,3 +143,8 @@ footer {
 .footer-open {
     bottom: 0;
 }
+
+[popover] {
+    position: fixed;
+    margin: auto;
+}
