@@ -589,12 +589,12 @@
 
 /* moving fill */
 .loading-fill {
-    width: 40%;
+    width: 130%;
     height: 100%;
     background: #3d8bfd;
     position: absolute;
     left: 0; 
-    animation: fakeLoad 20s linear infinite;
+    animation: fakeLoad 20s linear;
 }
 
 @keyframes fakeLoad {
