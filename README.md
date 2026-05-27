@@ -599,12 +599,6 @@ Duck Hit: https://sounds.spriters-resource.com/nes/duckhunt/asset/397761/ <br>
 
 
 ### Maandag 25 - 5 -2026
-wii responsive, sports animation smooth
-Pictochat
-3DS muziek
-Switch music
-Switch 2 music
-
 Vandaag weer verchillende dingen gedaan. Zo was ik begonnen met mijn DS controller afmaken door er nog een easter egg aan toe te voegen. Maar alles dat ik kon bedenken zou al snel te veel werk zijn of wist ik niet zeker of het zou gaan lukken. En die tijd wilde ik er op dit moment niet meer echt aan besteden, want er zit al heel veel uur in deze website. Dus bedacht ik om gewoon alleen het laadscherm van iets te doen. Ik koos hier voor pictochat. Hiervoor heb ik dus alleen een laadscherm ontworpen die blijft hangen op 130%. Ook heb ik de wii controller nu beter responsive gemaakt en heb ik er ook voor gezorgd dat de transitie voor de wii sports easter egg soepeler verloopt als de controller horizontaal ligt. De styling voor de NES en Wii pop-ups heb ik ook vandaag gedaan. Deze wilde ik namelijk in de stijl van een oud en een nieuw beeldscherm. Deze zouden nog wel beter kunnen, maar voor nu ben ik er tevreden mee.
 
 Voor een paar simpele en snelle easter eggs heb ik muziekstuken toegevoegd aan de 3DS, Switch en Switch 2. Hiervoor kon ik veel dezelfde code steeds gebruiken dus ging het vrij snel. Het langste was nog het bedenken welke nummers ik steeds wilde gaan gebruiken. Voor de switch 2 heb ik nu ook toegevoegd dat je de controller van kleur kan veranderen. Maar omdat deze controller nog vrij nieuw is, zijn er nog niet heel veel varianten van.
