@@ -616,6 +616,15 @@ Comet Observatory Theme: https://www.youtube.com/watch?v=wBhzmys2-eU&list=RDwBhz
 Mario 3D land theme: https://www.youtube.com/watch?v=elpT7gEgffQ&list=PLESFnlO3kNnqPB453OFSGS5AkfhBmcr7t&index=2 <br>
 XY Gym leader: https://www.youtube.com/watch?v=zQzl9_ja99s <br>
 
+### Donderdag 28 - 5 - 2026
+Vandaag heb ik niet heel veel gedaan, ik heb elke knop voor de weekly nerds die ik nog niet had aangemaakt en heb aan elke een plaatje toegevoegd, Die van The Web You Want waren een beetje lastiger om te verzamelen. Dus moest ik soms een beetje aanpassen in Figma. 
+
+#### Bronnenlijst
+Q42: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK8N0z2bF8Pxj1dg3aH7BkH8n_XXeyXSORuA&s <br>
+Hans de Zwart: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMAeFFQvga2evdh4uIlxG3RL7xyTARK-UtRg&s <br>
+De Voorhoede: https://media.licdn.com/dms/image/v2/C4E0BAQHrYZpRfCbNzw/company-logo_200_200/company-logo_200_200/0/1658139463799/de_voorhoede_logo?e=2147483647&v=beta&t=UreH-hnOSFK_7F1WMRk-d55UiEmYZFnw-7HAGy6pdEw <br>
+The Web You Want: https://the-web-you-want.org/
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
