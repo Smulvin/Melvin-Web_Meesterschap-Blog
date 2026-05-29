@@ -378,55 +378,18 @@
             }
 
             .dpad {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(3, 1fr);
                 width: 120px;
-                aspect-ratio: 1;
 
                 button {
-                    aspect-ratio: 1;
-                    border: none;
                     background: var(--color-button);
-                    padding: 0.5rem;
-                }
-
-                #dpad-up {
-                    grid-area: 1 / 2;
-                    border-radius: 5px 5px 0 0;
-                }
-
-                #dpad-left {
-                    grid-area: 2 / 1;
-                    border-radius: 5px 0 0 5px;
                 }
 
                 div {
-                    grid-column: 2;
-                    grid-row: 2;
                     background: var(--color-button);
-                }
-
-                #dpad-right {
-                    grid-area: 2 / 3;
-                    border-radius: 0 5px 5px 0;
-
-                }
-
-                #dpad-down {
-                    grid-area: 3 / 2;
-                    border-radius: 0 0 5px 5px;
                 }
 
                 hr {
                     border: 2px solid var(--color-joystick);
-                }
-
-                #dpad-up,
-                #dpad-down {
-                    hr {
-                        rotate: 90deg;
-                    }
                 }
             }
 

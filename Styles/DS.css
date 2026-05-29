@@ -258,55 +258,18 @@
 
 
         .dpad {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 1fr);
             width: 150px;
-            aspect-ratio: 1;
 
             button {
-                aspect-ratio: 1;
-                border: none;
                 background: black;
-                padding: 0.5rem;
-            }
-
-            #dpad-up {
-                grid-area: 1 / 2;
-                border-radius: 5px 5px 0 0;
-            }
-
-            #dpad-left {
-                grid-area: 2 / 1;
-                border-radius: 5px 0 0 5px;
             }
 
             div {
-                grid-column: 2;
-                grid-row: 2;
                 background: black;
-            }
-
-            #dpad-right {
-                grid-area: 2 / 3;
-                border-radius: 0 5px 5px 0;
-
-            }
-
-            #dpad-down {
-                grid-area: 3 / 2;
-                border-radius: 0 0 5px 5px;
             }
 
             hr {
                 border: 3px solid var(--ds-color-secondary);
-            }
-
-            #dpad-up,
-            #dpad-down {
-                hr {
-                    rotate: 90deg;
-                }
             }
         }
 
@@ -593,19 +556,42 @@
     height: 100%;
     background: #3d8bfd;
     position: absolute;
-    left: 0; 
+    left: 0;
     animation: fakeLoad 20s linear;
 }
 
 @keyframes fakeLoad {
-    0% { width: 0;}
-    10% { width: 10%;}
-    20% { width: 10%;}
-    50% { width: 40%;}
-    65% { width: 40%;}
-    80% { width: 75%;}
-    85% { width: 65%;}
-    100% { width: 130%;}
+    0% {
+        width: 0;
+    }
+
+    10% {
+        width: 10%;
+    }
+
+    20% {
+        width: 10%;
+    }
+
+    50% {
+        width: 40%;
+    }
+
+    65% {
+        width: 40%;
+    }
+
+    80% {
+        width: 75%;
+    }
+
+    85% {
+        width: 65%;
+    }
+
+    100% {
+        width: 130%;
+    }
 }
 
 #pictochat-top {

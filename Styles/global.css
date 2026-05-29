@@ -28,7 +28,7 @@
     font-weight: normal;
     font-style: normal;
 }
-    
+
 /* Source: https://fonts.google.com/specimen/Press+Start+2P */
 @font-face {
     font-family: "Pixel-Font";
@@ -63,7 +63,7 @@ footer {
     transform: translateX(-50%);
     border-radius: 2rem 2rem 0 0;
     display: flex;
-    gap: 10px;  
+    gap: 10px;
     transition: bottom 0.3s ease, transform 0.3s ease, background 0.3s ease;
     z-index: 1000;
 
@@ -151,4 +151,50 @@ footer {
 
 .hidden {
     display: none;
+}
+
+.dpad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    aspect-ratio: 1;
+
+    button {
+        aspect-ratio: 1;
+        border: none;
+        padding: 0.5rem;
+    }
+
+    #dpad-up {
+        grid-area: 1 / 2;
+        border-radius: 5px 5px 0 0;
+    }
+
+    #dpad-left {
+        grid-area: 2 / 1;
+        border-radius: 5px 0 0 5px;
+    }
+
+    div {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #dpad-right {
+        grid-area: 2 / 3;
+        border-radius: 0 5px 5px 0;
+
+    }
+
+    #dpad-down {
+        grid-area: 3 / 2;
+        border-radius: 0 0 5px 5px;
+    }
+
+    #dpad-up,
+    #dpad-down {
+        hr {
+            rotate: 90deg;
+        }
+    }
 }

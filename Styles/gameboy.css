@@ -202,16 +202,10 @@
         margin-top: 7rem;
         position: relative;
 
-        .gameboy-dpad {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 1fr);
+        .dpad {
             width: 150px;
-            aspect-ratio: 1;
 
             button {
-                aspect-ratio: 1;
-                border: none;
                 background: var(--gameboy-black);
                 color: black;
 
@@ -221,29 +215,9 @@
                 }
             }
 
-            #dpad-up {
-                grid-area: 1 / 2 / 2 / 3;
-                border-radius: 10px 10px 0 0;
-            }
-
-            #dpad-down {
-                grid-area: 3 / 2 / 4 / 3;
-                border-radius: 0 0 10px 10px;
-            }
-
             div {
-                grid-area: 2 / 2 / 3 / 3;
                 background: var(--gameboy-black);
-            };
-
-            #dpad-left {
-                grid-area: 2 / 1 / 3 / 2;
-                border-radius: 10px 0 0 10px;
-            }
-
-            #dpad-right {
-                grid-area: 2 / 3 / 3 / 4;
-                border-radius: 0 10px 10px 0;
+                border: none;
             }
         }
 
