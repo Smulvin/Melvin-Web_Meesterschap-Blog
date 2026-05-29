@@ -628,6 +628,9 @@ The Web You Want: https://the-web-you-want.org/
 ### Vrijdag 29 - 5 - 2026
 Tekst van college Hans
 
+#### Bronnenlijst
+Repair Cafe: https://www.repaircafe.org/wp-content/uploads/2019/10/RC_socialmedia_19-scaled.jpg
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
