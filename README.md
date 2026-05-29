@@ -248,7 +248,7 @@ DS: https://nl.wikipedia.org/wiki/Bestand:Nintendo_DS_logo.png <br>
 Switch: https://brandlogos.net/nintendo-switch-logo-vector-91545.html <br>
 Switch 2: https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_Red_Logo.svg <br>
 
-### Dinsdag 19 - 5 - 2025
+### Dinsdag 19 - 5 - 2026
 Vandaag ben ik begonnen met het beter maken van mijn footer, het was namelijk niet duidelijk dat het uberhaupt bestond en zou ook niet werken op een mobiel formaat. Dus heb ik een losse knop gemaakt die de footer in en uit klapt. Ook heb gewerkt aan de styling van verschillende controller. Ik heb geprobeerd die van beide switches op elkaar te laten lijken en ook die van beide DS controllers.
 
 <img src="Assets/README_imgs/Algemeen/Footer_Knop.png">
@@ -624,6 +624,9 @@ Q42: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK8N0z2bF8Pxj1dg3aH7B
 Hans de Zwart: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMAeFFQvga2evdh4uIlxG3RL7xyTARK-UtRg&s <br>
 De Voorhoede: https://media.licdn.com/dms/image/v2/C4E0BAQHrYZpRfCbNzw/company-logo_200_200/company-logo_200_200/0/1658139463799/de_voorhoede_logo?e=2147483647&v=beta&t=UreH-hnOSFK_7F1WMRk-d55UiEmYZFnw-7HAGy6pdEw <br>
 The Web You Want: https://the-web-you-want.org/
+
+### Vrijdag 29 - 5 - 2026
+Tekst van college Hans
 
 ### Button functionaliteiten lijst
 #### NES
