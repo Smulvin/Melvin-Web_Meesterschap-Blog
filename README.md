@@ -626,10 +626,14 @@ De Voorhoede: https://media.licdn.com/dms/image/v2/C4E0BAQHrYZpRfCbNzw/company-l
 The Web You Want: https://the-web-you-want.org/
 
 ### Vrijdag 29 - 5 - 2026
-Tekst van college Hans
+In de ochtend begonnen met het toevoegen van de tekst van nerd Hans en een icoontje toegevoegd van het cafe van Rosa, aangezien ik van Rosa zelf niet echt een goede afbeelding kon vinden. Later op de dag heb ik nog een easter egg toegevoegd aan de 3DS. Origineel had ik als gedachte dat er allemaal coins naar beneden zouden vallen op beide scheremn en dat je die dan op kon pakken door rond te springen op het onderste scherm. Maar om het iets minder ambitieus te maken, heb ik het alleen als een overlay gehouden.
 
 #### Bronnenlijst
-Repair Cafe: https://www.repaircafe.org/wp-content/uploads/2019/10/RC_socialmedia_19-scaled.jpg
+Repair Cafe: https://www.repaircafe.org/wp-content/uploads/2019/10/RC_socialmedia_19-scaled.jpg <br>
+Mario Coin: https://www.pngitem.com/middle/owJmTx_super-mario-wiki-the-mario-encyclopedia-super-mario/ <br>
+
+SFX <br>
+Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7wpZo3ki90NheJPC1Tm0Qr7L&index=60
 
 ### Button functionaliteiten lijst
 #### NES
@@ -692,8 +696,8 @@ Repair Cafe: https://www.repaircafe.org/wp-content/uploads/2019/10/RC_socialmedi
 * Dpad-down: Pokemon XY Gym Leader theme
 * Home:
 * C-stick:
-* X:
-* Y:
+* X: Start SMB2 Coins
+* Y: Stop SMB2 Coins
 * A:
 * B:
 * Start: Github
