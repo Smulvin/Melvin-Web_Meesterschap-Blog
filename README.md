@@ -644,6 +644,11 @@ README aanvullen
 
 #### Bronnenlijst
 Unown font: https://fontmeme.com/fonts/unown-font/ <br>
+Grub: https://www.spriters-resource.com/media/asset_icons/130/133162.png <br>
+Flea: https://cdn.wikimg.net/en/hkwiki/images/8/82/B_Huge_Flea.png <br
+Sleeping Sans: https://media.tenor.com/A5Et7O9VOAoAAAAM/sleeping-standing-napping.gif <br>
+Undertale Heart: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Undertale_red_soul.svg/960px-Undertale_red_soul.svg.png?_=20230820210939 <br>
+Undertale Font: https://fonts2u.com/mars-needs-cunnilingus.font <br>
 
 SFX: <br>
 Kart Boost: https://sounds.spriters-resource.com/3ds/mariokart7/asset/434418/<br>
@@ -652,8 +657,9 @@ God of War Boy: https://www.youtube.com/watch?v=op3CL81u2mY <br>
 Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/ <br>
 Flea SFX: https://www.myinstants.com/en/instant/flea-awoo-79678/ <br>
 Grub SFX: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <br>
-Grub: https://www.spriters-resource.com/media/asset_icons/130/133162.png <br>
-Flea: https://cdn.wikimg.net/en/hkwiki/images/8/82/B_Huge_Flea.png <br>
+Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ&t=53s <br>
+
+
 
 ### Button functionaliteiten lijst
 #### NES
@@ -803,6 +809,8 @@ Pictochat: https://freeavmhzwr.click/product_tag/46272586_.html <br>
 Mario Coin: https://www.pngitem.com/middle/owJmTx_super-mario-wiki-the-mario-encyclopedia-super-mario/ <br>
 Grub: https://www.spriters-resource.com/media/asset_icons/130/133162.png <br>
 Flea: https://cdn.wikimg.net/en/hkwiki/images/8/82/B_Huge_Flea.png <br>
+Sleeping Sans: https://media.tenor.com/A5Et7O9VOAoAAAAM/sleeping-standing-napping.gif <br>
+Undertale Heart: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Undertale_red_soul.svg/960px-Undertale_red_soul.svg.png?_=20230820210939 <br>
 
 ### Assets - SFX
 Mario 1-Up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&t=3s<br>
@@ -831,7 +839,8 @@ Muziek DK Rap: https://www.youtube.com/watch?v=rWSgsbWiX_g&list=RDrWSgsbWiX_g&st
 Muziek Comet Observatory: https://www.youtube.com/watch?v=wBhzmys2-eU&list=RDwBhzmys2-eU&start_radio=1 <br>
 Muziek Mario 3D Land: https://www.youtube.com/watch?v=elpT7gEgffQ&list=PLESFnlO3kNnqPB453OFSGS5AkfhBmcr7t&index=2 <br>
 Muziek GymLeader XY: https://www.youtube.com/watch?v=zQzl9_ja99s <br>
-Muziek Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7wpZo3ki90NheJPC1Tm0Qr7L&index=60
+Muziek Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7wpZo3ki90NheJPC1Tm0Qr7L&index=60 <br>
+Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ&t=53s <br>
 
 ### Assets - Fonts
 NES-Font: https://font.download/font/nes-controller <br>
@@ -840,6 +849,7 @@ Unown font: https://fontmeme.com/fonts/unown-font/ <br>
 Jost: https://fonts.google.com/specimen/Jost <br>
 PressStart2P: https://fonts.google.com/specimen/Press+Start+2P <br>
 Wii Font: https://famfonts.com/wii/ <br>
+Undertale Font: https://fonts2u.com/mars-needs-cunnilingus.font <br>
 
 
 ### Overig

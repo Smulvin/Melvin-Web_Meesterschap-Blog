@@ -231,6 +231,7 @@
         padding: 1rem;
 
         .content {
+            position: relative;
             width: 100%;
             height: 100%;
             padding: 3rem;
@@ -396,4 +397,152 @@
     left: 0;
     top: 0;
     transform-origin: center;
+}
+
+
+/* Source: https://fonts2u.com/mars-needs-cunnilingus.font */
+@font-face {
+    font-family: "Undertale";
+    src: url("../Assets/fonts/Undertale-Font.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#undertale-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Undertale";
+    gap: 2rem;
+
+    &.hidden {
+        display: none;
+    }
+
+    .sans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        scale: 1.2;
+        position: relative;
+
+        #sans-head {
+            margin-bottom: -0.5rem;
+            animation: headBob 5s ease-in-out infinite;
+        }
+
+        .sleep-zs {
+            position: absolute;
+            top: 0;
+            right: 1rem;
+
+            span {
+                position: absolute;
+                font-family: monospace;
+                font-weight: bold;
+                color: white;
+                text-shadow: 2px 2px 0 black;
+                opacity: 0;
+
+                animation: sansSleep 2.5s infinite;
+
+                &:nth-child(1) {
+                    font-size: 20px;
+                    animation-delay: 0s;
+                }
+                &:nth-child(2) {
+                    font-size: 26px;
+                    animation-delay: 0.8s;
+                }
+                &:nth-child(3) {
+                    font-size: 34px;
+                    animation-delay: 1.6s;
+                }
+            }
+        }
+    }
+
+    .arena {
+        width: 15rem;
+        aspect-ratio: 1;
+        background: black;
+        border: 5px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .battle-info {
+        display: flex;
+        gap: 2rem;
+        font-size: 2.7rem;
+
+        >div {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            p:first-of-type, span {
+                font-size: 2rem;
+                margin-right: 1rem;
+            }
+
+            progress {
+                width: 10rem;
+                height: 2rem;
+                border-radius: 0;
+            }
+
+            progress::-webkit-progress-bar {
+                background-color: #c30000;
+            }
+
+            progress::-webkit-progress-value {
+                background-color: #ffff00;
+            }
+        }
+
+    }
+}
+
+@keyframes headBob {
+    0% {
+        transform: translateY(0);
+    }
+
+    33% {
+        transform: translateY(5px);
+    }
+
+    66% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes sansSleep {
+    0% {
+        transform: translate(0, 0) scale(0.8);
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(30px, -30px) scale(1.5);
+        opacity: 0;
+    }
 }

@@ -281,3 +281,26 @@ function animate() {
 }
 
 animate();
+
+
+/* *************** */
+/* Sans Easter Egg */
+/* *************** */
+const xBtn = document.getElementById("btn-x");
+const yBtn = document.getElementById("btn-y");
+const undertaleOverlay = document.getElementById("undertale-overlay");
+const megalovania = new Audio("../Assets/SFX/theme-megalovania.mp3");
+megalovania.loop = true;
+megalovania.volume = 0.3;
+
+
+xBtn.addEventListener("click", () => {
+    undertaleOverlay.classList.remove("hidden");
+    megalovania.play();
+});
+
+yBtn.addEventListener("click", () => {
+    undertaleOverlay.classList.add("hidden");
+    megalovania.pause();
+    megalovania.currentTime = 0;
+});
