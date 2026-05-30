@@ -637,6 +637,12 @@ Mario Coin: https://www.pngitem.com/middle/owJmTx_super-mario-wiki-the-mario-enc
 SFX <br>
 Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7wpZo3ki90NheJPC1Tm0Qr7L&index=60
 
+### Zaterdag 30 - 5 - 2026
+Unown font voor 3ds
+
+#### Bronnenlijst
+Unown font: https://fontmeme.com/fonts/unown-font/
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
@@ -700,8 +706,8 @@ Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7
 * C-stick:
 * X: Start SMB2 Coins
 * Y: Stop SMB2 Coins
-* A:
-* B:
+* A: Start Unown Font
+* B: Stop Unown Font
 * Start: Github
 * Select: Website
 * Volume-slider:

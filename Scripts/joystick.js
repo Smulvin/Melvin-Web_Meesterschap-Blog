@@ -1,4 +1,3 @@
-console.log('Joystick script loaded');
 document.querySelectorAll('.joystick').forEach(joystick => {
     const stick = joystick.querySelector('.stick');
 

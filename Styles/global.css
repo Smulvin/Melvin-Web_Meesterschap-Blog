@@ -37,6 +37,12 @@
     font-style: normal;
 }
 
+/* Source https://fontmeme.com/fonts/unown-font/ */
+@font-face {
+    font-family: "Unown";
+    src: url("../Assets/fonts/Unown.ttf") format("truetype");
+}
+
 * {
     padding: 0;
     margin: 0;
