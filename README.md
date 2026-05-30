@@ -639,9 +639,17 @@ Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7
 
 ### Zaterdag 30 - 5 - 2026
 Unown font voor 3ds
+Mario kart effect
+README aanvullen
 
 #### Bronnenlijst
-Unown font: https://fontmeme.com/fonts/unown-font/
+Unown font: https://fontmeme.com/fonts/unown-font/ <br>
+
+SFX: <br>
+Kart Boost: https://sounds.spriters-resource.com/3ds/mariokart7/asset/434418/<br>
+Git gud: https://www.myinstants.com/en/instant/hornet-git-gud-69613/
+God of War Boy: https://www.youtube.com/watch?v=op3CL81u2mY
+Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/
 
 ### Button functionaliteiten lijst
 #### NES
@@ -697,7 +705,7 @@ Unown font: https://fontmeme.com/fonts/unown-font/
 * Select: Website
 
 #### 3DS
-* Joystick:
+* Joystick: Mario Kart Boost
 * Dpad-up: Mario 3D land theme
 * Dpad-left: Vorige slide
 * Dpad-right: Volgende slide
@@ -745,3 +753,88 @@ Unown font: https://fontmeme.com/fonts/unown-font/
 * Right joystick:
 * Home:
 * Online:
+
+## Volledige Bronnenlijst
+### Info
+NES Dimensies: https://www.dimensions.com/element/nes-controller <br>
+3DS Dimensies: https://www.dimensions.com/element/new-nintendo-3ds <br>
+DS DImensies: https://www.dimensions.com/element/nintendo-ds-lite <br>
+GameBoy Dimensies: https://www.dimensions.com/element/game-boy <br>
+Game and Watch Dimensies: https://game-watch.fandom.com/wiki/Parachute <br>
+Switch Dimensies: https://www.dimensions.com/element/nintendo-switch <br>
+Switch 2 Dimensies: https://www.nintendo.com/nl-nl/Hardware/Nintendo-Switch-2/Nintendo-Switch-2-Specificaties-2785627.html?srsltid=AfmBOoqZBPBSjOMNFwO9OwzFyUoCPXfzVXbFAFblwaFuebyZJF2gZzQ3 <br>
+Wii Dimensies: https://www.dimensions.com/element/wii-remote <br>
+Kleuren Switch: https://encrypted-tbn3.gstatic.com/shoppingq=tbn:ANd9GcTYwY-w_I479WtU86ChXSwaWMJ_rT2GSUoILEcc6AADpwJnBXPFzl10Ckr4oc5XBoAs4j8agIUVv_HNU3zlHvDFhvo9sfnIk593Xn4JsS36Bltfv0zy9YRXKMVtKxAWB337klS9i0zNhOM&usqp=CAc <br>
+Kleuren Switch 2: https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/nintendo_switch2_joycons1.jpg?quality=90&strip=all&crop=16.658266129032,0,66.683467741935,100 <br>
+Audacity Reverse: https://manual.audacityteam.org/man/reverse.html
+
+### Assets - Images
+Logo NES: https://seeklogo.com/vector-logo/312569/nintendo-entertainment-system <br>
+Logo Game&Watch: https://commons.wikimedia.org/wiki/File:Game_and_watch_logo.svg <br>
+Logo GameBoy: https://commons.wikimedia.org/wiki/File:Nintendo_Game_Boy_Logo.svg <br>
+Logo Wii: https://nl.wikipedia.org/wiki/Bestand:Wii_logo.png <br>
+Logo DS: https://nl.wikipedia.org/wiki/Bestand:Nintendo_DS_logo.png <br>
+Logo 3DS: https://commons.wikimedia.org/wiki/File:3ds_logo.svg <br>
+Logo Switch: https://brandlogos.net/nintendo-switch-logo-vector-91545.html <br>
+Logo Switch 2: https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_Red_Logo.svg <br>
+
+Kilian Valkhof: https://webdirections.org/hover/speakers/kilian-valkhof.php <br>
+Peter Paul Koch: https://www.quirksmode.org/about/ <br>
+Nils Binder: https://9elements.com/blog/author/nils-binder/ <br>
+Robbert Broersma: https://www.linkedin.com/in/robbertbroersma/ <br>
+Yolijn van der Kolk: https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/ <br>
+Johan Huijkman: https://media.licdn.com/dms/image/v2/D4E03AQGNr6TCw7ccgQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1666277475310?e=2147483647&v=beta&t=dUOV--XMVKsf4fcZTzu--HOp_-YPIOLEgOxjFwOdD6U <br>
+Q42: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK8N0z2bF8Pxj1dg3aH7BkH8n_XXeyXSORuA&s <br>
+Hans de Zwart: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMAeFFQvga2evdh4uIlxG3RL7xyTARK-UtRg&s <br>
+De Voorhoede: https://media.licdn.com/dms/image/v2/C4E0BAQHrYZpRfCbNzw/company-logo_200_200/company-logo_200_200/0/1658139463799/de_voorhoede_logo?e=2147483647&v=beta&t=UreH-hnOSFK_7F1WMRk-d55UiEmYZFnw-7HAGy6pdEw <br>
+The Web You Want: https://the-web-you-want.org/ <br>
+Repair Cafe: https://www.repaircafe.org/wp-content/uploads/2019/10/RC_socialmedia_19-scaled.jpg <br>
+General foto: https://www.pinterest.com/pin/pfps--26247610322356687/ <br>
+Leerdoelen: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F<br>
+Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F<br>
+
+Mario Wanted Minigame: https://www.spriters-resource.com/ds_dsi/supermario64ds/asset/6856/ <br>
+Super Mario Bros Spritesheet: https://www.deviantart.com/marioandme64/art/THE-COMPLETE-SUPER-MARIO-BROS-1-MARIO-SPRITE-RIG-1171963856 <br>
+Pictochat: https://freeavmhzwr.click/product_tag/46272586_.html <br>
+Mario Coin: https://www.pngitem.com/middle/owJmTx_super-mario-wiki-the-mario-encyclopedia-super-mario/ <br>
+
+
+### Assets - SFX
+Mario 1-Up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&t=3s<br>
+Kirby Suck: https://www.youtube.com/watch?v=9wOgtUvZ9xc<br>
+Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4<br>
+Mario Shake: https://www.youtube.com/watch?v=P1gJJqYXpTc <br>
+Wii startup: https://www.youtube.com/watch?v=x1FM5uM_998 <br>
+Mario Wanted SFX: https://sounds.spriters-resource.com/ds_dsi/supermario64ds/asset/519578/ <br>
+Mario Jump: https://www.youtube.com/watch?v=37-paiEz0mQ <br>
+Duck Hit: https://sounds.spriters-resource.com/nes/duckhunt/asset/397761/ <br>
+Kart Boost: https://sounds.spriters-resource.com/3ds/mariokart7/asset/434418/<br>
+Git gud: https://www.myinstants.com/en/instant/hornet-git-gud-69613/ <br>
+God of War Boy: https://www.youtube.com/watch?v=op3CL81u2mY <br>
+Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/ <br>
+
+Muziek Tetris: https://www.youtube.com/watch?v=NmCCQxVBfyM <br>
+Muziek Zelda: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2 <br>
+Muziek Wii Sports: https://www.youtube.com/watch?v=2qvAxPqy2wA&list=RD2qvAxPqy2wA&start_radio=1 <br>
+Muziek Mario Wanted: https://www.youtube.com/watch?v=qTrzAk7p2rE <br>
+Muziek Bowsers Inside Story: https://www.youtube.com/watch?v=Ckxy-i7Dc5U <br>
+Muziek GymLeader SWSH: https://www.youtube.com/watch?v=hcV6xVukj60 <br>
+Muziek Jump Up Super Star: https://www.youtube.com/watch?v=e9r5hx47kxM&list=RDe9r5hx47kxM&start_radio=1 <br>
+Muziek DK Rap: https://www.youtube.com/watch?v=rWSgsbWiX_g&list=RDrWSgsbWiX_g&start_radio=1 <br>
+Muziek Comet Observatory: https://www.youtube.com/watch?v=wBhzmys2-eU&list=RDwBhzmys2-eU&start_radio=1 <br>
+Muziek Mario 3D Land: https://www.youtube.com/watch?v=elpT7gEgffQ&list=PLESFnlO3kNnqPB453OFSGS5AkfhBmcr7t&index=2 <br>
+Muziek GymLeader XY: https://www.youtube.com/watch?v=zQzl9_ja99s <br>
+Muziek Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7wpZo3ki90NheJPC1Tm0Qr7L&index=60
+
+### Assets - Fonts
+NES-Font: https://font.download/font/nes-controller <br>
+Nintendo-Font: https://www.fontspace.com/ro-spritendo-font-f83198 <br>
+Unown font: https://fontmeme.com/fonts/unown-font/ <br>
+Jost: https://fonts.google.com/specimen/Jost <br>
+PressStart2P: https://fonts.google.com/specimen/Press+Start+2P <br>
+Wii Font: https://famfonts.com/wii/ <br>
+
+
+### Overig
+FontAwesome: https://fontawesome.com/search?q=arrow&ic=free-collection <br>
+ChatGPT op verschillende momenten, vermeld in README en code <br>

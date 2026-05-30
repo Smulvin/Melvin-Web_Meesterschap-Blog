@@ -91,3 +91,7 @@ dpadDown.addEventListener("click", () => {
     SuperStarTheme.volume = 0.2;
     SuperStarTheme.play();
 });
+
+/* ************************** */
+/* Joy-Stick Drift Easter Egg */
+/* ************************** */

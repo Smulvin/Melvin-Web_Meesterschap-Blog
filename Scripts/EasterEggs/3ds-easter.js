@@ -58,7 +58,7 @@ CoinMusic.loop = true;
 CoinMusic.volume = 0.4;
 
 const coinImg = new Image();
-coinImg.src = "../Assets/Images/3DS/Coin.png";
+coinImg.src = "../Assets/Images/EasterEggs/Coin.png";
 
 // Coin Class
 class Coin {

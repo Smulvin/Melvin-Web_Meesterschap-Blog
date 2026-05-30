@@ -82,10 +82,10 @@ btnA.addEventListener("click", spawnMario);
 const jumpSFX = new Audio("../Assets/SFX/mario-jump.mp3");
 
 // 🖼️ sprites
-const marioRun1 = "../Assets/Images/NES-Easter/mario-run1.png";
-const marioRun2 = "../Assets/Images/NES-Easter/mario-run2.png";
-const marioRun3 = "../Assets/Images/NES-Easter/mario-run3.png";
-const marioJump = "../Assets/Images/NES-Easter/mario-jump.png";
+const marioRun1 = "../Assets/Images/EasterEggs/NES-Easter/mario-run1.png";
+const marioRun2 = "../Assets/Images/EasterEggs/NES-Easter/mario-run2.png";
+const marioRun3 = "../Assets/Images/EasterEggs/NES-Easter/mario-run3.png";
+const marioJump = "../Assets/Images/EasterEggs/NES-Easter/mario-jump.png";
 
 let activeMario = false;
 
@@ -166,7 +166,7 @@ function spawnMario() {
 
 const btnB = document.getElementById("nes-controller-b");
 const birdSFX = new Audio("../Assets/SFX/duck-hit.wav");
-const birdImg = "../Assets/Images/NES-Easter/falling-duck.png";
+const birdImg = "../Assets/Images/EasterEggs/NES-Easter/falling-duck.png";
 
 btnB.addEventListener("click", spawnBird);
 

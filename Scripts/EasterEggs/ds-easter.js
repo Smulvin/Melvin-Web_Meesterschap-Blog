@@ -14,23 +14,23 @@ wantedTheme.loop = true;
 const characters = [
     {
         name: "mario",
-        head: "../Assets/Images/FindLuigi/Mario-Head.png",
-        icon: "../Assets/Images/FindLuigi/Mario-icon.png"
+        head: "../Assets/Images/EasterEggs/FindLuigi/Mario-Head.png",
+        icon: "../Assets/Images/EasterEggs/FindLuigi/Mario-icon.png"
     },
     {
         name: "luigi",
-        head: "../Assets/Images/FindLuigi/Luigi-Head.png",
-        icon: "../Assets/Images/FindLuigi/Luigi-icon.png"
+        head: "../Assets/Images/EasterEggs/FindLuigi/Luigi-Head.png",
+        icon: "../Assets/Images/EasterEggs/FindLuigi/Luigi-icon.png"
     },
     {
         name: "wario",
-        head: "../Assets/Images/FindLuigi/Wario-Head.png",
-        icon: "../Assets/Images/FindLuigi/Wario-icon.png"
+        head: "../Assets/Images/EasterEggs/FindLuigi/Wario-Head.png",
+        icon: "../Assets/Images/EasterEggs/FindLuigi/Wario-icon.png"
     },
     {
         name: "yoshi",
-        head: "../Assets/Images/FindLuigi/Yoshi-Head.png",
-        icon: "../Assets/Images/FindLuigi/Yoshi-icon.png"
+        head: "../Assets/Images/EasterEggs/FindLuigi/Yoshi-Head.png",
+        icon: "../Assets/Images/EasterEggs/FindLuigi/Yoshi-icon.png"
     }
 ];
 

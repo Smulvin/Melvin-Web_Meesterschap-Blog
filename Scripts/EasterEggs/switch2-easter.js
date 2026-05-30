@@ -1,3 +1,7 @@
+/* **************** */
+/* Color Easter Egg */
+/* **************** */
+
 let leftJoyStick = document.getElementById("stick-left");
 let rightJoyStick = document.getElementById("stick-right");
 
@@ -33,8 +37,9 @@ plusBtn.addEventListener("click", () => {
 
 
 
-
-
+/* **************** */
+/* Music Easter Egg */
+/* **************** */
 // Themes: Gym Leader and Jump Up Super Start
 const dpadUp = document.getElementById("btn-up");
 const dpadDown = document.getElementById("btn-down");
@@ -69,4 +74,31 @@ dpadDown.addEventListener("click", () => {
     // play CometObservatoryTheme music
     CometObservatoryTheme.volume = 0.6;
     CometObservatoryTheme.play();
+});
+
+/* ************** */
+/* SFX Easter Egg */
+/* ************** */
+
+const homeButton = document.getElementById("btn-home");
+const screenshotButton = document.getElementById("btn-screenshot");
+const onlineButton = document.getElementById("btn-online");
+
+const homeSFX = new Audio("../Assets/SFX/gitgud.mp3");
+const screenshotSFX = new Audio("../Assets/SFX/GOW-Boy.mp3");
+const onlineSFX = new Audio("../Assets/SFX/sigma.mp3");
+
+homeButton.addEventListener("click", () => {
+    homeSFX.volume = 0.5;
+    homeSFX.play();
+});
+
+screenshotButton.addEventListener("click", () => {
+    screenshotSFX.volume = 0.5;
+    screenshotSFX.play();
+});
+
+onlineButton.addEventListener("click", () => {
+    onlineSFX.volume = 0.5;
+    onlineSFX.play();
 });
