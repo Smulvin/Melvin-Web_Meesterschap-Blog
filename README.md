@@ -647,9 +647,13 @@ Unown font: https://fontmeme.com/fonts/unown-font/ <br>
 
 SFX: <br>
 Kart Boost: https://sounds.spriters-resource.com/3ds/mariokart7/asset/434418/<br>
-Git gud: https://www.myinstants.com/en/instant/hornet-git-gud-69613/
-God of War Boy: https://www.youtube.com/watch?v=op3CL81u2mY
-Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/
+Git gud: https://www.myinstants.com/en/instant/hornet-git-gud-69613/ <br>
+God of War Boy: https://www.youtube.com/watch?v=op3CL81u2mY <br>
+Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/ <br>
+Flea SFX: https://www.myinstants.com/en/instant/flea-awoo-79678/ <br>
+Grub SFX: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <br>
+Grub: https://www.spriters-resource.com/media/asset_icons/130/133162.png <br>
+Flea: https://cdn.wikimg.net/en/hkwiki/images/8/82/B_Huge_Flea.png <br>
 
 ### Button functionaliteiten lijst
 #### NES
@@ -739,7 +743,7 @@ Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/
 
 #### Switch
 * Minus: Verander kleur linker kant
-* Left-joystick:
+* Left-joystick: Launch Grub
 * Up: DK Rap uit Donkey Kong Bananza
 * Left: Vorige button
 * Right: Volgende button
@@ -750,7 +754,7 @@ Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/
 * Y:
 * A: Selecteer button
 * B: Terug naar buttons vanaf detail
-* Right joystick:
+* Right joystick: Launch Flea
 * Home:
 * Online:
 
@@ -797,7 +801,8 @@ Mario Wanted Minigame: https://www.spriters-resource.com/ds_dsi/supermario64ds/a
 Super Mario Bros Spritesheet: https://www.deviantart.com/marioandme64/art/THE-COMPLETE-SUPER-MARIO-BROS-1-MARIO-SPRITE-RIG-1171963856 <br>
 Pictochat: https://freeavmhzwr.click/product_tag/46272586_.html <br>
 Mario Coin: https://www.pngitem.com/middle/owJmTx_super-mario-wiki-the-mario-encyclopedia-super-mario/ <br>
-
+Grub: https://www.spriters-resource.com/media/asset_icons/130/133162.png <br>
+Flea: https://cdn.wikimg.net/en/hkwiki/images/8/82/B_Huge_Flea.png <br>
 
 ### Assets - SFX
 Mario 1-Up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&t=3s<br>
@@ -812,6 +817,8 @@ Kart Boost: https://sounds.spriters-resource.com/3ds/mariokart7/asset/434418/<br
 Git gud: https://www.myinstants.com/en/instant/hornet-git-gud-69613/ <br>
 God of War Boy: https://www.youtube.com/watch?v=op3CL81u2mY <br>
 Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/ <br>
+Flea: https://www.myinstants.com/en/instant/flea-awoo-79678/ <br>
+Grub: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <br>
 
 Muziek Tetris: https://www.youtube.com/watch?v=NmCCQxVBfyM <br>
 Muziek Zelda: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2 <br>
