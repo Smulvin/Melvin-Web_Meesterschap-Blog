@@ -478,6 +478,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        #heart {
+            width: 2rem;
+            height: auto;
+        }
     }
 
     .battle-info {

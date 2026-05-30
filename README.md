@@ -657,7 +657,7 @@ God of War Boy: https://www.youtube.com/watch?v=op3CL81u2mY <br>
 Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/ <br>
 Flea SFX: https://www.myinstants.com/en/instant/flea-awoo-79678/ <br>
 Grub SFX: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <br>
-Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ&t=53s <br>
+Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ <br>
 
 
 
@@ -840,7 +840,7 @@ Muziek Comet Observatory: https://www.youtube.com/watch?v=wBhzmys2-eU&list=RDwBh
 Muziek Mario 3D Land: https://www.youtube.com/watch?v=elpT7gEgffQ&list=PLESFnlO3kNnqPB453OFSGS5AkfhBmcr7t&index=2 <br>
 Muziek GymLeader XY: https://www.youtube.com/watch?v=zQzl9_ja99s <br>
 Muziek Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7wpZo3ki90NheJPC1Tm0Qr7L&index=60 <br>
-Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ&t=53s <br>
+Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ <br>
 
 ### Assets - Fonts
 NES-Font: https://font.download/font/nes-controller <br>
