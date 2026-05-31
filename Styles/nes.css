@@ -287,6 +287,7 @@ hr {
             corner-shape: notch;
             border-radius: calc(105% / 3.5);
             scale: 110%;
+            pointer-events: none;
         }
 
         button {

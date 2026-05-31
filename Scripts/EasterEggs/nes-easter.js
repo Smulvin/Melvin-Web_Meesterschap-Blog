@@ -1,3 +1,7 @@
+/**********************/
+/* Konami Easter Egg  */
+/**********************/
+
 const konamiCode = [
     "up",
     "up",
@@ -16,10 +20,10 @@ const sound = new Audio("Assets/SFX/SMB-1up.mp3");
 
 // D-pad buttons
 const buttons = {
-    up: document.getElementById("nes-dpad-up"),
-    down: document.getElementById("nes-dpad-down"),
-    left: document.getElementById("nes-dpad-left"),
-    right: document.getElementById("nes-dpad-right")
+    up: document.getElementById("dpad-up"),
+    down: document.getElementById("dpad-down"),
+    left: document.getElementById("dpad-left"),
+    right: document.getElementById("dpad-right")
 };
 
 Object.entries(buttons).forEach(([direction, button]) => {
@@ -66,22 +70,18 @@ function wait(ms) {
 
 
 
-
-
-
-
-
-
-
+/********************/
+/* Mario Easter Egg */
+/********************/
 
 const btnA = document.getElementById("nes-controller-a");
 
 btnA.addEventListener("click", spawnMario);
 
-// 🎵 SFX
+// SFX
 const jumpSFX = new Audio("../Assets/SFX/mario-jump.mp3");
 
-// 🖼️ sprites
+// sprites
 const marioRun1 = "../Assets/Images/EasterEggs/NES-Easter/mario-run1.png";
 const marioRun2 = "../Assets/Images/EasterEggs/NES-Easter/mario-run2.png";
 const marioRun3 = "../Assets/Images/EasterEggs/NES-Easter/mario-run3.png";
@@ -162,7 +162,9 @@ function spawnMario() {
     }, 16);
 }
 
-
+/***********************/
+/* DuckHunt Easter Egg */
+/***********************/
 
 const btnB = document.getElementById("nes-controller-b");
 const birdSFX = new Audio("../Assets/SFX/duck-hit.wav");
