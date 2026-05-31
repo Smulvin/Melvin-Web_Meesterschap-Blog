@@ -104,19 +104,12 @@ onlineButton.addEventListener("click", () => {
     onlineSFX.volume = 0.5;
     onlineSFX.play();
 });
-
-
-
-
-
-
-
-
+    
 
 /* ************************ */
 /* Hollow Knight Easter Egg */
 /* ************************ */
-const container = document.getElementById("flea-container");
+const container = document.getElementById("launch-container");
 
 // sprites
 const flea = document.getElementById("flea");

@@ -93,5 +93,176 @@ dpadDown.addEventListener("click", () => {
 });
 
 /* ************************** */
-/* Joy-Stick Drift Easter Egg */
+/* Zelda BOTW/TOTK Easter Egg */
 /* ************************** */
+const container = document.getElementById("zelda-container");
+
+// sprites
+const arrow = document.getElementById("arrow");
+const korok = document.getElementById("korok");
+
+// joysticks
+const leftJoystick = document.querySelector("#stick-left .stick");
+const rightJoystick = document.querySelector("#stick-right .stick");
+
+// sounds
+const arrowSFX = new Audio("../Assets/SFX/arrow.mp3");
+const korokSFX = new Audio("../Assets/SFX/korok.mp3");
+arrowSFX.volume = 0.5;
+korokSFX.volume = 0.5;
+
+
+const SPEED = 8;
+const DEADZONE = 8;
+const COMMIT_TIME = 80;
+
+/* ENTITY SYSTEM */
+const entities = {
+    arrow: {
+        el: arrow,
+        joystick: leftJoystick,
+        active: false,
+        launched: false,
+        x: 0, y: 0,
+        vx: 0, vy: 0,
+        rotation: 0,
+        holdStart: null,
+        pending: null,
+        sfx: arrowSFX
+    },
+
+    korok: {
+        el: korok,
+        joystick: rightJoystick,
+        active: false,
+        launched: false,
+        x: 0, y: 0,
+        vx: 0, vy: 0,
+        rotation: 0,
+        holdStart: null,
+        pending: null,
+        sfx: korokSFX
+    
+    }
+};
+
+/* JOYSTICK INPUT */
+function getStick(joystick) {
+
+    const transform = getComputedStyle(joystick).transform;
+
+    if (!transform || transform === "none") {
+        return { x: 0, y: 0 };
+    }
+
+    const m = new DOMMatrix(transform);
+
+    return {
+        x: m.m41,
+        y: m.m42
+    };
+}
+
+/* NORMALIZE */
+function normalize(x, y) {
+
+    const mag = Math.hypot(x, y);
+
+    if (mag < DEADZONE) return null;
+
+    return {
+        x: x / mag,
+        y: y / mag
+    };
+}
+
+/* LAUNCH */
+function launch(entity, dir) {
+
+    const bounds = container.getBoundingClientRect();
+
+    entity.sfx.currentTime = 0;
+    entity.sfx.play();
+
+    entity.x = bounds.width / 2;
+    entity.y = bounds.height / 2;
+
+    entity.vx = dir.x * SPEED;
+    entity.vy = dir.y * SPEED;
+
+    entity.rotation = Math.atan2(dir.y, dir.x);
+
+    entity.active = true;
+
+    entity.el.classList.remove("hidden");
+}
+
+/* INPUT HANDLING */
+function updateEntity(entity) {
+
+    const stick = getStick(entity.joystick);
+    const dir = normalize(stick.x, stick.y);
+
+    const isPushing = dir !== null;
+
+    if (!isPushing) {
+        entity.launched = false;
+        entity.holdStart = null;
+        entity.pending = null;
+        return;
+    }
+
+    if (entity.holdStart === null) {
+        entity.holdStart = performance.now();
+        entity.pending = dir;
+        return;
+    }
+
+    entity.pending = dir;
+
+    if (
+        !entity.launched &&
+        performance.now() - entity.holdStart > COMMIT_TIME
+    ) {
+        launch(entity, entity.pending);
+        entity.launched = true;
+    }
+}
+
+/* MOVEMENT */
+function updateMovement(entity) {
+
+    if (!entity.active) return;
+
+    const bounds = container.getBoundingClientRect();
+
+    entity.x += entity.vx;
+    entity.y += entity.vy;
+
+    entity.el.style.transform =
+        `translate(${entity.x}px, ${entity.y}px) rotate(${entity.rotation}rad)`;
+
+    if (
+        entity.x < -100 ||
+        entity.x > bounds.width + 100 ||
+        entity.y < -100 ||
+        entity.y > bounds.height + 100
+    ) {
+        entity.active = false;
+        entity.el.classList.add("hidden");
+    }
+}
+
+/* LOOP */
+function animate() {
+
+    updateEntity(entities.arrow);
+    updateEntity(entities.korok);
+
+    updateMovement(entities.arrow);
+    updateMovement(entities.korok);
+
+    requestAnimationFrame(animate);
+}
+
+animate();

@@ -661,6 +661,14 @@ Flea SFX: https://www.myinstants.com/en/instant/flea-awoo-79678/ <br>
 Grub SFX: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <br>
 Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ <br>
 
+### Zondag 31 - 5 - 2026
+sans fixen
+
+#### Bronnenlijst
+Korok SFX: https://www.youtube.com/watch?v=XMgK_E6_GAE <br>
+Arrow SFX: https://www.zedge.net/notification-sounds/526f323b-7a58-426a-abbe-6408efbcdcfb <br>
+Zelda Korok: https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/TWWHD_Makar_Artwork.png/revision/latest?cb=20130908194215 <br>
+Zelda Arrow: https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/26/TotK_Arrow_Model.png/274px-TotK_Arrow_Model.png <br>
 
 
 ### Button functionaliteiten lijst
@@ -735,7 +743,7 @@ Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ <br>
 
 #### Switch
 * Minus: Verander kleur linker kant
-* Left-joystick:
+* Left-joystick: Launch Arrow
 * Up: Gym Leader Theme
 * Left: Vorige button
 * Right: Volgende button
@@ -746,7 +754,7 @@ Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ <br>
 * Y:
 * A: Selecteer button
 * B: Terug naar buttons vanaf detail
-* Right joystick:
+* Right joystick: Launch Korok
 * Home: Website
 
 #### Switch 2
@@ -781,6 +789,8 @@ Kleuren Switch 2: https://platform.theverge.com/wp-content/uploads/sites/2/2026/
 Audacity Reverse: https://manual.audacityteam.org/man/reverse.html
 
 ### Assets - Images
+Sommige images zijn nog gesneden of verkleind in Figma
+
 Logo NES: https://seeklogo.com/vector-logo/312569/nintendo-entertainment-system <br>
 Logo Game&Watch: https://commons.wikimedia.org/wiki/File:Game_and_watch_logo.svg <br>
 Logo GameBoy: https://commons.wikimedia.org/wiki/File:Nintendo_Game_Boy_Logo.svg <br>
@@ -813,8 +823,13 @@ Grub: https://www.spriters-resource.com/media/asset_icons/130/133162.png <br>
 Flea: https://cdn.wikimg.net/en/hkwiki/images/8/82/B_Huge_Flea.png <br>
 Sleeping Sans: https://media.tenor.com/A5Et7O9VOAoAAAAM/sleeping-standing-napping.gif <br>
 Undertale Heart: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Undertale_red_soul.svg/960px-Undertale_red_soul.svg.png?_=20230820210939 <br>
+Zelda Korok: https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/TWWHD_Makar_Artwork.png/revision/latest?cb=20130908194215 <br>
+Zelda Arrow: https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/26/TotK_Arrow_Model.png/274px-TotK_Arrow_Model.png <br>
+
 
 ### Assets - SFX
+Sommige muziek stukken of soundeffects zijn nog licht bewerkt in Audacity
+
 Mario 1-Up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&t=3s<br>
 Kirby Suck: https://www.youtube.com/watch?v=9wOgtUvZ9xc<br>
 Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4<br>
@@ -829,6 +844,9 @@ God of War Boy: https://www.youtube.com/watch?v=op3CL81u2mY <br>
 Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/ <br>
 Flea: https://www.myinstants.com/en/instant/flea-awoo-79678/ <br>
 Grub: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <br>
+Korok: https://www.youtube.com/watch?v=XMgK_E6_GAE <br>
+Arrow: https://www.zedge.net/notification-sounds/526f323b-7a58-426a-abbe-6408efbcdcfb <br>
+
 
 Muziek Tetris: https://www.youtube.com/watch?v=NmCCQxVBfyM <br>
 Muziek Zelda: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2 <br>
