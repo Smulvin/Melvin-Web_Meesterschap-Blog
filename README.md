@@ -638,9 +638,11 @@ SFX <br>
 Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7wpZo3ki90NheJPC1Tm0Qr7L&index=60
 
 ### Zaterdag 30 - 5 - 2026
-Unown font voor 3ds
-Mario kart effect
-README aanvullen
+Vandaag heb ik veel aan easter eggs gewerkt. Ik was begonnen met easter eggs voor de 3DS. Hiervoor had ik eerst iets simpels gedaan met dat het lettertype van de teksten wordt veranderd naar een unown font. Dit is een lettertype gebasseerd op een Pokémon. Daarna had ik gewerkt aan een easter egg voor mario kart met de joystick. Als je de joystick vast houdt begint er een particle system. Naar mate hoeveel rondjes je draait veranderen de kleuren van de particles. En als je hem uiteindelijk los laat krijg je een sfx.
+
+Daarna ben ik gaan werken aan wat easter eggs voor switch 2. Oorspronkelijk wilde ik dit weer in de stijl dan van games die specifiek gelinkt zijn aan switch 2, maar daar zijn er nog niet heel veel van. Maar ik besefte me ook dat een groot deel van de games die ik speel op desktop zijn en ik daar nog niks ervan in had verwerkt. Dus besloot ik die toe te voegen aan mijn switch 2. Ik had eerst voor een paar random knoppen alleen een sfx toegevoegd. Later kreeg ik een idee voor iets met de joysticks. Dat je een bepaald wezentje uit 2 verschillende games kon afvuren in de richting waarin je wijst. Het duurde even voordat ik dit werkend had, maar ben zeer tevreden met het resultaat. Als laatste kwam ik nog met de game Undertale. Deze heeft namelijk aan het einde een hele iconische en moeilijke boss fight. Het zou te veel werk zijn om die gehele fight te maken. Maar er is ook een moment dat de tegenstander in slaap valt zodat het altijd zijn beurt blijft, dat kon ik wel namaken.
+
+Voor de rest had ik vandaag ook mijn README aangevuld door onderaan een complete bronnenlijst te hebben staan.
 
 #### Bronnenlijst
 Unown font: https://fontmeme.com/fonts/unown-font/ <br>
@@ -747,7 +749,7 @@ Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ <br>
 * Right joystick:
 * Home: Website
 
-#### Switch
+#### Switch 2
 * Minus: Verander kleur linker kant
 * Left-joystick: Launch Grub
 * Up: DK Rap uit Donkey Kong Bananza
@@ -756,8 +758,8 @@ Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ <br>
 * Down: Comet Observatory uit Mario Galaxy Bundel
 * Screenshot: 
 * Plus: Verander kleur rechter kant
-* X:
-* Y:
+* X: Start Sans Fight
+* Y: Stop Sans Fight
 * A: Selecteer button
 * B: Terug naar buttons vanaf detail
 * Right joystick: Launch Flea

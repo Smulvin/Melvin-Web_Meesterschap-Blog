@@ -54,6 +54,7 @@ CometObservatoryTheme.loop = true;
 
 // UP = play Rap theme
 dpadUp.addEventListener("click", () => {
+    if(undertaleActive) return;
 
     // stop Bowsers Inside Story music if playing
     CometObservatoryTheme.pause();
@@ -66,6 +67,7 @@ dpadUp.addEventListener("click", () => {
 
 // DOWN = play CometObservatoryTheme theme
 dpadDown.addEventListener("click", () => {
+    if(undertaleActive) return;
 
     // stop Rap music if playing
     RapTheme.pause();
@@ -293,8 +295,16 @@ const megalovania = new Audio("../Assets/SFX/theme-megalovania.mp3");
 megalovania.loop = true;
 megalovania.volume = 0.3;
 
+let undertaleActive = false;
+
 
 xBtn.addEventListener("click", () => {
+    undertaleActive = true;
+    RapTheme.pause();
+    RapTheme.currentTime = 0;
+    CometObservatoryTheme.pause();
+    CometObservatoryTheme.currentTime = 0;
+
     undertaleOverlay.classList.remove("hidden");
     megalovania.play();
 });
