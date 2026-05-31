@@ -142,9 +142,12 @@ function animate() {
     animationId = requestAnimationFrame(animate);
 }
 
+
 // Start Coins
 function startCoins() {
+
     CoinMusic.play();
+
     if (isAnimating) return;
 
     topCanvas.classList.remove("hidden");
@@ -324,7 +327,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = 70;
 canvas.height = 70;
 
-function animate() {
+function animateDrift() {
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -358,7 +361,7 @@ function animate() {
             particles.splice(i, 1);
     }
 
-    requestAnimationFrame(animate);
+    requestAnimationFrame(animateDrift);
 }
 
 function handleRelease() {
@@ -381,7 +384,7 @@ function handleRelease() {
     }, 300);
 }
 
-animate();
+animateDrift();
 
 /* ********************* */
 /* Hey Listen Easter Egg */
