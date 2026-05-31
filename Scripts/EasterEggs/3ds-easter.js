@@ -382,3 +382,15 @@ function handleRelease() {
 }
 
 animate();
+
+/* ********************* */
+/* Hey Listen Easter Egg */
+/* ********************* */
+const homeBtn = document.getElementById("home-button");
+const heyListen = new Audio("../Assets/SFX/hey-listen.mp3");
+heyListen.volume = 0.4;
+
+homeBtn.addEventListener("click", () => {
+    heyListen.currentTime = 0;
+    heyListen.play();
+});

@@ -669,6 +669,7 @@ Korok SFX: https://www.youtube.com/watch?v=XMgK_E6_GAE <br>
 Arrow SFX: https://www.zedge.net/notification-sounds/526f323b-7a58-426a-abbe-6408efbcdcfb <br>
 Zelda Korok: https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/TWWHD_Makar_Artwork.png/revision/latest?cb=20130908194215 <br>
 Zelda Arrow: https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/26/TotK_Arrow_Model.png/274px-TotK_Arrow_Model.png <br>
+Hey Listen!: https://www.myinstants.com/en/instant/hey-listen/ <br>
 
 
 ### Button functionaliteiten lijst
@@ -730,7 +731,7 @@ Zelda Arrow: https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/26/TotK_Arrow_Mo
 * Dpad-left: Vorige slide
 * Dpad-right: Volgende slide
 * Dpad-down: Pokemon XY Gym Leader theme
-* Home:
+* Home: Hey Listen SFX
 * C-stick:
 * X: Start SMB2 Coins
 * Y: Stop SMB2 Coins
@@ -846,7 +847,7 @@ Flea: https://www.myinstants.com/en/instant/flea-awoo-79678/ <br>
 Grub: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <br>
 Korok: https://www.youtube.com/watch?v=XMgK_E6_GAE <br>
 Arrow: https://www.zedge.net/notification-sounds/526f323b-7a58-426a-abbe-6408efbcdcfb <br>
-
+Hey Listen!: https://www.myinstants.com/en/instant/hey-listen/ <br>
 
 Muziek Tetris: https://www.youtube.com/watch?v=NmCCQxVBfyM <br>
 Muziek Zelda: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2 <br>
