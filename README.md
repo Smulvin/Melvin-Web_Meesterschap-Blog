@@ -663,6 +663,9 @@ Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ <br>
 
 ### Zondag 31 - 5 - 2026
 sans fixen
+easter egg korok en arrow
+hey listen sfx
+
 
 #### Bronnenlijst
 Korok SFX: https://www.youtube.com/watch?v=XMgK_E6_GAE <br>
@@ -671,6 +674,24 @@ Zelda Korok: https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/TW
 Zelda Arrow: https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/26/TotK_Arrow_Model.png/274px-TotK_Arrow_Model.png <br>
 Hey Listen!: https://www.myinstants.com/en/instant/hey-listen/ <br>
 
+
+### Woensdag 3 - 6 - 2026
+Minecraft minigame gemaakt, nog geen echte lagen logica
+
+#### Bronnenlijst
+Grass: https://img.magnific.com/premium-photo/pixelated-green-grass-block-texture_1027190-10493.jpg?semt=ais_hybrid&w=740&q=80 <br>
+Dirt: https://static.planetminecraft.com/files/resource_media/screenshot/1236/pack_3530346.jpg <br>
+Stone: https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Stone_%28texture%29_JE5_BE3.png/revision/latest?cb=20201001141805 <br>
+Coal: https://art.pixilart.com/sr234220a4a35aws3.png <br>
+Iron: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-decided-to-make-an-iron-ore-texture-myself-any-thoughts-v0-76jbhk5spok61. png%3Fwidth%3D1600%26format%3Dpng%26auto%3Dwebp%26s%3Daf510fbb7ee5fe75ba09d1555711a4628d10eb9c <br>
+Gold: https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s281242620377187514_p3274_i1_w750.jpeg <br>
+Lapis Lazuli: https://i.pinimg.com/474x/89/98/c5/8998c59d5d412936dcf1a77b8d33f4e7.jpg <br>
+Deepslate: https://media.forgecdn.net/avatars/thumbnails/350/670/256/256/637503989905487067.png <br>
+Redstone: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-dzn8dv80hbvf1.jpg%3Fwidth%3D739%26format%3Dpjpg%26auto%3Dwebp%26s%3Ddcfd67c7a4836720869dd33137676938722cf332 <br>
+Diamond: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-6xayxw80hbvf1. jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D7958ffee9faae8ff1250c122672aee5a2cec9cc6 <br>
+Bedrock: https://p.novaskin.me/1626843056.png <br>
+Mine SFX: https://www.youtube.com/watch?v=RsXAZPsWxl0 <br>
+Block break SFX: https://www.youtube.com/watch?v=MXibe4aNdGg&t=9s <br>
 
 ### Button functionaliteiten lijst
 #### NES
@@ -751,8 +772,8 @@ Hey Listen!: https://www.myinstants.com/en/instant/hey-listen/ <br>
 * Down: Super Star theme
 * Screenshot: Github
 * Plus: Verander kleur rechter kant
-* X:
-* Y:
+* X: Start Minecraft
+* Y: Stop Minecraft
 * A: Selecteer button
 * B: Terug naar buttons vanaf detail
 * Right joystick: Launch Korok
@@ -826,6 +847,17 @@ Sleeping Sans: https://media.tenor.com/A5Et7O9VOAoAAAAM/sleeping-standing-nappin
 Undertale Heart: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Undertale_red_soul.svg/960px-Undertale_red_soul.svg.png?_=20230820210939 <br>
 Zelda Korok: https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/TWWHD_Makar_Artwork.png/revision/latest?cb=20130908194215 <br>
 Zelda Arrow: https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/26/TotK_Arrow_Model.png/274px-TotK_Arrow_Model.png <br>
+Grass: https://img.magnific.com/premium-photo/pixelated-green-grass-block-texture_1027190-10493.jpg?semt=ais_hybrid&w=740&q=80 <br>
+Dirt: https://static.planetminecraft.com/files/resource_media/screenshot/1236/pack_3530346.jpg <br>
+Stone: https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Stone_%28texture%29_JE5_BE3.png/revision/latest?cb=20201001141805 <br>
+Coal: https://art.pixilart.com/sr234220a4a35aws3.png <br>
+Iron: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-decided-to-make-an-iron-ore-texture-myself-any-thoughts-v0-76jbhk5spok61. png%3Fwidth%3D1600%26format%3Dpng%26auto%3Dwebp%26s%3Daf510fbb7ee5fe75ba09d1555711a4628d10eb9c <br>
+Gold: https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s281242620377187514_p3274_i1_w750.jpeg <br>
+Lapis Lazuli: https://i.pinimg.com/474x/89/98/c5/8998c59d5d412936dcf1a77b8d33f4e7.jpg <br>
+Deepslate: https://media.forgecdn.net/avatars/thumbnails/350/670/256/256/637503989905487067.png <br>
+Redstone: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-dzn8dv80hbvf1.jpg%3Fwidth%3D739%26format%3Dpjpg%26auto%3Dwebp%26s%3Ddcfd67c7a4836720869dd33137676938722cf332 <br>
+Diamond: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-6xayxw80hbvf1. jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D7958ffee9faae8ff1250c122672aee5a2cec9cc6 <br>
+Bedrock: https://p.novaskin.me/1626843056.png <br>
 
 
 ### Assets - SFX
@@ -848,6 +880,8 @@ Grub: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <br>
 Korok: https://www.youtube.com/watch?v=XMgK_E6_GAE <br>
 Arrow: https://www.zedge.net/notification-sounds/526f323b-7a58-426a-abbe-6408efbcdcfb <br>
 Hey Listen!: https://www.myinstants.com/en/instant/hey-listen/ <br>
+Mine SFX: https://www.youtube.com/watch?v=RsXAZPsWxl0 <br>
+Block break SFX: https://www.youtube.com/watch?v=MXibe4aNdGg&t=9s <br>
 
 Muziek Tetris: https://www.youtube.com/watch?v=NmCCQxVBfyM <br>
 Muziek Zelda: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2 <br>

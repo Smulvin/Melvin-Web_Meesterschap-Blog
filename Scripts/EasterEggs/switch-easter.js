@@ -266,3 +266,115 @@ function animate() {
 }
 
 animate();
+
+/* ************************** */
+/* Minecraft Easter Egg */
+/* ************************** */
+
+const xButton = document.getElementById("btn-x");
+const yButton = document.getElementById("btn-y");
+
+const overlay = document.getElementById("minecraft-overlay");
+
+const mineSFX = new Audio("../Assets/SFX/minecraft-mine.mp3");
+const breakSFX = new Audio("../Assets/SFX/minecraft-break.mp3");
+
+const GRID_COLS = 7;
+const GRID_ROWS = 4;
+const TOTAL = GRID_COLS * GRID_ROWS;
+
+const layers = [
+    "dirt","dirt","dirt",
+    "stone","stone","coal","stone","coal",
+    "stone","iron","stone","iron",
+    "stone","redstone","lapis","stone","gold", "gold",
+    "deepslate","deepslate","redstone","deepslate",
+    "deepslate","diamond","deepslate","diamond",
+    "diamond","diamond",
+    "bedrock","bedrock","bedrock"
+];
+
+const tiles = [];
+
+for (let i = 0; i < TOTAL; i++) {
+    const tile = document.createElement("div");
+    tile.classList.add("mc-tile");
+
+    overlay.appendChild(tile);
+    tiles.push(tile);
+}
+
+let miningMode = false;
+let currentLayer = 0;
+let damage = 0;
+
+function updateBlock() {
+    const texture =
+        `../Assets/Images/EasterEggs/Minecraft/${layers[currentLayer]}.png`;
+
+    tiles.forEach(tile => {
+        tile.style.backgroundImage = `url("${texture}")`;
+    });
+}
+
+function playMineSFX() {
+    const sfx = mineSFX.cloneNode();
+    sfx.currentTime = 0;
+    sfx.volume = 0.7;
+    sfx.play();
+}
+
+function playBreakSFX() {
+    const sfx = breakSFX.cloneNode();
+    sfx.currentTime = 0;
+    sfx.volume = 0.9;
+    sfx.play();
+}
+
+function startMining() {
+    miningMode = true;
+
+    overlay.classList.remove("hidden");
+
+    currentLayer = 0;
+    damage = 0;
+
+    updateBlock();
+}
+
+function stopMining() {
+    miningMode = false;
+
+    overlay.classList.add("hidden");
+}
+
+function mineBlock() {
+
+    if (!miningMode) return;
+
+    // BLOCK BREAK CHECK (highest priority)
+    if (damage + 1 >= 3) {
+
+        damage = 0;
+        currentLayer++;
+
+        playBreakSFX();
+
+        if (currentLayer >= layers.length) {
+            stopMining();
+            return;
+        }
+
+        updateBlock();
+        return;
+    }
+
+    // NORMAL HIT
+    damage++;
+    playMineSFX();
+}
+
+// Events
+xButton.addEventListener("click", startMining);
+overlay.addEventListener("click", mineBlock);
+yButton.addEventListener("click", stopMining);
