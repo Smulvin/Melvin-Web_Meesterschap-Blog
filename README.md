@@ -662,10 +662,7 @@ Grub SFX: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <
 Muziek Megalovania: https://www.youtube.com/watch?v=0FCvzsVlXpQ <br>
 
 ### Zondag 31 - 5 - 2026
-sans fixen
-easter egg korok en arrow
-hey listen sfx
-
+De Undertale easter egg had nog een klein foutje, dus die wilde ik nog even verbeteren vandaag. Ook had ik aan de switch een easter egg toegevoegd van beide zelda games, deze gebruikte hetzelfe principe en grotendeels dezelfde code als ik ook voor de switch 2 had met de hollow knight minigames. Ook had ik nog een kleine easter egg toegevoegd aan de 3ds, een simpele soundeffect.
 
 #### Bronnenlijst
 Korok SFX: https://www.youtube.com/watch?v=XMgK_E6_GAE <br>
@@ -674,9 +671,8 @@ Zelda Korok: https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/TW
 Zelda Arrow: https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/26/TotK_Arrow_Model.png/274px-TotK_Arrow_Model.png <br>
 Hey Listen!: https://www.myinstants.com/en/instant/hey-listen/ <br>
 
-
 ### Woensdag 3 - 6 - 2026
-Minecraft minigame gemaakt, nog geen echte lagen logica
+Vandaag heb ik een minecraft easter egg toegevoegd aan de switch. Dit omdat ik technisch gezien zelf ooit minecraft op de switch heb gespeeld. De functionaliteit was niet moeilijk om te maken, ik moet alleen later nog wat extra lagen in de juiste volgorde toevoeging, ik had voor nu namelijk alleen wat tests erin gezet.
 
 #### Bronnenlijst
 Grass: https://img.magnific.com/premium-photo/pixelated-green-grass-block-texture_1027190-10493.jpg?semt=ais_hybrid&w=740&q=80 <br>
@@ -851,7 +847,7 @@ Grass: https://img.magnific.com/premium-photo/pixelated-green-grass-block-textur
 Dirt: https://static.planetminecraft.com/files/resource_media/screenshot/1236/pack_3530346.jpg <br>
 Stone: https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Stone_%28texture%29_JE5_BE3.png/revision/latest?cb=20201001141805 <br>
 Coal: https://art.pixilart.com/sr234220a4a35aws3.png <br>
-Iron: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-decided-to-make-an-iron-ore-texture-myself-any-thoughts-v0-76jbhk5spok61. png%3Fwidth%3D1600%26format%3Dpng%26auto%3Dwebp%26s%3Daf510fbb7ee5fe75ba09d1555711a4628d10eb9c <br>
+Iron: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-decided-to-make-an-iron-ore-texture-myself-any-thoughts-v0-76jbhk5spok61.png%3Fwidth%3D1600%26format%3Dpng%26auto%3Dwebp%26s%3Daf510fbb7ee5fe75ba09d1555711a4628d10eb9c <br>
 Gold: https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s281242620377187514_p3274_i1_w750.jpeg <br>
 Lapis Lazuli: https://i.pinimg.com/474x/89/98/c5/8998c59d5d412936dcf1a77b8d33f4e7.jpg <br>
 Deepslate: https://media.forgecdn.net/avatars/thumbnails/350/670/256/256/637503989905487067.png <br>
