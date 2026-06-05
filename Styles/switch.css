@@ -400,9 +400,21 @@
 }
 
 .mc-tile {
+    position: relative;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     image-rendering: pixelated;
+}
+
+.mc-crack {
+    position: absolute;
+    inset: 0;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+
+    pointer-events: none;
 }

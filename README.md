@@ -689,6 +689,12 @@ Bedrock: https://p.novaskin.me/1626843056.png <br>
 Mine SFX: https://www.youtube.com/watch?v=RsXAZPsWxl0 <br>
 Block break SFX: https://www.youtube.com/watch?v=MXibe4aNdGg&t=9s <br>
 
+### Vrijdag 5 - 6 - 2026
+Cracks gemaakt in Figma
+
+#### Bronnenlijst
+Minecraft Cracks: https://grid-paint.com/images/png/2020/10/16/6511625285664768.png <br>
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
@@ -854,7 +860,7 @@ Deepslate: https://media.forgecdn.net/avatars/thumbnails/350/670/256/256/6375039
 Redstone: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-dzn8dv80hbvf1.jpg%3Fwidth%3D739%26format%3Dpjpg%26auto%3Dwebp%26s%3Ddcfd67c7a4836720869dd33137676938722cf332 <br>
 Diamond: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-6xayxw80hbvf1. jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D7958ffee9faae8ff1250c122672aee5a2cec9cc6 <br>
 Bedrock: https://p.novaskin.me/1626843056.png <br>
-
+Minecraft Cracks: https://grid-paint.com/images/png/2020/10/16/6511625285664768.png <br>
 
 ### Assets - SFX
 Sommige muziek stukken of soundeffects zijn nog licht bewerkt in Audacity

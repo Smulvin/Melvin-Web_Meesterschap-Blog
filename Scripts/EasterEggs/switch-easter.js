@@ -284,21 +284,55 @@ const GRID_ROWS = 4;
 const TOTAL = GRID_COLS * GRID_ROWS;
 
 const layers = [
-    "dirt","dirt","dirt",
-    "stone","stone","coal","stone","coal",
-    "stone","iron","stone","iron",
-    "stone","redstone","lapis","stone","gold", "gold",
-    "deepslate","deepslate","redstone","deepslate",
-    "deepslate","diamond","deepslate","diamond",
-    "diamond","diamond",
-    "bedrock","bedrock","bedrock"
+    "dirt","dirt","dirt", "dirt","dirt",                            //0-5
+    "stone","stone","stone","stone",                                //6-9
+    "coal","coal","coal",                                           //10-12    
+    "stone","stone","stone","stone",                                //13-16
+    "iron","iron",                                                  //17-18
+    "stone","stone","stone","stone", "stone",                       //19-23
+    "stone","stone","stone","stone",                                //24-27
+    "coal","coal","coal",                                           //28-30
+    "stone","stone","stone","stone", "stone",                       //31-35
+    "stone","stone","stone","stone", "stone",                       //36-40
+    "gold","gold",                                                  //41-42
+    "stone","stone","stone","stone", "stone",                       //43-47
+    "stone","stone","stone","stone", "stone",                       //48-52
+    "stone","stone", "stone",                                       //53-55
+    "iron","iron",                                                  //56-57
+    "stone","stone","stone","stone",                                //58-61
+    "lapis","lapis",                                                //62-63
+    "stone","stone","stone","stone", "stone",                       //64-68
+    "stone","stone","stone","stone", "stone",                       //69-73
+    "stone","stone",                                                //74-75
+    "deepslate","deepslate","deepslate","deepslate","deepslate",    //76-80
+    "deepslate","deepslate","deepslate","deepslate","deepslate",    //81-85
+    "deepslate","deepslate","deepslate","deepslate","deepslate",    //86-90
+    "deepslate","deepslate","deepslate","deepslate","deepslate",    //91-95
+    "deepslate","deepslate","deepslate","deepslate",                //96-99
+    "diamond","diamond",                                            //100-101
+    "deepslate","deepslate","deepslate","deepslate","deepslate",    //102-106
+    "deepslate","deepslate","deepslate","deepslate","deepslate",    //107-111
+    "deepslate","deepslate","deepslate","deepslate","deepslate",    //112-116
+    "deepslate","deepslate","deepslate",                            //117-119
+    "redstone","redstone",                                          //120-121
+    "deepslate","deepslate","deepslate","deepslate","deepslate",    //122-126
+    "deepslate","deepslate","deepslate",                            //127-129
+    "redstone","redstone",                                          //130-131
+    "deepslate","deepslate","deepslate","deepslate",                //132-135
+    "bedrock"
 ];
 
 const tiles = [];
 
 for (let i = 0; i < TOTAL; i++) {
+
     const tile = document.createElement("div");
     tile.classList.add("mc-tile");
+
+    const crack = document.createElement("div");
+    crack.classList.add("mc-crack");
+
+    tile.appendChild(crack);
 
     overlay.appendChild(tile);
     tiles.push(tile);
@@ -332,6 +366,7 @@ function playBreakSFX() {
 }
 
 function startMining() {
+
     miningMode = true;
 
     overlay.classList.remove("hidden");
@@ -340,6 +375,7 @@ function startMining() {
     damage = 0;
 
     updateBlock();
+    clearCracks();
 }
 
 function stopMining() {
@@ -352,10 +388,13 @@ function mineBlock() {
 
     if (!miningMode) return;
 
-    // BLOCK BREAK CHECK (highest priority)
+    // THIRD HIT = BREAK
     if (damage + 1 >= 3) {
 
         damage = 0;
+
+        clearCracks();
+
         currentLayer++;
 
         playBreakSFX();
@@ -371,7 +410,43 @@ function mineBlock() {
 
     // NORMAL HIT
     damage++;
+
+    updateCracks();
+
     playMineSFX();
+}
+
+function updateCracks() {
+
+    let crackTexture = "";
+
+    if (damage === 1) {
+        crackTexture =
+            "../Assets/Images/EasterEggs/Minecraft/crack1.png";
+    }
+
+    if (damage === 2) {
+        crackTexture =
+            "../Assets/Images/EasterEggs/Minecraft/crack2.png";
+    }
+
+    tiles.forEach(tile => {
+
+        const crack = tile.querySelector(".mc-crack");
+
+        if (!crackTexture) {
+            crack.style.backgroundImage = "none";
+        } else {
+            crack.style.backgroundImage = `url("${crackTexture}")`;
+        }
+    });
+}
+
+function clearCracks() {
+
+    tiles.forEach(tile => {
+        tile.querySelector(".mc-crack").style.backgroundImage = "none";
+    });
 }
 
 // Events
