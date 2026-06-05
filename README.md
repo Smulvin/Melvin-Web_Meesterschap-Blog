@@ -381,7 +381,7 @@ Peter Paul Koch: https://www.quirksmode.org/about/<br>
 Nils Binder: https://9elements.com/blog/author/nils-binder/<br>
 Robbert Broersma: https://www.linkedin.com/in/robbertbroersma/<br>
 Yolijn van der Kolk: https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/<br>
-Johan Huijkman: https://media.licdn.com/dms/image/v2/D4E03AQGNr6TCw7ccgQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1666277475310?e=2147483647&v=beta&t=dUOV--XMVKsf4fcZTzu--HOp_-YPIOLEgOxjFwOdD6U<br>
+Johan Huijkman: https://nl.linkedin.com/in/johanhuijkman<br>
 General foto: https://www.pinterest.com/pin/pfps--26247610322356687/<br>
 
 Leerdoelen: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F<br>
@@ -823,7 +823,7 @@ Peter Paul Koch: https://www.quirksmode.org/about/ <br>
 Nils Binder: https://9elements.com/blog/author/nils-binder/ <br>
 Robbert Broersma: https://www.linkedin.com/in/robbertbroersma/ <br>
 Yolijn van der Kolk: https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/ <br>
-Johan Huijkman: https://media.licdn.com/dms/image/v2/D4E03AQGNr6TCw7ccgQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1666277475310?e=2147483647&v=beta&t=dUOV--XMVKsf4fcZTzu--HOp_-YPIOLEgOxjFwOdD6U <br>
+Johan Huijkman: https://nl.linkedin.com/in/johanhuijkman <br>
 Q42: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK8N0z2bF8Pxj1dg3aH7BkH8n_XXeyXSORuA&s <br>
 Hans de Zwart: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMAeFFQvga2evdh4uIlxG3RL7xyTARK-UtRg&s <br>
 De Voorhoede: https://media.licdn.com/dms/image/v2/C4E0BAQHrYZpRfCbNzw/company-logo_200_200/company-logo_200_200/0/1658139463799/de_voorhoede_logo?e=2147483647&v=beta&t=UreH-hnOSFK_7F1WMRk-d55UiEmYZFnw-7HAGy6pdEw <br>
