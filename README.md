@@ -675,7 +675,6 @@ Hey Listen!: https://www.myinstants.com/en/instant/hey-listen/ <br>
 Vandaag heb ik een minecraft easter egg toegevoegd aan de switch. Dit omdat ik technisch gezien zelf ooit minecraft op de switch heb gespeeld. De functionaliteit was niet moeilijk om te maken, ik moet alleen later nog wat extra lagen in de juiste volgorde toevoeging, ik had voor nu namelijk alleen wat tests erin gezet.
 
 #### Bronnenlijst
-Grass: https://img.magnific.com/premium-photo/pixelated-green-grass-block-texture_1027190-10493.jpg?semt=ais_hybrid&w=740&q=80 <br>
 Dirt: https://static.planetminecraft.com/files/resource_media/screenshot/1236/pack_3530346.jpg <br>
 Stone: https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Stone_%28texture%29_JE5_BE3.png/revision/latest?cb=20201001141805 <br>
 Coal: https://art.pixilart.com/sr234220a4a35aws3.png <br>
@@ -690,10 +689,13 @@ Mine SFX: https://www.youtube.com/watch?v=RsXAZPsWxl0 <br>
 Block break SFX: https://www.youtube.com/watch?v=MXibe4aNdGg&t=9s <br>
 
 ### Vrijdag 5 - 6 - 2026
-Cracks gemaakt in Figma
+Cracks gemaakt in Figma en toegevoegd
 
 #### Bronnenlijst
 Minecraft Cracks: https://grid-paint.com/images/png/2020/10/16/6511625285664768.png <br>
+
+### Zaterdag 6 - 6 - 2026
+Achtergrond toegevoegd
 
 ### Button functionaliteiten lijst
 #### NES
@@ -849,7 +851,6 @@ Sleeping Sans: https://media.tenor.com/A5Et7O9VOAoAAAAM/sleeping-standing-nappin
 Undertale Heart: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Undertale_red_soul.svg/960px-Undertale_red_soul.svg.png?_=20230820210939 <br>
 Zelda Korok: https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/TWWHD_Makar_Artwork.png/revision/latest?cb=20130908194215 <br>
 Zelda Arrow: https://cdn.wikimg.net/en/zeldawiki/images/thumb/2/26/TotK_Arrow_Model.png/274px-TotK_Arrow_Model.png <br>
-Grass: https://img.magnific.com/premium-photo/pixelated-green-grass-block-texture_1027190-10493.jpg?semt=ais_hybrid&w=740&q=80 <br>
 Dirt: https://static.planetminecraft.com/files/resource_media/screenshot/1236/pack_3530346.jpg <br>
 Stone: https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Stone_%28texture%29_JE5_BE3.png/revision/latest?cb=20201001141805 <br>
 Coal: https://art.pixilart.com/sr234220a4a35aws3.png <br>
@@ -865,7 +866,7 @@ Minecraft Cracks: https://grid-paint.com/images/png/2020/10/16/6511625285664768.
 ### Assets - SFX
 Sommige muziek stukken of soundeffects zijn nog licht bewerkt in Audacity
 
-Mario 1-Up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&t=3s<br>
+Mario 1-Up: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&<br>
 Kirby Suck: https://www.youtube.com/watch?v=9wOgtUvZ9xc<br>
 Pokemon Encounter: https://www.youtube.com/watch?v=NrS523dOHU4<br>
 Mario Shake: https://www.youtube.com/watch?v=P1gJJqYXpTc <br>
@@ -876,14 +877,14 @@ Duck Hit: https://sounds.spriters-resource.com/nes/duckhunt/asset/397761/ <br>
 Kart Boost: https://sounds.spriters-resource.com/3ds/mariokart7/asset/434418/<br>
 Git gud: https://www.myinstants.com/en/instant/hornet-git-gud-69613/ <br>
 God of War Boy: https://www.youtube.com/watch?v=op3CL81u2mY <br>
-Sigma Ultimate:https://www.myinstants.com/en/instant/sigma-ultimate-53377/ <br>
+Sigma Ultimate: https://www.myinstants.com/en/instant/sigma-ultimate-53377/ <br>
 Flea: https://www.myinstants.com/en/instant/flea-awoo-79678/ <br>
 Grub: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/ <br>
 Korok: https://www.youtube.com/watch?v=XMgK_E6_GAE <br>
 Arrow: https://www.zedge.net/notification-sounds/526f323b-7a58-426a-abbe-6408efbcdcfb <br>
 Hey Listen!: https://www.myinstants.com/en/instant/hey-listen/ <br>
 Mine SFX: https://www.youtube.com/watch?v=RsXAZPsWxl0 <br>
-Block break SFX: https://www.youtube.com/watch?v=MXibe4aNdGg&t=9s <br>
+Block break SFX: https://www.youtube.com/watch?v=MXibe4aNdGg <br>
 
 Muziek Tetris: https://www.youtube.com/watch?v=NmCCQxVBfyM <br>
 Muziek Zelda: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2 <br>
@@ -907,7 +908,6 @@ Jost: https://fonts.google.com/specimen/Jost <br>
 PressStart2P: https://fonts.google.com/specimen/Press+Start+2P <br>
 Wii Font: https://famfonts.com/wii/ <br>
 Undertale Font: https://fonts2u.com/mars-needs-cunnilingus.font <br>
-
 
 ### Overig
 FontAwesome: https://fontawesome.com/search?q=arrow&ic=free-collection <br>

@@ -1,4 +1,6 @@
 const powerBtn = document.getElementById("power-btn")
+// Source: https://manual.audacityteam.org/man/reverse.html
+// Source: https://www.youtube.com/watch?v=x1FM5uM_998
 const powerSfx = new Audio("../Assets/SFX/wii-poweroff.mp3")
 
 if (powerBtn && powerSfx) {
@@ -18,7 +20,8 @@ if (powerBtn && powerSfx) {
 document.addEventListener("DOMContentLoaded", () => {
   const homeBtn = document.getElementById("home-button")
   const controller = document.getElementById("shake-wrapper")
-    const shakeSfx = new Audio("../Assets/SFX/MarioSpin.mp3")
+  // Source: https://www.youtube.com/watch?v=P1gJJqYXpTc
+  const shakeSfx = new Audio("../Assets/SFX/MarioSpin.mp3")
 
   let isLocked = false
 
@@ -46,7 +49,8 @@ const plusButton = document.getElementById("btn-plus");
 const minusButton = document.getElementById("btn-minus");
 const controller = document.getElementById("sports-wrapper");
 
-// Audio (replace with your own Wii Sports sound)
+// Audio
+// Source: https://www.youtube.com/watch?v=2qvAxPqy2wA&list=RD2qvAxPqy2wA&start_radio=1
 const wiiSportsTheme = new Audio("../Assets/SFX/theme-wiisports.mp3");
 wiiSportsTheme.loop = true;
 

@@ -61,7 +61,9 @@ const dpadUp = document.getElementById("btn-up");
 const dpadDown = document.getElementById("btn-down");
 
 // Music tracks
+// Source: https://www.youtube.com/watch?v=hcV6xVukj60
 const GymTheme = new Audio("../Assets/SFX/theme-gymleader.mp3");
+// Source: https://www.youtube.com/watch?v=e9r5hx47kxM&list=RDe9r5hx47kxM&start_radio=1
 const SuperStarTheme = new Audio("../Assets/SFX/theme-superstar.mp3");
 
 // Loop both songs
@@ -106,6 +108,8 @@ const leftJoystick = document.querySelector("#stick-left .stick");
 const rightJoystick = document.querySelector("#stick-right .stick");
 
 // sounds
+// Source: https://www.zedge.net/notification-sounds/526f323b-7a58-426a-abbe-6408efbcdcfb <br>
+// Source: https://www.youtube.com/watch?v=XMgK_E6_GAE
 const arrowSFX = new Audio("../Assets/SFX/arrow.mp3");
 const korokSFX = new Audio("../Assets/SFX/korok.mp3");
 arrowSFX.volume = 0.5;
@@ -276,7 +280,9 @@ const yButton = document.getElementById("btn-y");
 
 const overlay = document.getElementById("minecraft-overlay");
 
+// Source: https://www.youtube.com/watch?v=RsXAZPsWxl0
 const mineSFX = new Audio("../Assets/SFX/minecraft-mine.mp3");
+// Source: https://www.youtube.com/watch?v=MXibe4aNdGg;
 const breakSFX = new Audio("../Assets/SFX/minecraft-break.mp3");
 
 const GRID_COLS = 7;
@@ -343,6 +349,17 @@ let currentLayer = 0;
 let damage = 0;
 
 function updateBlock() {
+    // Sources: 
+    // Dirt: https://static.planetminecraft.com/files/resource_media/screenshot/1236/pack_3530346.jpg 
+    // Stone: https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Stone_%28texture%29_JE5_BE3.png/revision/latest?cb=20201001141805 
+    // Coal: https://art.pixilart.com/sr234220a4a35aws3.png 
+    // Iron: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-decided-to-make-an-iron-ore-texture-myself-any-thoughts-v0-76jbhk5spok61. png%3Fwidth%3D1600%26format%3Dpng%26auto%3Dwebp%26s%3Daf510fbb7ee5fe75ba09d1555711a4628d10eb9c 
+    // Gold: https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s281242620377187514_p3274_i1_w750.jpeg 
+    // Lapis Lazuli: https://i.pinimg.com/474x/89/98/c5/8998c59d5d412936dcf1a77b8d33f4e7.jpg 
+    // Deepslate: https://media.forgecdn.net/avatars/thumbnails/350/670/256/256/637503989905487067.png 
+    // Redstone: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-dzn8dv80hbvf1.jpg%3Fwidth%3D739%26format%3Dpjpg%26auto%3Dwebp%26s%3Ddcfd67c7a4836720869dd33137676938722cf332
+    // Diamond: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-6xayxw80hbvf1. jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D7958ffee9faae8ff1250c122672aee5a2cec9cc6 
+    // Bedrock: https://p.novaskin.me/1626843056.png
     const texture =
         `../Assets/Images/EasterEggs/Minecraft/${layers[currentLayer]}.png`;
 
@@ -421,6 +438,7 @@ function updateCracks() {
     let crackTexture = "";
 
     if (damage === 1) {
+        // Source: https://grid-paint.com/images/png/2020/10/16/6511625285664768.png
         crackTexture =
             "../Assets/Images/EasterEggs/Minecraft/crack1.png";
     }

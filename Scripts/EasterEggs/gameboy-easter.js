@@ -1,5 +1,6 @@
 // Kirby Suck Easter Egg
 const bButton = document.getElementById("gameboy-b");
+// Source: https://www.youtube.com/watch?v=9wOgtUvZ9xc
 const kirbySuck = new Audio("../Assets/SFX/kirby-suck.mp3");
 
 bButton.addEventListener("click", triggerKirbySuck);
@@ -33,6 +34,7 @@ async function triggerKirbySuck() {
 const aButton = document.getElementById("gameboy-a");
 const screen = document.querySelector(".gameboy-screen");
 
+// Source: https://www.youtube.com/watch?v=NrS523dOHU4
 const encounterSfx = new Audio("../Assets/SFX/pokemon-encounter.mp3");
 
 aButton.addEventListener("click", startEncounter);
@@ -145,6 +147,8 @@ const dpadUp = document.getElementById("dpad-up");
 const dpadDown = document.getElementById("dpad-down");
 
 // Music tracks
+// Source: https://www.youtube.com/watch?v=NmCCQxVBfyM
+// Source: https://www.youtube.com/watch?v=EreHPNJHn18&list=PL-KfneHRmNqQJ-F4D4HrfrNxgHDaaJDFF&index=2
 const zeldaTheme = new Audio("../Assets/SFX/theme-zelda.mp3");
 const tetrisTheme = new Audio("../Assets/SFX/theme-tetris.mp3");
 

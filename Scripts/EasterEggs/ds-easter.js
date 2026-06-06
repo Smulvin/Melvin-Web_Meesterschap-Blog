@@ -1,3 +1,7 @@
+// AI Hulp:
+// Prompt 1: Are you familiar with the "Wanted" minigame on New super mario bros DS?<br>
+// Prompt 2: Alright I dont need your specific reasoning, but I would like to make a variation on it. So lets start with some simple coding. I have assets for the Wanted Screen, the heads of all 4 characters that can appear on the wanted screen and the little heads for the bottom screen. Could you make some sort of minigame where the heads bounce around the bottom screen, with obviously 1 correct one that is shown on the screen on the top screen?
+
 const btnA = document.getElementById("a-button");
 const btnB = document.getElementById("b-button");
 
@@ -6,35 +10,39 @@ const topScreen = document.getElementById("wanted-top");
 const bottomScreen = document.getElementById("wanted-bottom");
 const targetImg = document.getElementById("wanted-target");
 
+
+// Source: https://www.youtube.com/watch?v=qTrzAk7p2rE
 const wantedTheme = new Audio("../Assets/SFX/theme-wanted.mp3");
 wantedTheme.volume = 0.2;
 wantedTheme.loop = true;
 
-// Characters (source of truth)
+// Characters
+// Source: https://www.spriters-resource.com/ds_dsi/supermario64ds/asset/6856/
 const characters = [
     {
         name: "mario",
-        head: "../Assets/Images/EasterEggs/FindLuigi/Mario-Head.png",
-        icon: "../Assets/Images/EasterEggs/FindLuigi/Mario-icon.png"
+        head: "../Assets/Images/EasterEggs/DS/Mario-Head.png",
+        icon: "../Assets/Images/EasterEggs/DS/Mario-icon.png"
     },
     {
         name: "luigi",
-        head: "../Assets/Images/EasterEggs/FindLuigi/Luigi-Head.png",
-        icon: "../Assets/Images/EasterEggs/FindLuigi/Luigi-icon.png"
+        head: "../Assets/Images/EasterEggs/DS/Luigi-Head.png",
+        icon: "../Assets/Images/EasterEggs/DS/Luigi-icon.png"
     },
     {
         name: "wario",
-        head: "../Assets/Images/EasterEggs/FindLuigi/Wario-Head.png",
-        icon: "../Assets/Images/EasterEggs/FindLuigi/Wario-icon.png"
+        head: "../Assets/Images/EasterEggs/DS/Wario-Head.png",
+        icon: "../Assets/Images/EasterEggs/DS/Wario-icon.png"
     },
     {
         name: "yoshi",
-        head: "../Assets/Images/EasterEggs/FindLuigi/Yoshi-Head.png",
-        icon: "../Assets/Images/EasterEggs/FindLuigi/Yoshi-icon.png"
+        head: "../Assets/Images/EasterEggs/DS/Yoshi-Head.png",
+        icon: "../Assets/Images/EasterEggs/DS/Yoshi-icon.png"
     }
 ];
 
 // SFX per character
+// Source: https://sounds.spriters-resource.com/ds_dsi/supermario64ds/asset/519578/
 const headSFX = {
     mario: "../Assets/SFX/FoundMario.wav",
     luigi: "../Assets/SFX/FoundLuigi.wav",
@@ -189,6 +197,7 @@ const dpadDown = document.getElementById("dpad-down");
 
 // Music tracks
 const KartTheme = new Audio("../Assets/SFX/theme-mariokart.mp3");
+// Source: https://www.youtube.com/watch?v=Ckxy-i7Dc5U
 const bowsersInsideTheme = new Audio("../Assets/SFX/theme-bowsersinside.mp3");
 
 // Loop both songs

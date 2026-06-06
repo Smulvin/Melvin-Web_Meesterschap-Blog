@@ -16,6 +16,7 @@ const konamiCode = [
 let currentInput = [];
 
 // Load sound directly in JS
+// Source: https://www.youtube.com/watch?v=o3Tlv7h9I3Y&
 const sound = new Audio("Assets/SFX/SMB-1up.mp3");
 
 // D-pad buttons
@@ -79,9 +80,11 @@ const btnA = document.getElementById("nes-controller-a");
 btnA.addEventListener("click", spawnMario);
 
 // SFX
+// Source: https://www.youtube.com/watch?v=37-paiEz0mQ
 const jumpSFX = new Audio("Assets/SFX/mario-jump.mp3");
 
 // sprites
+// Source: https://www.deviantart.com/marioandme64/art/THE-COMPLETE-SUPER-MARIO-BROS-1-MARIO-SPRITE-RIG-1171963856 
 const marioRun1 = "Assets/Images/EasterEggs/NES-Easter/mario-run1.png";
 const marioRun2 = "Assets/Images/EasterEggs/NES-Easter/mario-run2.png";
 const marioRun3 = "Assets/Images/EasterEggs/NES-Easter/mario-run3.png";
@@ -168,6 +171,7 @@ function spawnMario() {
 
 const btnB = document.getElementById("nes-controller-b");
 const birdSFX = new Audio("Assets/SFX/duck-hit.wav");
+// Source: https://sounds.spriters-resource.com/nes/duckhunt/asset/397761/
 const birdImg = "Assets/Images/EasterEggs/NES-Easter/falling-duck.png";
 
 btnB.addEventListener("click", spawnBird);

@@ -1,4 +1,6 @@
 :root {
+    --body-secondary: #071041;
+
     --color-yellow: #e4cfb0;
     --color-yellow-dark: #b29a73;
     --color-brown: #6e4831;
@@ -12,6 +14,7 @@
     --gamewatch-width: 1008px;
     --gamewatch-height: 603px;
 }
+
 
 .gamewatch {
     width: var(--gamewatch-width);

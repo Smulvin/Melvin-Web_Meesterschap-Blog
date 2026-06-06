@@ -8,7 +8,10 @@ const dpadDown = document.getElementById("dpad-down");
 
 
 // Music tracks
+// Source: https://www.youtube.com/watch?v=elpT7gEgffQ&list=PLESFnlO3kNnqPB453OFSGS5AkfhBmcr7t&index=2
 const MarioLand = new Audio("../Assets/SFX/theme-3dland.mp3");
+Source: https://www.youtube.com/watch?v=zQzl9_ja99s <br>
+// Muziek Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7wpZo3ki90NheJPC1Tm0Qr7L&index=60
 const XYGym = new Audio("../Assets/SFX/theme-xygym.mp3");
 
 // Loop both songs
@@ -57,6 +60,7 @@ const CoinMusic = new Audio("../Assets/SFX/theme-coinrush.mp3");
 CoinMusic.loop = true;
 CoinMusic.volume = 0.4;
 
+// Source: https://www.pngitem.com/middle/owJmTx_super-mario-wiki-the-mario-encyclopedia-super-mario/
 const coinImg = new Image();
 coinImg.src = "../Assets/Images/EasterEggs/Coin.png";
 
@@ -209,6 +213,7 @@ bButton.addEventListener("click", () => {
 const joystick = document.querySelector('.joystick');
 const stick = joystick.querySelector('.stick');
 
+// Source: https://sounds.spriters-resource.com/3ds/mariokart7/asset/434418/
 const turboSound = new Audio("../Assets/SFX/kartBoost.wav");
 turboSound.volume = 0.3;
 
@@ -390,6 +395,7 @@ animateDrift();
 /* Hey Listen Easter Egg */
 /* ********************* */
 const homeBtn = document.getElementById("home-button");
+// Source: Hey Listen!: https://www.myinstants.com/en/instant/hey-listen/
 const heyListen = new Audio("../Assets/SFX/hey-listen.mp3");
 heyListen.volume = 0.4;
 

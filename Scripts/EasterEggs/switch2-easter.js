@@ -45,7 +45,9 @@ const dpadUp = document.getElementById("btn-up");
 const dpadDown = document.getElementById("btn-down");
 
 // Music tracks
+// Source: https://www.youtube.com/watch?v=rWSgsbWiX_g&list=RDrWSgsbWiX_g&start_radio=1
 const RapTheme = new Audio("../Assets/SFX/theme-dkrap.mp3");
+// Source: https://www.youtube.com/watch?v=wBhzmys2-eU&list=RDwBhzmys2-eU&start_radio=1
 const CometObservatoryTheme = new Audio("../Assets/SFX/theme-observatory.mp3");
 
 // Loop both songs
@@ -86,8 +88,11 @@ const homeButton = document.getElementById("btn-home");
 const screenshotButton = document.getElementById("btn-screenshot");
 const onlineButton = document.getElementById("btn-online");
 
+// Source: https://www.myinstants.com/en/instant/hornet-git-gud-69613/
 const homeSFX = new Audio("../Assets/SFX/gitgud.mp3");
+// Source: https://www.youtube.com/watch?v=op3CL81u2mY
 const screenshotSFX = new Audio("../Assets/SFX/GOW-Boy.mp3");
+// Source: https://www.myinstants.com/en/instant/sigma-ultimate-53377/
 const onlineSFX = new Audio("../Assets/SFX/sigma.mp3");
 
 homeButton.addEventListener("click", () => {
@@ -119,7 +124,10 @@ const grub = document.getElementById("grub");
 const leftJoystick = document.querySelector("#stick-left .stick");
 const rightJoystick = document.querySelector("#stick-right .stick");
 
+
 // sounds
+// Source: https://www.myinstants.com/en/instant/flea-awoo-79678/
+// Source: https://www.myinstants.com/en/instant/grub-sound-hollow-knight-2495/
 const fleaSFX = new Audio("../Assets/SFX/flea.mp3");
 const grubSFX = new Audio("../Assets/SFX/grub.mp3");
 
@@ -284,6 +292,7 @@ animate();
 const xBtn = document.getElementById("btn-x");
 const yBtn = document.getElementById("btn-y");
 const undertaleOverlay = document.getElementById("undertale-overlay");
+// Source: https://www.youtube.com/watch?v=0FCvzsVlXpQ
 const megalovania = new Audio("../Assets/SFX/theme-megalovania.mp3");
 megalovania.loop = true;
 megalovania.volume = 0.3;

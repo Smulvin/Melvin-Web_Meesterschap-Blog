@@ -1,4 +1,6 @@
 :root {
+    --body-secondary: #47030e;
+
     --primary-color: hsl(60, 2%, 82%);
     --secondary-color: hsl(348, 4%, 26%);
     --tertiary-color: hsl(72, 3%, 61%);
