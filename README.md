@@ -696,6 +696,9 @@ Minecraft Cracks: https://grid-paint.com/images/png/2020/10/16/6511625285664768.
 
 ### Zaterdag 6 - 6 - 2026
 Achtergrond toegevoegd
+Bronnen in code
+Dpad pressed styling
+pop up responsive + transition
 
 ### Button functionaliteiten lijst
 #### NES

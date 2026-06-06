@@ -276,11 +276,12 @@
 .wii-popup {
     border: 1rem solid black;
     border-radius: 1rem;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 2vw, 1.3rem);
 }
 
 .modern-screen {
-    width: min(700px, 90vw);
+    width: 100%;
+    max-width: 60rem;
     background: linear-gradient(180deg, #f9fbff, #dfe9f3);
     overflow: hidden;
     position: relative;
@@ -298,22 +299,19 @@
 }
 
 .modern-content {
-    padding: 2rem;
+    padding: clamp(1rem, 2vw, 3rem);
     font-family: system-ui, sans-serif;
     color: #1b2a41;
 
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
     p {
         margin: 1rem 0;
+        line-height: 1.5;
     }
-}
-
-.modern-content h2 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-}
-
-.modern-content p {
-    line-height: 1.5;
 }
 
 /* Easter egs */

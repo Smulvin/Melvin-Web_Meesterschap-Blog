@@ -162,6 +162,25 @@ footer {
 [popover] {
     position: fixed;
     margin: auto;
+    opacity: 0;
+    scale: 0;
+    transition: opacity .5s ease, scale .5s ease, overlay .5s ease, display .5s ease;
+    transition-behavior: allow-discrete;
+}
+
+
+/* When open */
+[popover]:popover-open {
+    opacity: 1;
+    scale: 1;
+}
+
+/* Starting state for opening */
+@starting-style {
+  [popover]:popover-open {
+    opacity: 0;
+    scale: 0;
+  }
 }
 
 .hidden {
@@ -245,3 +264,5 @@ footer {
 .dpad.bottom-pressed #dpad-left { filter: drop-shadow(0 -4px 0 var(--dpad-color-shadow)); transform: rotateX(-22.5deg) translateY(4px);}
 .dpad.bottom-pressed #dpad-right { filter: drop-shadow(0 -4px 0 var(--dpad-color-shadow)); transform: rotateX(-22.5deg) translateY(4px);}
 .dpad.bottom-pressed #dpad-up { filter: drop-shadow(0 -4px 0 var(--dpad-color-shadow)); transform: rotateX(40deg) translateY(11px);}
+
+
