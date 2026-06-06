@@ -294,6 +294,7 @@ hr {
 
         button {
             background: black;
+            filter:drop-shadow(0 0px 0px var(--dpad-color-shadow));
 
             i {
                 font-size: 20px;

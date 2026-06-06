@@ -70,53 +70,61 @@ main {
     height: 100vh;
 }
 
-footer {
+nav {
     position: fixed;
-    background: #46464699;
-    left: 50%;
-    bottom: -160px;
-    transform: translateX(-50%);
-    border-radius: 2rem 2rem 0 0;
-    display: flex;
-    gap: 10px;
-    transition: bottom 0.3s ease, transform 0.3s ease, background 0.3s ease;
-    z-index: 1000;
+    background: white;
+    top: 50%;
+    right: 0;
+    transform: translateX(100%) translateY(-50%);
+    transition: transform 0.3s ease;
+    corner-shape: bevel;
+    border: 0.7rem solid lightgray;
+    border-right: none;
+    border-radius: 2rem 0 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 1rem;
+    gap: 2rem;
 
     button {
-        position: absolute;
         font-family: "Jost";
-        color: white;
-        font-size: 2rem;
+        color: black;
+        font-weight: bold;
+        font-size: 1.5rem;
         text-transform: uppercase;
-        top: -5rem;
-        left: 50%;
-        transform: translateX(-50%);
+        background: white;
+        border: 0.7rem solid lightgray;
+        border-bottom: none;
+        corner-shape: bevel;
+        border-radius: 1rem 1rem 0 0;
+        position: absolute;
+        top: 50%;
+        left: -6.5rem;
+        transform: translateX(50%);
+        rotate: -90deg;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 5rem;
-        width: 10rem;
-        corner-top-left-shape: bevel;
-        corner-top-right-shape: bevel;
-        border-radius: 2rem 2rem 0 0;
-        background: #46464699;
-        border: none;
+        width: 8rem;
     }
-
-
 
     a {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 120px;
+        width: clamp(80px, 15vw, 120px);
         aspect-ratio: 1;
         text-decoration: none;
         transition: transform 0.15s ease;
         transform-origin: bottom center;
+        
 
         img {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover;
         }
 
         p {
@@ -147,17 +155,23 @@ footer {
             }
         }
 
-        &:hover p {
-            opacity: 1;
+        &:hover {
+            transition: transform 0.15s ease;
+            transform: scale(1.1);
+
+            p {
+                opacity: 1;
+            }
         }
+
+
     }
-
-
 }
 
-.footer-open {
-    bottom: 0;
-}
+.nav-open {
+    transform: translateX(0) translateY(-50%);
+    transition: transform 0.3s ease;
+} 
 
 [popover] {
     position: fixed;

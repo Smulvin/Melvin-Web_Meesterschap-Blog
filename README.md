@@ -699,6 +699,7 @@ Achtergrond toegevoegd
 Bronnen in code
 Dpad pressed styling
 pop up responsive + transition
+Navigatie gestyled
 
 ### Button functionaliteiten lijst
 #### NES
