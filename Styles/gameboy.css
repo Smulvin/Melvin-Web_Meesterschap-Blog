@@ -8,7 +8,9 @@
     --gameboy-green-dark:#1f4b1b;
     --gameboy-red: #89245c;
     --gameboy-blue: #53558b;
-    --gameboy-black: #04030b;
+    --gameboy-black: #323135;
+
+    --dpad-color-shadow: black;
 
     /* Normaal 90mm x 148mm */
     /* Dimensies bron: https://www.dimensions.com/element/game-boy */
@@ -210,6 +212,7 @@
             button {
                 background: var(--gameboy-black);
                 color: black;
+                width: 50px;
 
                 i {
                     font-size: 20px;

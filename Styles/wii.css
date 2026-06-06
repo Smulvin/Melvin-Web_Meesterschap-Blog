@@ -20,6 +20,7 @@
     --color-btn-border: #c4c7cc;
     --color-btn-border-shadow: #a7a7a7;
     --btn-shadow: drop-shadow(0 4px 0px var(--color-btn-border-shadow));
+    
 
 
     /* Normaal 36.2mm x 160mm */
@@ -88,6 +89,7 @@
         margin-top: 6rem;
 
         button {
+            width: 40px;
             background: var(--wii-color);
             border: 2px solid var(--color-btn-border);
         }

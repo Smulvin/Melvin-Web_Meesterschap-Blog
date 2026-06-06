@@ -53,6 +53,7 @@
     --body-primary: #fafafa;
     --body-secondary: #09008b;
     --body-background: radial-gradient(circle, var(--body-primary) 0%, var(--body-secondary) 100%);
+    --dpad-color-shadow: #a7a7a7;
 }
 
 body {
@@ -177,6 +178,7 @@ footer {
         aspect-ratio: 1;
         border: none;
         padding: 0.5rem;
+        z-index: 1;
     }
 
     #dpad-up {
@@ -187,22 +189,26 @@ footer {
     #dpad-left {
         grid-area: 2 / 1;
         border-radius: 5px 0 0 5px;
+        filter:drop-shadow(0 4px 0px var(--dpad-color-shadow));
     }
 
     div {
         grid-column: 2;
         grid-row: 2;
+        z-index: 0;
     }
 
     #dpad-right {
         grid-area: 2 / 3;
         border-radius: 0 5px 5px 0;
+        filter:drop-shadow(0 4px 0px var(--dpad-color-shadow));
 
     }
 
     #dpad-down {
         grid-area: 3 / 2;
         border-radius: 0 0 5px 5px;
+        filter:drop-shadow(0 4px 0px var(--dpad-color-shadow));
     }
 
     #dpad-up,
@@ -212,3 +218,30 @@ footer {
         }
     }
 }
+
+/* Top Button */
+.dpad.top-pressed #dpad-up { transform: rotateX(22.5deg); }
+.dpad.top-pressed #dpad-left { filter: drop-shadow(0 6px 0 var(--dpad-color-shadow)); transform: rotateX(22.5deg) translateY(-4px);}
+.dpad.top-pressed #dpad-right { filter: drop-shadow(0 6px 0 var(--dpad-color-shadow)); transform: rotateX(22.5deg) translateY(-4px); }
+.dpad.top-pressed #dpad-down { filter: drop-shadow(0 8px 0 var(--dpad-color-shadow)); transform: rotateX(-45deg)  translateY(-11px); }
+.dpad.top-pressed #dpad-div { margin-top: -4px;}
+
+/* Left Button */
+.dpad.left-pressed #dpad-left { transform: rotateY(-30deg);}
+.dpad.left-pressed #dpad-up { filter: drop-shadow(6px 0 0 var(--dpad-color-shadow)); transform:rotateY(22.5deg) translateX(-4px);}
+.dpad.left-pressed #dpad-down { filter: drop-shadow(6px 4px 0 var(--dpad-color-shadow)); transform:rotateY(22.5deg) translateX(-4px);}
+.dpad.left-pressed #dpad-right { filter: drop-shadow(4px 4px 0 var(--dpad-color-shadow)); transform: rotateY(-30deg) translateX(-9px);}
+.dpad.left-pressed #dpad-div { filter: drop-shadow(4px 4px 0 var(--dpad-color-shadow)); transform: translateX(-4px);}
+
+/* Right Button */
+.dpad.right-pressed #dpad-right { transform: rotateY(-22.5deg);}
+.dpad.right-pressed #dpad-up { filter: drop-shadow(-6px 0 var(--dpad-color-shadow)); transform:rotateY(-22.5deg) translateX(4px);}
+.dpad.right-pressed #dpad-down { filter: drop-shadow(-6px 4px 0 var(--dpad-color-shadow)); transform:rotateY(-22.5deg) translateX(4px);}
+.dpad.right-pressed #dpad-left { filter: drop-shadow(-4px 4px 0 var(--dpad-color-shadow)); transform: rotateY(30deg) translateX(9px); }
+.dpad.right-pressed #dpad-div { filter: drop-shadow(-4px 4px 0 var(--dpad-color-shadow)); transform: translateX(4px); }
+
+/* Bottom Button */
+.dpad.bottom-pressed #dpad-down { filter: drop-shadow(0 0px 0 var(--dpad-color-shadow));}
+.dpad.bottom-pressed #dpad-left { filter: drop-shadow(0 -4px 0 var(--dpad-color-shadow)); transform: rotateX(-22.5deg) translateY(4px);}
+.dpad.bottom-pressed #dpad-right { filter: drop-shadow(0 -4px 0 var(--dpad-color-shadow)); transform: rotateX(-22.5deg) translateY(4px);}
+.dpad.bottom-pressed #dpad-up { filter: drop-shadow(0 -4px 0 var(--dpad-color-shadow)); transform: rotateX(40deg) translateY(11px);}

@@ -5,6 +5,7 @@
     --ds-color-primary-dark: #363638;
     --ds-color-secondary: #7e8187;
     --ds-color-blue: #201c6a;
+    --dpad-color-shadow: black;
 
     /* Open normaal: 133mm x 139mm */
     /* Dicht normaal: 133mm x 74mm */
@@ -263,11 +264,12 @@
             width: 150px;
 
             button {
-                background: black;
+                width: 50px;
+                background: var(--ds-color-primary);
             }
 
             div {
-                background: black;
+                background: var(--ds-color-primary);
             }
 
             hr {

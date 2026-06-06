@@ -10,8 +10,7 @@ const dpadDown = document.getElementById("dpad-down");
 // Music tracks
 // Source: https://www.youtube.com/watch?v=elpT7gEgffQ&list=PLESFnlO3kNnqPB453OFSGS5AkfhBmcr7t&index=2
 const MarioLand = new Audio("../Assets/SFX/theme-3dland.mp3");
-Source: https://www.youtube.com/watch?v=zQzl9_ja99s <br>
-// Muziek Super Mario Bros 2: https://www.youtube.com/watch?v=mnHE2Mza9JU&list=PL8hbIab0m7wpZo3ki90NheJPC1Tm0Qr7L&index=60
+// Source: https://www.youtube.com/watch?v=zQzl9_ja99s
 const XYGym = new Audio("../Assets/SFX/theme-xygym.mp3");
 
 // Loop both songs

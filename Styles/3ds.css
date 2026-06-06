@@ -12,6 +12,8 @@
     --color-green: #0a9e6e;
     --color-yellow: #c3b241;
 
+    --dpad-color-shadow: black;
+
     /* Open normaal: 142mm x 154mm */
     /* Dicht normaal: 142mm x 90mm */
     /* Dimensies bron: https://www.dimensions.com/element/new-nintendo-3ds */
@@ -384,6 +386,7 @@
                 width: 120px;
 
                 button {
+                    width: 40px;
                     background: var(--color-button);
                 }
 
