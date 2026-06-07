@@ -57,6 +57,12 @@
 .DS3-controller {
     perspective: 2000px;
     transform-style: preserve-3d;
+    transform-origin: 61.5% 61.5%;
+    transition: rotate 0.5s ease, translate 0.5s ease;
+
+    @media (max-width: 1024px) {
+        rotate: 90deg;
+    }
 
     #top-section {
         position: relative;
@@ -68,6 +74,10 @@
         transform: rotateX(0deg);
 
         &.closed {
+            transform: rotateX(-180deg);
+        }
+
+        &.mobile-mode {
             transform: rotateX(-180deg);
         }
 

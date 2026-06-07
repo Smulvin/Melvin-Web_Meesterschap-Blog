@@ -701,6 +701,10 @@ Dpad pressed styling
 pop up responsive + transition
 Navigatie gestyled
 
+### Zondag 7 - 6 - 2026
+Teksten De Voorhoede toevoegen
+DS en 3DS responsive
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
