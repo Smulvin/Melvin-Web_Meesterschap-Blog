@@ -689,21 +689,18 @@ Mine SFX: https://www.youtube.com/watch?v=RsXAZPsWxl0 <br>
 Block break SFX: https://www.youtube.com/watch?v=MXibe4aNdGg&t=9s <br>
 
 ### Vrijdag 5 - 6 - 2026
-Cracks gemaakt in Figma en toegevoegd
+Ik kwam erachter dat je zonder geluid niet echt feedback krijgt dat de blokken worden gebroken tijdens de minecraft easter egg. Ik had dus besloten om scheuren toe te voegen zodra je ze breekt. Ik kon helaas geen PNG vinden online, maar kon ik Figma ze wel namaken.
 
 #### Bronnenlijst
 Minecraft Cracks: https://grid-paint.com/images/png/2020/10/16/6511625285664768.png <br>
 
 ### Zaterdag 6 - 6 - 2026
-Achtergrond toegevoegd
-Bronnen in code
-Dpad pressed styling
-pop up responsive + transition
-Navigatie gestyled
+Vandaag was weer zeer productief. Ik heb voor elke minigame een achtergrond toegevoegd door in de global.css een radial gradient te maken en per controller stylesheet een accentkleur aan te geven. Ik heb ook alle bronnen die in mijn README stonden toegevoegd in de code zelf. Voor de Dpad had ik nog geen styling voor wanneer de knop werd ingedrukt. Ik had deze code al staan voor mijn wii controller voor sprint 0, maar wilde hem een beetje aanpassen zodat hij meteen voor alle dpads van alle controllers tegelijk zou werken. Dit was een beetje een uitzoek werk met kleuren en waardes. Maar is uiteindelijk wel gelukt en ben zeer tevreden met het resultaat.
+
+De pop-ups die ik had voor de NES en Wii waren wel al gestyled, maar nog niet responsive en hadden nog geen transitie. Ik heb door middel van een max-width en clamps hem responsive weten te maken en heb dezelfde transitie gebruikt die ik ook in Sprint 0 had. De footer van mijn website werkte wel al, maar was nog niet responsive en ik was nog niet helemaal tevreden over de styling. Ik heb hem een aangepast dat hij nu vanaf de zijkant in schuift, dat is namelijk ook makkelijk op mobiel formaat. En heb de styling ook wat neutraler gemaakt dat hij goed staat met elke achtergrond van elke controller.
 
 ### Zondag 7 - 6 - 2026
-Teksten De Voorhoede toevoegen
-DS en 3DS responsive
+Vandaag heb ik wat minder gedaan voor mijn blog. Ik heb in de ochtend alleen de teksten geschreven over ons bezoek bij De Voorhoede, en heb later op de dag nog de DS en 3DS responsive gemaakt. Ik hoefde het script maar een klein beetje aan te passen. Maar ik heb nu weten te regelen dat zodra het scherm te klein wordt dat beide controllers dichtklappen en 90 graden draaien zodat hij nog steeds volledig in beeld is. Het was even spelen met dat de controller nog steeds midden in het scherm staat nadat hij dichtklapt.
 
 ### Button functionaliteiten lijst
 #### NES
@@ -867,7 +864,7 @@ Gold: https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s281242620377187514_p3
 Lapis Lazuli: https://i.pinimg.com/474x/89/98/c5/8998c59d5d412936dcf1a77b8d33f4e7.jpg <br>
 Deepslate: https://media.forgecdn.net/avatars/thumbnails/350/670/256/256/637503989905487067.png <br>
 Redstone: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-dzn8dv80hbvf1.jpg%3Fwidth%3D739%26format%3Dpjpg%26auto%3Dwebp%26s%3Ddcfd67c7a4836720869dd33137676938722cf332 <br>
-Diamond: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-6xayxw80hbvf1. jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D7958ffee9faae8ff1250c122672aee5a2cec9cc6 <br>
+Diamond: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-6xayxw80hbvf1.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D7958ffee9faae8ff1250c122672aee5a2cec9cc6 <br>
 Bedrock: https://p.novaskin.me/1626843056.png <br>
 Minecraft Cracks: https://grid-paint.com/images/png/2020/10/16/6511625285664768.png <br>
 
