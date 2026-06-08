@@ -14,21 +14,24 @@ Object.keys(buttons).forEach(id => {
   }
 
   btn.addEventListener("mousedown", () => {
-    removePressedClasses() // Clear any previous state
-    switch (id) {
-      case "BtnTop":
-        dpad.classList.add("top-pressed")
-        break
-      case "BtnLeft":
-        dpad.classList.add("left-pressed")
-        break
-      case "BtnRight":
-        dpad.classList.add("right-pressed")
-        break
-      case "BtnBottom":
-        dpad.classList.add("bottom-pressed")
-        break
-    }
+    requestAnimationFrame(() => {
+      removePressedClasses();
+
+      switch (id) {
+        case "BtnTop":
+          dpad.classList.add("top-pressed");
+          break;
+        case "BtnLeft":
+          dpad.classList.add("left-pressed");
+          break;
+        case "BtnRight":
+          dpad.classList.add("right-pressed");
+          break;
+        case "BtnBottom":
+          dpad.classList.add("bottom-pressed");
+          break;
+      }
+    })
   })
 
   // Remove pressed classes when button is released

@@ -23,6 +23,7 @@ function showSlide(index) {
 document
     .getElementById("dpad-right")
     .addEventListener("click", () => {
+        console.log("RIGHT CLICK");
 
         currentSlide++;
 
@@ -37,6 +38,7 @@ document
 document
     .getElementById("dpad-left")
     .addEventListener("click", () => {
+        console.log("LEFT CLICK");
 
         currentSlide--;
 
