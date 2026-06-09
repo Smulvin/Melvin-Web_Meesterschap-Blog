@@ -795,15 +795,15 @@ Vandaag heb ik wat minder gedaan voor mijn blog. Ik heb in de ochtend alleen de 
 * Left: Vorige button
 * Right: Volgende button
 * Down: Comet Observatory uit Mario Galaxy Bundel
-* Screenshot: 
+* Screenshot: God of War SFX
 * Plus: Verander kleur rechter kant
 * X: Start Sans Fight
 * Y: Stop Sans Fight
 * A: Selecteer button
 * B: Terug naar buttons vanaf detail
 * Right joystick: Launch Flea
-* Home:
-* Online:
+* Home: Hollow Knight SFX
+* Online: Overwatch SFX
 
 ## Volledige Bronnenlijst
 ### Info
