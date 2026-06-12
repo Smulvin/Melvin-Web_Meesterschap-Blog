@@ -50,8 +50,8 @@
 }
 
 :root {
-    --body-primary: #fafafa;
-    --body-secondary: #09008b;
+    --body-primary: hsl(0, 0%, 98%);
+    --body-secondary: hsl(244, 100%, 27%);
     --body-background: radial-gradient(circle, var(--body-primary) 0%, var(--body-secondary) 100%);
     --dpad-color-shadow: #a7a7a7;
 }

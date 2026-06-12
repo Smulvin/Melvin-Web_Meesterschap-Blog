@@ -7,7 +7,7 @@
 }
 
 :root {
-    --body-secondary: #373a37;
+    --body-secondary: hsl(120, 3%, 22%);
     
     --wii-color: #efefef;
     --wii-color-text: #000000;
