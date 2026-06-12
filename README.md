@@ -707,6 +707,7 @@ Responsive maken beide switches
 Nieuwe joycon kleur voor switch 2
 comments toegevoegd
 dpad weer gefixt?
+Favicon van ander eigen project
 
 #### Bronnenlijst
 Kleuren Switch 2, nieuwe: https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/blueyellow.JPG <br>
