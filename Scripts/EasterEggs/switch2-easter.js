@@ -11,11 +11,13 @@ let plusBtn = document.getElementById("btn-plus");
 // Bron voor kleuren: https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/nintendo_switch2_joycons1.jpg?quality=90&strip=all&crop=16.658266129032,0,66.683467741935,100
 const leftColors = [
     "#bc8fd5", // Purple
+    "#5286c2", // Cyan
     "#53b8dc", // Default blue
 ];
 
 const rightColors = [
     "#7eede2",  // blue
+    "#c3c16e",  // yellow
     "#fd886f"   // Default red
 ];
 
