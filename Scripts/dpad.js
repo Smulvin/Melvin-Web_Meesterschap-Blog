@@ -1,9 +1,9 @@
 const dpad = document.querySelector(".dpad")
 const buttons = {
-  BtnTop: document.getElementById("dpad-up"),
-  BtnLeft: document.getElementById("dpad-left"),
-  BtnRight: document.getElementById("dpad-right"),
-  BtnBottom: document.getElementById("dpad-down"),
+  BtnTop: document.querySelector("#dpad-up"),
+  BtnLeft: document.querySelector("#dpad-left"),
+  BtnRight: document.querySelector("#dpad-right"),
+  BtnBottom: document.querySelector("#dpad-down"),
 }
 
 Object.keys(buttons).forEach(id => {

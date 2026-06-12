@@ -702,6 +702,16 @@ De pop-ups die ik had voor de NES en Wii waren wel al gestyled, maar nog niet re
 ### Zondag 7 - 6 - 2026
 Vandaag heb ik wat minder gedaan voor mijn blog. Ik heb in de ochtend alleen de teksten geschreven over ons bezoek bij De Voorhoede, en heb later op de dag nog de DS en 3DS responsive gemaakt. Ik hoefde het script maar een klein beetje aan te passen. Maar ik heb nu weten te regelen dat zodra het scherm te klein wordt dat beide controllers dichtklappen en 90 graden draaien zodat hij nog steeds volledig in beeld is. Het was even spelen met dat de controller nog steeds midden in het scherm staat nadat hij dichtklapt.
 
+### Vrijdag 12 - 6 - 2026
+Responsive maken beide switches
+Nieuwe joycon kleur voor switch 2
+comments toegevoegd
+dpad weer gefixt?
+
+#### Bronnenlijst
+Kleuren Switch 2, nieuwe: https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/blueyellow.JPG <br>
+
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up

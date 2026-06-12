@@ -398,6 +398,10 @@
                 button {
                     width: 40px;
                     background: var(--color-button);
+
+                    &::after {
+                        background: var(--color-joystick);
+                    }
                 }
 
                 div {
