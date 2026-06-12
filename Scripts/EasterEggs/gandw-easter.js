@@ -1,3 +1,7 @@
+/* *************** */
+/* Time Easter Egg */
+/* *************** */
+
 const timeButton = document.getElementById("time-button");
 const screen = document.querySelector(".screen");
 

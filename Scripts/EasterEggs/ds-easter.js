@@ -1,3 +1,7 @@
+/* ***************** */
+/* Wanted Easter Egg */
+/* ***************** */
+
 // AI Hulp:
 // Prompt 1: Are you familiar with the "Wanted" minigame on New super mario bros DS?<br>
 // Prompt 2: Alright I dont need your specific reasoning, but I would like to make a variation on it. So lets start with some simple coding. I have assets for the Wanted Screen, the heads of all 4 characters that can appear on the wanted screen and the little heads for the bottom screen. Could you make some sort of minigame where the heads bounce around the bottom screen, with obviously 1 correct one that is shown on the screen on the top screen?
@@ -190,6 +194,9 @@ function stopGame() {
 
 }
 
+/* **************** */
+/* Music Easter Egg */
+/* **************** */
 
 // Themes: Mario Kart and Bowsers Inside Story
 const dpadUp = document.getElementById("dpad-up");
@@ -228,6 +235,9 @@ dpadDown.addEventListener("click", () => {
     bowsersInsideTheme.play();
 });
 
+/* ******************** */
+/* Pictochat Easter Egg */
+/* ******************** */
 
 const btnX = document.querySelector(".x-button");
 const btnY = document.querySelector(".y-button");

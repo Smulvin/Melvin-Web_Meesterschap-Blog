@@ -817,7 +817,8 @@ Switch 2 Dimensies: https://www.nintendo.com/nl-nl/Hardware/Nintendo-Switch-2/Ni
 Wii Dimensies: https://www.dimensions.com/element/wii-remote <br>
 Kleuren Switch: https://encrypted-tbn3.gstatic.com/shoppingq=tbn:ANd9GcTYwY-w_I479WtU86ChXSwaWMJ_rT2GSUoILEcc6AADpwJnBXPFzl10Ckr4oc5XBoAs4j8agIUVv_HNU3zlHvDFhvo9sfnIk593Xn4JsS36Bltfv0zy9YRXKMVtKxAWB337klS9i0zNhOM&usqp=CAc <br>
 Kleuren Switch 2: https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/nintendo_switch2_joycons1.jpg?quality=90&strip=all&crop=16.658266129032,0,66.683467741935,100 <br>
-Audacity Reverse: https://manual.audacityteam.org/man/reverse.html
+Kleuren Switch 2, nieuwe: https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/blueyellow.JPG <br>
+Audacity Reverse: https://manual.audacityteam.org/man/reverse.html <br>
 
 ### Assets - Images
 Sommige images zijn nog gesneden of verkleind in Figma

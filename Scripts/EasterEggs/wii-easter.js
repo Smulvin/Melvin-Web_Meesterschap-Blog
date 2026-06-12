@@ -1,3 +1,7 @@
+/* ******************** */
+/* Power-off Easter Egg */
+/* ******************** */
+
 const powerBtn = document.getElementById("power-btn")
 // Source: https://manual.audacityteam.org/man/reverse.html
 // Source: https://www.youtube.com/watch?v=x1FM5uM_998
@@ -15,8 +19,10 @@ if (powerBtn && powerSfx) {
   })
 }
 
+/* *********************** */
+/* Mario Galaxy Easter Egg */
+/* *********************** */
 
-// Controller shake
 document.addEventListener("DOMContentLoaded", () => {
   const homeBtn = document.getElementById("home-button")
   const controller = document.getElementById("shake-wrapper")
@@ -43,6 +49,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 600)
   })
 })
+
+/* ********************* */
+/* Wii Sports Easter Egg */
+/* ********************* */
 
 
 const plusButton = document.getElementById("btn-plus");

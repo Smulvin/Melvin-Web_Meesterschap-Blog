@@ -9,6 +9,7 @@ let minusBtn = document.getElementById("btn-minus");
 let plusBtn = document.getElementById("btn-plus");
 
 // Bron voor kleuren: https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/nintendo_switch2_joycons1.jpg?quality=90&strip=all&crop=16.658266129032,0,66.683467741935,100
+// Bron voor kleuren: https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/blueyellow.JPG
 const leftColors = [
     "#bc8fd5", // Purple
     "#5286c2", // Cyan

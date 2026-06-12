@@ -25,6 +25,8 @@
 .switch-controller {
     display: flex;
 
+
+
     #btn-l,
     #btn-r {
         position: absolute;
@@ -251,8 +253,8 @@
                 padding: 2rem;
                 border-radius: 2rem;
                 background: linear-gradient(180deg,
-                    rgba(255, 255, 255, 0.04),
-                    rgba(255, 255, 255, 0.02));
+                        rgba(255, 255, 255, 0.04),
+                        rgba(255, 255, 255, 0.02));
                 backdrop-filter: blur(20px);
                 color: white;
 
@@ -353,7 +355,6 @@
     }
 }
 
-
 @keyframes fadeScreen {
     from {
         opacity: 0;
@@ -366,6 +367,32 @@
     }
 }
 
+@media (max-width: 1500px) {
+    .switch-controller {
+        scale: 0.7;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 1rem;
+        .switch-left {
+            order: 2;
+        }
+        .switch-right {
+            order: 3;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .switch-controller {
+        scale: 0.5;
+    }
+}
+
+/* **************** */
+/* Zelda Easter Egg */
+/* **************** */
+
 
 #zelda-container {
     position: absolute;
@@ -377,7 +404,8 @@
     z-index: -10;
 }
 
-#arrow, #korok {
+#arrow,
+#korok {
     position: absolute;
     width: 10rem;
     height: auto;
@@ -385,6 +413,10 @@
     top: 0;
     transform-origin: center;
 }
+
+/* ******************** */
+/* Minecraft Easter Egg */
+/* ******************** */
 
 #minecraft-overlay {
     position: absolute;

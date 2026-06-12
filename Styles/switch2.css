@@ -12,7 +12,7 @@
 
     /* Normal size: 116mm x 30.7mm */
     /* Dimensies bron: https://www.nintendo.com/nl-nl/Hardware/Nintendo-Switch-2/Nintendo-Switch-2-Specificaties-2785627.html?srsltid=AfmBOoqZBPBSjOMNFwO9OwzFyUoCPXfzVXbFAFblwaFuebyZJF2gZzQ3 */
-    --switch-width-controller: 200.2px;
+    --switch-width-controller: 200px;
     --switch-height-controller: 696px;
 
     /* Normaal 200mm x 116mm */
@@ -390,6 +390,39 @@
     }
 }
 
+@media (max-width: 1600px) {
+    .switch2-controller {
+        scale: 0.6;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 1rem;
+        .switch-left {
+            order: 2;
+        }
+        .switch-right {
+            order: 3;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .switch2-controller {
+        scale: 0.5;
+        gap: 6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .switch2-controller {
+        scale: 0.45;
+        gap: 8rem;
+    }
+}
+
+/* ************************ */
+/* Hollow Knight Easter Egg */
+/* ************************ */
 
 #launch-container {
     position: absolute;
@@ -409,6 +442,10 @@
     top: 0;
     transform-origin: center;
 }
+
+/* ******************** */
+/* Undertale Easter Egg */
+/* ******************** */
 
 
 /* Source: https://fonts2u.com/mars-needs-cunnilingus.font */

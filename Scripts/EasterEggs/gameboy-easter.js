@@ -1,4 +1,6 @@
-// Kirby Suck Easter Egg
+/* **************** */
+/* Kirby Easter Egg */
+/* **************** */
 const bButton = document.getElementById("gameboy-b");
 // Source: https://www.youtube.com/watch?v=9wOgtUvZ9xc
 const kirbySuck = new Audio("../Assets/SFX/kirby-suck.mp3");
@@ -22,6 +24,10 @@ async function triggerKirbySuck() {
     // hide completely so it doesn't affect scroll/layout
     inner.style.display = "none";
 }
+
+/* ****************** */
+/* Pokemon Easter Egg */
+/* ****************** */
 
 //Gemaakt door AI
 // Prompt 1: New idea. When you press the A button I would like it to "start" a pokemon encounter. I actually just want a visual 
@@ -141,6 +147,10 @@ function getSpiralOrder(cols, rows) {
 
     return result;
 }
+
+/* **************** */
+/* Music Easter Egg */
+/* **************** */
 
 // Themes: Zelda and Tetris
 const dpadUp = document.getElementById("dpad-up");
