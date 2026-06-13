@@ -713,7 +713,8 @@ Favicon van ander eigen project
 Kleuren Switch 2, nieuwe: https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/blueyellow.JPG <br>
 
 ### Zaterdag 13 - 6 - 2026
-
+game and watch en gameboy responsive door schermbreken
+teksten van TWYW toevoegen
 
 #### Bronnenlijst
 Screenbreak: https://www.pngarts.com/files/10/Cracked-Glass-PNG-Picture.png <br>
