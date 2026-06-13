@@ -1,15 +1,17 @@
+const favicon = document.getElementById("favicon");
+
+const basePath = favicon.href.replace("Idle.png", "");
+
 const frames = [
-    "../Assets/Images/Favicon/Running1.png",
-    "../Assets/Images/Favicon/Running2.png",
-    "../Assets/Images/Favicon/Running3.png",
-    "../Assets/Images/Favicon/Running4.png"
+    `${basePath}Running1.png`,
+    `${basePath}Running2.png`,
+    `${basePath}Running3.png`,
+    `${basePath}Running4.png`
 ];
 
 let currentFrame = 0;
 
 function animateFavicon() {
-    const favicon = document.getElementById("favicon");
-
     currentFrame = (currentFrame + 1) % frames.length;
     favicon.href = frames[currentFrame];
 }
