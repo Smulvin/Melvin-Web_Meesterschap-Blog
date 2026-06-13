@@ -1,5 +1,5 @@
 :root {
-    --body-secondary: hsl(135, 84%, 46%);
+    --body-secondary: hsla(135, 84%, 46%, 0.6);
 
     --color-yellow: #e4cfb0;
     --color-yellow-dark: #b29a73;
@@ -324,6 +324,16 @@
     transition: opacity 0.2s ease;
 
     z-index: 5;
+}
+
+#screenBreak {
+    width: 100%;
+    height: auto;
+    display: none;
+
+    @media (max-width: 1050px){
+        display: block;
+    } 
 }
 
 .time-display.active {

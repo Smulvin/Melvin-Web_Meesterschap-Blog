@@ -715,6 +715,10 @@ Kleuren Switch 2, nieuwe: https://static0.polygonimages.com/wordpress/wp-content
 ### Zaterdag 13 - 6 - 2026
 
 
+#### Bronnenlijst
+Screenbreak: https://www.pngarts.com/files/10/Cracked-Glass-PNG-Picture.png <br>
+
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
@@ -881,6 +885,7 @@ Redstone: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fdeepslate-o
 Diamond: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdeepslate-ores-in-the-old-texture-style-v0-6xayxw80hbvf1.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D7958ffee9faae8ff1250c122672aee5a2cec9cc6 <br>
 Bedrock: https://p.novaskin.me/1626843056.png <br>
 Minecraft Cracks: https://grid-paint.com/images/png/2020/10/16/6511625285664768.png <br>
+Screenbreak: https://www.pngarts.com/files/10/Cracked-Glass-PNG-Picture.png <br>
 
 ### Assets - SFX
 Sommige muziek stukken of soundeffects zijn nog licht bewerkt in Audacity

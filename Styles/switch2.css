@@ -1,5 +1,5 @@
 :root {
-    --body-secondary: hsl(180, 100%, 52%);
+    --body-secondary: hsla(180, 100%, 52%, 0.6);
 
     --switch-red: #fd886f;
     --switch-blue: #53b8dc;

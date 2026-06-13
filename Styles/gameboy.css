@@ -1,11 +1,11 @@
 :root {
-    --body-secondary: hsla(234, 89%, 43%, 0.58);
+    --body-secondary: hsla(234, 89%, 43%, 0.6);
 
     --gameboy-grey: #dad5db;
     --gameboy-grey-dark: #7a7788;
     --gameboy-grey-btn: #8c8398;
     --gameboy-green: #a3b434;
-    --gameboy-green-dark:#1f4b1b;
+    --gameboy-green-dark: #1f4b1b;
     --gameboy-red: #89245c;
     --gameboy-blue: #53558b;
     --gameboy-black: #323135;
@@ -21,13 +21,14 @@
     --gameboy-height-screen: 318px;
 }
 
+
 .gameboy-controller {
     width: var(--gameboy-width-controller);
     height: var(--gameboy-height-controller);
     background: var(--gameboy-grey);
     border-radius: 1rem 1rem 10rem 1rem;
     position: relative;
-    transform-origin: center;
+
 
     .on-off-container {
         width: 100%;
@@ -48,7 +49,8 @@
             margin-left: 5rem;
         }
 
-        &::before, &::after {
+        &::before,
+        &::after {
             content: "";
             position: absolute;
             top: 0;
@@ -85,15 +87,14 @@
             font-family: "Jost";
             font-size: 0.8rem;
 
-            &::after, &::before {
+            &::after,
+            &::before {
                 content: "";
                 position: absolute;
-                background: linear-gradient(
-                    var(--gameboy-red) 33%,
-                    var(--gameboy-grey-dark) 33%,
-                    var(--gameboy-grey-dark) 66%,
-                    var(--gameboy-blue) 66%
-                );
+                background: linear-gradient(var(--gameboy-red) 33%,
+                        var(--gameboy-grey-dark) 33%,
+                        var(--gameboy-grey-dark) 66%,
+                        var(--gameboy-blue) 66%);
                 height: 70%;
             }
 
@@ -153,8 +154,8 @@
                     width: 100%;
                     height: auto;
                 }
-            } 
-            
+            }
+
             .slide:has(:not(img)) {
                 padding: 2rem 1rem;
             }
@@ -247,14 +248,14 @@
                 border-radius: 50%;
                 box-shadow: 0px 4px 0px 0px #5a133a;
                 transform: translateY(-3px);
-                
+
                 &:active {
                     box-shadow: 0px 0px 0px 0px #5a133a;
                     transform: translateY(0px);
                 }
             }
 
-            div:last-of-type{
+            div:last-of-type {
                 margin-top: -4rem;
             }
         }
@@ -328,21 +329,34 @@
     }
 }
 
-
-/* ************** */
-/* Easter eggs */
-/* ************** */
-.gameboy-inner {
+#screenBreak {
     width: 100%;
+    height: auto;
+    display: none;
+
+    @media (max-width: 550px){
+        display: block;
+    } 
+}
+
+
+/* **************** */
+/* Easter egg Kirby */
+/* **************** */
+.gameboy-inner {
     height: 100%;
     transition: transform 1.2s cubic-bezier(0.7, -0.4, 0.2, 1.2),
-                opacity 1.2s ease;
+        opacity 1.2s ease;
 }
 
 .gameboy-inner.sucked-away {
     transform: translateX(120vw) scale(0.6) rotate(-10deg);
     opacity: 0;
 }
+
+/* ****************** */
+/* Easter egg Pokemon */
+/* ****************** */
 
 .encounter-overlay {
     position: absolute;

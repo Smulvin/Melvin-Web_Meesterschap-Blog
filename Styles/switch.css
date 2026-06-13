@@ -1,5 +1,5 @@
 :root {
-    --body-secondary: hsl(133, 97%, 13%);
+    --body-secondary: hsla(133, 97%, 13%, 0.6);
 
     --switch-red: #fe6054;
     --switch-blue: #01c4e0;
@@ -367,13 +367,18 @@
     }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1400px) {
     .switch-controller {
         scale: 0.7;
+    }
+}
+
+@media (max-width: 1000px) {
+    .switch-controller {
         flex-wrap: wrap;
         justify-content: center;
-
         gap: 1rem;
+
         .switch-left {
             order: 2;
         }

@@ -1,5 +1,5 @@
 :root {
-    --body-secondary: hsl(0, 92%, 30%);
+    --body-secondary: hsla(0, 92%, 30%, 0.6);
 
     --primary-color: hsl(60, 2%, 82%);
     --secondary-color: hsl(348, 4%, 26%);
