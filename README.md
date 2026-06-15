@@ -716,6 +716,9 @@ Er moesten nog 2 controllers responsive worden gemaakt, de game and watch en de 
 #### Bronnenlijst
 Screenbreak: https://www.pngarts.com/files/10/Cracked-Glass-PNG-Picture.png <br>
 
+### Maandag 15 - 6 - 2026
+Oke Sanne, het is een iframe.
+
 
 ### Button functionaliteiten lijst
 #### NES
