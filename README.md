@@ -703,18 +703,15 @@ De pop-ups die ik had voor de NES en Wii waren wel al gestyled, maar nog niet re
 Vandaag heb ik wat minder gedaan voor mijn blog. Ik heb in de ochtend alleen de teksten geschreven over ons bezoek bij De Voorhoede, en heb later op de dag nog de DS en 3DS responsive gemaakt. Ik hoefde het script maar een klein beetje aan te passen. Maar ik heb nu weten te regelen dat zodra het scherm te klein wordt dat beide controllers dichtklappen en 90 graden draaien zodat hij nog steeds volledig in beeld is. Het was even spelen met dat de controller nog steeds midden in het scherm staat nadat hij dichtklapt.
 
 ### Vrijdag 12 - 6 - 2026
-Responsive maken beide switches
-Nieuwe joycon kleur voor switch 2
-comments toegevoegd
-dpad weer gefixt?
-Favicon van ander eigen project
+Vandaag ben ik bezig geweest om beide switch controllers repsonsive te maken. Hier had ik al een tijdje een idee voor, maar ik probeerde het toen de hele tijd zonder media queries werkend te krijgen. Dat had ik nu opgegeven. Het was het puzzelen met de verschillende waardes, maar ik heb het uiteindelijk wel voor elkaar gekregen. Daarbij was er laatst ook een Nintendo Direct waarbij ze een nieuwe kleur van controllers hadden aangekondigd. Deze moest ik dan uiteraard ook weer toevoegen aan mijn blog. Ook heb ik vandaag comments toegevoegd in de code voor wat overzicht. Heb ik weer geprobeerd de dpad te fixen, want blijkbaar was dit nog niet gedaan. Ik heb nu de code van de dpad iets anders opgesteld waardoor hij het tot nu toe weer goed doet. Het kwam er vooral op neer dat hij te snel tussen classes wisselde waarschijnlijk, ik heb daar dus een kleine delay op gezet.
+
+Tijdens The Web You Want dag 2 was er een spreker die praatte over hoe hij zijn head had gestyled voor de thema pagina van de website van de conferentie. Ik deed me denken van of ik ook met javascript invloed kan hebben op de head. Ik heb veel games verwerkt in mijn blog, maar geen enkele easter egg naar een game die ik zelf heb gemaakt. Voor een andere minor had ik een poppetje gemaakt gebasseerd op Sonic. Hier had ik verschillende frames voor, voor onder andere het rennen. Ik heb hier een paar frames van gepakt en een stukje code geschreven waardoor hij nu te zien is in de favicon. De animatie is niet heel smooth, maar als ik hem sneller liet afspelen werden er frames overgeslagen. 
 
 #### Bronnenlijst
 Kleuren Switch 2, nieuwe: https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/blueyellow.JPG <br>
 
 ### Zaterdag 13 - 6 - 2026
-game and watch en gameboy responsive door schermbreken
-teksten van TWYW toevoegen
+Er moesten nog 2 controllers responsive worden gemaakt, de game and watch en de gameboy. Beide hebben maar 1 scherm en waren lastig te formateren voor een kleiner scherm. Ik heb op het internet een png opgezocht van een breuk glas oid, deze heb ik over het scherm heen geplaatst en wordt zichtbaar zodra het scherm te klein wordt. Want dan breekt het scherm. Ook heb ik vandaag alle teksten toegevoegd over de laatste weekly nerd. Dit waren er nogal veel dus heb ik ze verspreid over de dag geschreven.
 
 #### Bronnenlijst
 Screenbreak: https://www.pngarts.com/files/10/Cracked-Glass-PNG-Picture.png <br>
