@@ -21,6 +21,7 @@
     perspective: 1000px;
     cursor: grab;
 
+
     &:active {
         cursor: grabbing;
     }

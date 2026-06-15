@@ -156,7 +156,7 @@ function spawnMario() {
         mario.style.transform = `translate(${x}px, ${y}px)`;
 
         // cleanup
-        if (x > window.innerWidth + 120) {
+        if (mario.getBoundingClientRect().left > window.innerWidth) {
             clearInterval(moveInterval);
             clearInterval(spriteInterval);
             mario.remove();

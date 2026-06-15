@@ -5,32 +5,47 @@ let rotX = -20;
 let rotY = -30;
 
 let isDragging = false;
-let lastX, lastY;
+let lastX = 0;
+let lastY = 0;
 
-scene.addEventListener('mousedown', (e) => {
+function getPoint(e) {
+    // mouse
+    if (e.touches === undefined) {
+        return { x: e.clientX, y: e.clientY };
+    }
 
-    // Ignore clicks on buttons or links
+    // touch
+    return {
+        x: e.touches[0]?.clientX ?? e.changedTouches[0]?.clientX,
+        y: e.touches[0]?.clientY ?? e.changedTouches[0]?.clientY
+    };
+}
+
+// START (mouse + touch)
+function startDrag(e) {
     if (
         e.target.closest('button') ||
         e.target.closest('a')
-    ) {
-        return;
-    }
+    ) return;
 
     isDragging = true;
-    lastX = e.clientX;
-    lastY = e.clientY;
-});
 
-window.addEventListener('mouseup', () => {
+    const p = getPoint(e);
+    lastX = p.x;
+    lastY = p.y;
+}
+
+function endDrag() {
     isDragging = false;
-});
+}
 
-window.addEventListener('mousemove', (e) => {
+function moveDrag(e) {
     if (!isDragging) return;
 
-    let deltaX = e.clientX - lastX;
-    let deltaY = e.clientY - lastY;
+    const p = getPoint(e);
+
+    let deltaX = p.x - lastX;
+    let deltaY = p.y - lastY;
 
     rotY += deltaX * 0.5;
     rotX -= deltaY * 0.5;
@@ -38,6 +53,16 @@ window.addEventListener('mousemove', (e) => {
     cube.style.transform =
         `rotateX(${rotX}deg) rotateY(${rotY}deg)`;
 
-    lastX = e.clientX;
-    lastY = e.clientY;
-});
+    lastX = p.x;
+    lastY = p.y;
+}
+
+// Mouse
+scene.addEventListener('mousedown', startDrag);
+window.addEventListener('mouseup', endDrag);
+window.addEventListener('mousemove', moveDrag);
+
+// Touch
+scene.addEventListener('touchstart', startDrag, { passive: false });
+window.addEventListener('touchend', endDrag);
+window.addEventListener('touchmove', moveDrag, { passive: false });

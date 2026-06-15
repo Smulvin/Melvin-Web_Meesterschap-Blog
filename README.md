@@ -720,6 +720,8 @@ Screenbreak: https://www.pngarts.com/files/10/Cracked-Glass-PNG-Picture.png <br>
 Oke Sanne, het is een iframe.
 
 
+Oh ja ik heb wat responsive problemen opgelost voor de NES controller en beide DS en 3DS. Main moest nog een width en overflow hidden krijgen.
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
