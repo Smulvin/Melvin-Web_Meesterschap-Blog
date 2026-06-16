@@ -719,8 +719,7 @@ Screenbreak: https://www.pngarts.com/files/10/Cracked-Glass-PNG-Picture.png <br>
 ### Maandag 15 - 6 - 2026
 Oke Sanne, het is een iframe.
 
-
-Oh ja ik heb wat responsive problemen opgelost voor de NES controller en beide DS en 3DS. Main moest nog een width en overflow hidden krijgen.
+Ik had ook nog wat responsive problemen opgelost waar Dylan achter kwam. Dit kon ik fixen door wat extra code toe te voegen aan de main. Maar tijdens het testen op mobiel kwam ik er ook achter dat mijn NES controller niet werkt op mobiel omdat ik alleen het bewegen regelde met mousedown, dus nu gebruik ik ook touchstart. Toen ik mijn controller weer ging testen viel me op dat mijn mario easter egg ook moeite heeft met een kleiner scherm formaat, maar dat was te fixen door een overflow hidden op de complete html.
 
 ### Button functionaliteiten lijst
 #### NES
