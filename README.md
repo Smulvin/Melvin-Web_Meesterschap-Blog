@@ -721,6 +721,12 @@ Oke Sanne, het is een iframe.
 
 Ik had ook nog wat responsive problemen opgelost waar Dylan achter kwam. Dit kon ik fixen door wat extra code toe te voegen aan de main. Maar tijdens het testen op mobiel kwam ik er ook achter dat mijn NES controller niet werkt op mobiel omdat ik alleen het bewegen regelde met mousedown, dus nu gebruik ik ook touchstart. Toen ik mijn controller weer ging testen viel me op dat mijn mario easter egg ook moeite heeft met een kleiner scherm formaat, maar dat was te fixen door een overflow hidden op de complete html.
 
+### Woensdag 17 - 6 - 2026
+music switch fix na undertale
+switch2-screen.js dubbelheid weggehaald
+dubbele screen styling verwerkt in global. 
+btn-container dubbele code weggehaald
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up
