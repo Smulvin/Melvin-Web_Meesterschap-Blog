@@ -470,50 +470,20 @@
                 margin-top: 1rem;
             }
 
-            .abxy-container {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(3, 1fr);
+            .btn-container {
                 width: 125px;
-                aspect-ratio: 1;
 
                 button {
-                    border: none;
                     width: 2.5rem;
-                    aspect-ratio: 1;
-                    border-radius: 50%;
                     background: var(--color-button);
-                    box-shadow: 0px 5px 0px 0px black;
                     font-size: 1.5rem;
 
-                    &:active {
-                        box-shadow: 0px 2px 0px 0px black;
-                        transform: translateY(3px);
-                    }
+                    &:nth-of-type(1) { color: var(--color-blue); }
+                    &:nth-of-type(2) { color: var(--color-green); }
+                    &:nth-of-type(3) { color: var(--color-red); }
+                    &:nth-of-type(4) { color: var(--color-yellow); }
                 }
 
-                button:first-of-type {
-                    grid-column: 2;
-                    color: var(--color-blue)
-                }
-
-                button:nth-of-type(2) {
-                    grid-column: 1;
-                    grid-row: 2;
-                    color: var(--color-green);
-                }
-
-                button:nth-of-type(3) {
-                    grid-column: 3;
-                    grid-row: 2;
-                    color: var(--color-red);
-                }
-
-                button:nth-of-type(4) {
-                    grid-column: 2;
-                    grid-row: 3;
-                    color: var(--color-yellow)
-                }
             }
 
             .start-select-container {
