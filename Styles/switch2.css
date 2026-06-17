@@ -259,11 +259,11 @@
                 display: none;
             }
 
-            .nerd-screen.active-screen {
+            .detail-screen.active-screen {
                 display: block;
             }
 
-            .nerd-menu {
+            .screen-menu {
                 display: flex;
                 gap: 0.1rem;
                 align-items: center;
@@ -303,7 +303,7 @@
                     }
                 }
 
-                .nerd-btn {
+                .screen-btn {
                     width: 220px;
                     aspect-ratio: 1;
                     border: none;
@@ -316,11 +316,11 @@
                 }
             }
 
-            .nerd-menu.hidden {
+            .screen-menu.hidden {
                 display: none;
             }
 
-            .nerd-screen {
+            .detail-screen {
                 display: none;
                 height: 100%;
                 font-family: "Jost";
