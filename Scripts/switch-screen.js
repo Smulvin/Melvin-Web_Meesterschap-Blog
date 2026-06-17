@@ -19,7 +19,7 @@ function updateSelection() {
     const activeButton = screenButtons[currentIndex];
     activeButton.classList.add("active");
 
-    // 👇 keep active button visible + centered in scroll area
+    // keep active button visible + centered in scroll area
     activeButton.scrollIntoView({
         behavior: "smooth",
         inline: "center",
@@ -79,6 +79,8 @@ bBtn.addEventListener("click", () => {
     });
 
     screenMenu.classList.remove("hidden");
+
+    updateSelection();
 });
 
 // init

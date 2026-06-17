@@ -318,4 +318,5 @@ yBtn.addEventListener("click", () => {
     undertaleOverlay.classList.add("hidden");
     megalovania.pause();
     megalovania.currentTime = 0;
+    undertaleActive = false;
 });

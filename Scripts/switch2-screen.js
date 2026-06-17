@@ -91,6 +91,9 @@ bBtn.addEventListener("click", () => {
     });
 
     nerdMenu.classList.remove("hidden");
+
+    updateSelection();
+
 });
 
 
