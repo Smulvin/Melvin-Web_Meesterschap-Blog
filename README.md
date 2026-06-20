@@ -722,10 +722,13 @@ Oke Sanne, het is een iframe.
 Ik had ook nog wat responsive problemen opgelost waar Dylan achter kwam. Dit kon ik fixen door wat extra code toe te voegen aan de main. Maar tijdens het testen op mobiel kwam ik er ook achter dat mijn NES controller niet werkt op mobiel omdat ik alleen het bewegen regelde met mousedown, dus nu gebruik ik ook touchstart. Toen ik mijn controller weer ging testen viel me op dat mijn mario easter egg ook moeite heeft met een kleiner scherm formaat, maar dat was te fixen door een overflow hidden op de complete html.
 
 ### Woensdag 17 - 6 - 2026
-music switch fix na undertale
-switch2-screen.js dubbelheid weggehaald
-dubbele screen styling verwerkt in global. 
-btn-container dubbele code weggehaald
+Ik heb vandaag een paar kleine dingetjes opgelost. Zo deed de muziek van de dpad het niet op switch 2 na dat undertale actief was, kwam door een missende regel code. Maar het grootste dat ik vandaag heb gedaan is grote stukken met dubbele code weggehaald. Zo had ik aparte scripts voor de functionaliteteit van switch 1 en switch 2, terwijl die code bijna identiek is. Alleen de naamgeving van variabelen was anders. Door mijn namen beter te noemen kon ik een heel script verwijderen. Ook hebben veel controller 4 losse ronde buttons in een ruit formatie. Dit zijn de DS, 3DS, Switch en Switch 2. Door wat naamgeving te verbeteren en de code in de global.css te zetten kon ik HEEL veel regels CSS besparen.
+
+### Zaterdag 20 - 6  - 2026
+Ik heb vandaag nog een extra plaatje toegevoegd specifiek voor de meesterproef op het switch scherm en heb de teksten toegevoegd. Een groot deel daarvan komt vanuit mijn productbiografie.
+
+#### Bronnenlijst
+Meesterproef: https://cdn-icons-png.flaticon.com/512/8920/8920811.png
 
 ### Button functionaliteiten lijst
 #### NES
@@ -871,6 +874,7 @@ Repair Cafe: https://www.repaircafe.org/wp-content/uploads/2019/10/RC_socialmedi
 General foto: https://www.pinterest.com/pin/pfps--26247610322356687/ <br>
 Leerdoelen: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F<br>
 Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F<br>
+Meesterproef: https://cdn-icons-png.flaticon.com/512/8920/8920811.png<br>
 
 Mario Wanted Minigame: https://www.spriters-resource.com/ds_dsi/supermario64ds/asset/6856/ <br>
 Super Mario Bros Spritesheet: https://www.deviantart.com/marioandme64/art/THE-COMPLETE-SUPER-MARIO-BROS-1-MARIO-SPRITE-RIG-1171963856 <br>

@@ -32,7 +32,7 @@ Functionaliteiten:
 
 <body>
     <main>
-        
+
         <div class="switch-controller">
             <div class="switch-left">
                 <button id="btn-l"></button>
@@ -54,7 +54,8 @@ Functionaliteiten:
                 <div class="content">
                     <!-- Bronnen Iconen:
                     Leerdoelen: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F
-                    Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F -->
+                    Reflection: https://www.shutterstock.com/nl/image-vector/learning-goals-icon-element-design-2670889603?dd_referrer=https%3A%2F%2Fwww.google.nl%2F 
+                    Meesterproef: https://cdn-icons-png.flaticon.com/512/8920/8920811.png -->
 
                     <div class="screen-menu">
                         <div>
@@ -85,7 +86,15 @@ Functionaliteiten:
                             <p>Meesterproef</p>
                             <div class="button-border">
                                 <button class="screen-btn" data-page="meesterproef">
-                                    <img src="../Assets/Images/Meesterschap/Reflection.png" alt="">
+                                    <img src="../Assets/Images/Meesterschap/Meesterproef.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Meesterproef Doelen</p>
+                            <div class="button-border">
+                                <button class="screen-btn" data-page="meesterproef-doelen">
+                                    <img src="../Assets/Images/Meesterschap/Leerdoelen.png" alt="">
                                 </button>
                             </div>
                         </div>
@@ -93,7 +102,7 @@ Functionaliteiten:
                             <p>Meesterproef Reflectie</p>
                             <div class="button-border">
                                 <button class="screen-btn" data-page="meesterproef-reflection">
-                                    <img src="../Assets/Images/Meesterschap/Reflection.png" alt="">
+                                    <img src="../Assets/Images/Meesterschap/Reflectie.png" alt="">
                                 </button>
                             </div>
                         </div>
@@ -210,10 +219,188 @@ Functionaliteiten:
 
                     <div class="detail-screen" data-page="meesterproef">
                         <h2>Meesterproef</h2>
+                        <h3>De opdracht</h3>
+                        <p>
+                            Voor de meesterproef heb ik samen met mijn team gewerkt aan opdracht voor het bedrijf (ink).
+                            Dit is een bedrijf die zich richt op het maken van digitale oplossingen voor hun klaten. In
+                            dit geval was de klant Gemeente Amsterdam. Ink was bezig met het creeëren van een training
+                            die helpt bij het contact met mensen met een beperking. Zij hadden hier al een digitale
+                            training voor, maar kreeg daar feedback op van Gemeente Amsterdam. Het was aan ons de taak
+                            om een betere training te maken.
+                        </p>
+                        <h3>Mijn bijdrage</h3>
+                        <h4>Maken van minigames</h4>
+                        <p>
+                            Ik heb de functionaliteit code geschreven voor de spraakgebrek minigame en de auditieve
+                            minigame. Voor beide bestanden heb ik een data bestand aangemaakt waar informatie uit op
+                            wordt gehaald die wordt laten zien in de minigame zelf. Op deze manier is de game meer
+                            robuust en kan hij makkelijker aangepast worden door de opdrachtgever. Specifiek voor de
+                            minigame van de auditieve beperking heb ik gebruik gemaakt van de GSAP Draggable library
+                            voor het drag & drop systeem.
+                        </p>
+                        <h4>Maken van Assets</h4>
+                        <p>
+                            Voor de auditieve minigame heb ik voor het grootste gedeelte assets van het internet
+                            gehaald. Deze bron staat vermeld in de code. Maar voor het gebaar van “bedankt” heb ik
+                            meerdere iteraties gemaakt en elke keer gevraagd om feedback om te kijken of de afbeelding
+                            duidelijker is.
+                        </p>
+                        <p>
+                            Voor de blind minigame heb ik samen met Dylan ook assets gemaakt. Deze hebben we gemaakt in
+                            Figma en hebben continu om feedback gevraagd en elkaar aangevuld zodat de assets 1 constante
+                            stijl houden.
+                        </p>
+                        <h4>Features</h4>
+                        <h5>Mensenkenners hints</h5>
+                        <p>
+                            Ik heb gebruik gemaakt van het pop-up element dat al gemaakt was en deze gekoppeld aan het
+                            mensenkenners logo in de hoek van ons design. Elke keer als de gebruiker op dit logo klikt
+                            komt er een pop-up tevoorschijn met een hint of tip. Om aan te tonen dat het logo klikbaar
+                            is komt er een animatie tevoorschijn die meer duidelijkheid geeft. In eerste instantie waren
+                            de hints alleen tijdens minigames. Later heb ik het aangepast dat elk scherm een hint/tip
+                            bevat.
+                        </p>
+                        <h5>Quotes</h5>
+                        <p>
+                            Ik heb uit interviews, originele training en video’s quotes gehaald die we konden laten zien
+                            aan het einde van elke minigame.
+                        </p>
+                        <h4>Ideation</h4>
+                        <p>
+                            Ik heb een groot deel van de minigames bedacht die huidig in ons product zitten of in
+                            skeletvorm als idee zijn meegegeven aan de opdrachtgevers. Daarbij heb ik ook de brainstorms
+                            geleid die we tijdens week 1 hebben gevoerd.
+                        </p>
+                        <p>
+                            Ik had de minigames bedacht voor: auditieve beperking, motorische beperking, spraakgebrek,
+                            visuele beperking a.d.h.v. de HCD opdracht van Dylan. Ik heb binnen module 1 op skelet
+                            niveau de minigames bedacht voor de introductie, opvallend uiterlijk, spraakgebrek, visueel
+                            en auditief. Voor module 3 heb ik de vijfde minigame bedacht over het verbeteren van een
+                            werkplek.
+                        </p>
+                        <h4>Styling</h4>
+                        <p>
+                            Ik ben verantwoordelijk voor de styling van de checklist en de buttons die gebruikt worden
+                            voor de spraakgebrek minigame, de quotes, de eerste versie van de dialoogbox, de onderdelen
+                            van de auditieve minigame en de mensenkenners knop.
+                        </p>
+                        <h4>Algemeen</h4>
+                        <p>
+                            Aan andere onderdelen van dit project heb ik ook geholpen. Hier vallen dingen onder zoals
+                            merge conflicts oplossen, feedback geven op andere, achtergrond designen en code conventies
+                            opstellen.
+                        </p>
+
+                    </div>
+
+                    <div class="detail-screen" data-page="meesterproef-doelen">
+                        <h2>Gewerkt aan leerdoelen</h2>
+                        <h3>1: Ik wil mijn website correct responsive maken door gebruik te maken van de juiste styling
+                            en waar mogelijk zonder media-queries. Zodat mijn website er op alle schermen er goed uit
+                            blijft zien.</h3>
+                        <p>
+                            Gedurende dit project hebben we altijd gekeken naar het project als Mobile First. Dat houdt
+                            in dat we altijd ervoor hebben gezorgd dat het product goed werkt op telefoon en daarna pas
+                            hebben gekeken om het goed te maken voor desktop.
+                        </p>
+                        <p>
+                            Ik zelf heb ik zelf ook gedaan bij het maken van mijn verschillende minigames. Ik heb er
+                            eerst voor gezorgd dat alles correct gecentreerd op het scherm te zien was. Er was alleen
+                            niet heel vaak nodig om het op desktop anders te doen, daar was het ook gecentreerd. Ik heb
+                            wel voor de auditieve minigames de afstand tussen de twee kolommen geregeld dat ze netjes
+                            over de breedte zijn verdeeld. Ook voor de quotes heb ik ervoor gezorgd dat het er altijd
+                            eerst goed uit ziet op mobiel en gekeken tot welke breedte ik het maximaal horizontaal kan
+                            uitrekken zodat het er altijd nog steeds goed uit blijft zien.
+                        </p>
+                        <p>
+                            Maar het grootste gedeelte van hoe ik aan dit leerdoel heb gewerkt gedurende de afgelopen
+                            periode is op mijn blog. Maar vanwege specifieke styling op dat blog was het niet vaak
+                            mogelijk zonder media-queries. Dat kwam nou eenmaal zo uit.
+                        </p>
+                        <h3>2: Ik wil mijn code netter opbouwen door mezelf minder vaak te herhalen, door gebruik van
+                            componenten en mijn CSS beter op te bouwen.</h3>
+                        <p>
+                            Voor verschillende onderdelen van het project ben ik verantwoordelijk geweest voor de
+                            styling. Maar voor elk van die onderdelen heb ik ervoor gekeken of er andere onderdelen op
+                            de website waren die dezelfde styling nodig hadden. Zo had ik voor de spraakgebrek minigame
+                            mijn code zo opgesteld dat beide buttons dezelfde styling kregen, en dat het enige verschil
+                            dat ze hadden de kleuren waren. Beide dialoogboxen hebben ook dezelfde styling gekregen,
+                            deze is daarna alleen wel nog veranderd.
+                        </p>
+                        <p>
+                            Maar ook het gebruik van astro heeft ervoor gezorgd dat ik minder snel code ging herhalen.
+                            Ik heb dan niet gewerkt aan de gehele infrastructuur, maar voor het opzetten van
+                            mensenkenners hints heb ik een nieuw component gemaakt voor de knop zelf die op elke pagina
+                            te zien en is en heb ik gebruik gemaakt van het pop-up element die al bestond heb daar
+                            steeds de content van aangepast. Zodat ik niet zelf een nieuwe soort pop-up hoef te maken.
+                        </p>
+                        <p>
+                            Ook weer op mijn blog heb ik veel gebruikgemaakt van stukken code die voor meerdere
+                            onderdelen gebruikt konden worden. Dit geldt voor verschillende scripts, maar ook voor
+                            styling van de dpad en de andere soorten knoppen.
+                        </p>
+                        <h3>
+                            3: Ik wil mijn werk meer laten zien en om feedback vragen, zodat ik meer feedback krijg en
+                            daardoor mijn website kan verbeteren.
+                        </h3>
+                        <p>
+                            Gedurende het project heb ik veel om feedback steeds gevraagd aan mijn teamgenoten. Al ging
+                            het om een idee, styling of een stukje functionaliteit code. Ik heb bijna elke keuze die ik
+                            heb gemaakt steeds eerst aan mijn groepje voorgesteld voordat ik er verder mee ging.
+                        </p>
+                        <p>
+                            Zo heb ik ook de assets voor de blind minigame samen met Dylan gemaakt en veel steeds om
+                            feedback gevraagd zodat we onze assets in dezelfde stijl konden houden. Maar ook voor het
+                            gebaar voor “bedankt” heb ik meerdere malen om feedback gevraagd. Bij elke iteratie van dat
+                            gebaar hebben het naar de opdrachtgever gestuurd voor verduidelijking en met de laatste
+                            versie heb ik het ook aan een ander team gevraagd. Dus niet alleen binnen het groepje heb ik
+                            om feedback gevraagd.
+                        </p>
+                        <p>
+                            Aangezien ik voor mijn blog ook al een lange tijd bezig was, heb ik veel momenten gehad dat
+                            ik aan docenten zoals Sanne en Vasilis feedback kon vragen, zo heb ik na veel tijd van mijn
+                            bovenste scherm van de DS een iframe gemaakt.
+                        </p>
+
+
                     </div>
 
                     <div class="detail-screen" data-page="meesterproef-reflection">
                         <h2>Meesterproef Reflectie</h2>
+                        <p>
+                            Ik ben zeer tevreden over het product dat wij hebben weten neer te zetten binnen een
+                            redelijk korte tijd. Tijdens de periode van vijf weken hebben wij namelijk als team een
+                            product gemaakt dat perfect aansluit op de opdracht die ons werd gegeven. We hebben de flow
+                            van hun training zo veranderd dat de gehele training een stuk korter werd, veel
+                            interactiever en vooral een stuk leuker. Ik heb veel kennis die ik tijdens mijn stage heb
+                            geleerd kunnen toepassen gedurende dit project. Het voelde bijna alsof ik steeds het advies
+                            kon geven over wat wel en niet handig is om in de training te doen.
+                        </p>
+                        <p>
+                            Ik vind dat ik zeer goed heb gewerkt in dit team. De taakverdeling ging altijd goed, mensen
+                            vulden elkaar goed aan en er werd altijd duidelijk en goed gecommuniceerd. Er is niemand in
+                            het groepje geweest die specifiek minder heeft gedaan dan de rest. Gedurende het project heb
+                            ik me bezig gehouden met het maken van 2 van de 5 minigames. Omdat ik eenmaal meer ervaring
+                            had met dat soort code schrijven. Datzelfde geldde ook voor Dylan. Ik heb goed aan mijn
+                            leerdoelen kunnen werken en heb gemerkt dat ik daar echt in vooruit ben gegaan.
+                        </p>
+                        <p>
+                            Als team waren we het alleen niet eens over het cijfer dat we hadden gekregen. Naar onze
+                            mening hebben we ons product gemaakt aan de hand van wat de opdracht was, en niet om te
+                            laten zien wat we geleerd hadden gedurende de minor. We hebben nagedacht over
+                            toegankelijkheid in de zin van dat het juist specifiek niet nodig was omdat de doelgroep
+                            expliciet mensen zonder beperking was en op mobiel gebruikt moest worden op kantoor.
+                            Waardoor we dus minder aandacht hebben besteed aan het toegankelijk maken en meer aandacht
+                            op het maken van een goed product. Wij hebben gefocust op het robuust maken zodat de
+                            opdrachtgever er makkelijker verder mee kan in eventueel een ander programma die we hadden
+                            aangeraden tijdens de eindpresentatie.
+                        </p>
+                        <p>
+                            Over het algemeen ben ik dus zeer tevreden over ons product zelf. De opdrachtgever was er
+                            namelijk zeer tevreden mee en gaf duidelijk aan dat ze daadwerkelijk met ons product en die
+                            van het andere groepje verder zouden gaan. Het enige wat blijkbaar beter had gekund is dat
+                            we meer hadden moeten laten zien van wat we hebben geleerd gedurende de minor.
+                        </p>
                     </div>
 
                 </div>
@@ -243,17 +430,33 @@ Functionaliteiten:
         <!-- Source: https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/TWWHD_Makar_Artwork.png/revision/latest?cb=20130908194215 -->
         <img id="korok" class="hidden" src="../Assets/Images/EasterEggs/korok.png" alt="korok">
     </div>
-    
+
     <nav>
         <button id="open-nav">Open</button>
-        <a href="../index.html"><img src="../Assets/Images/Nav/NES.png" alt="NES Controller"><p>HCD</p></a>
-        <a href="GameAndWatch.html"><img src="../Assets/Images/Nav/GAndW.png" alt="GameAndWatch"><p>Hackathon</p></a>
-        <a href="GameBoy.html"><img src="../Assets/Images/Nav/GameBoy.png" alt="GameBoy"><p>BT</p></a>
-        <a href="Wii.html"><img src="../Assets/Images/Nav/Wii.png" alt="Wii"><p>Sprint 0</p></a>
-        <a href="DS.html"><img src="../Assets/Images/Nav/DS.png" alt="DS"><p>CSS</p></a>
-        <a href="3DS.html"><img src="../Assets/Images/Nav/3DS.png" alt="3DS"><p>API</p></a>
-        <a href="Switch.html"><img src="../Assets/Images/Nav/Switch.png" alt="Switch"><p>Meesterschap</p></a>
-        <a href="Switch2.html"><img src="../Assets/Images/Nav/Switch2.png" alt="Switch 2"><p>Weekly Nerds</p></a>
+        <a href="../index.html"><img src="../Assets/Images/Nav/NES.png" alt="NES Controller">
+            <p>HCD</p>
+        </a>
+        <a href="GameAndWatch.html"><img src="../Assets/Images/Nav/GAndW.png" alt="GameAndWatch">
+            <p>Hackathon</p>
+        </a>
+        <a href="GameBoy.html"><img src="../Assets/Images/Nav/GameBoy.png" alt="GameBoy">
+            <p>BT</p>
+        </a>
+        <a href="Wii.html"><img src="../Assets/Images/Nav/Wii.png" alt="Wii">
+            <p>Sprint 0</p>
+        </a>
+        <a href="DS.html"><img src="../Assets/Images/Nav/DS.png" alt="DS">
+            <p>CSS</p>
+        </a>
+        <a href="3DS.html"><img src="../Assets/Images/Nav/3DS.png" alt="3DS">
+            <p>API</p>
+        </a>
+        <a href="Switch.html"><img src="../Assets/Images/Nav/Switch.png" alt="Switch">
+            <p>Meesterschap</p>
+        </a>
+        <a href="Switch2.html"><img src="../Assets/Images/Nav/Switch2.png" alt="Switch 2">
+            <p>Weekly Nerds</p>
+        </a>
     </nav>
 
     <script src="../Scripts/joystick.js"></script>
