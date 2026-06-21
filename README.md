@@ -730,6 +730,11 @@ Ik heb vandaag nog een extra plaatje toegevoegd specifiek voor de meesterproef o
 #### Bronnenlijst
 Meesterproef: https://cdn-icons-png.flaticon.com/512/8920/8920811.png
 
+### Zondag 21 - 6 - 2026
+Wii player lights
+Switch screen keyboard toegankelijkheid
+Beetje extra ruimte aan einde van de scroll door ::after
+
 ### Button functionaliteiten lijst
 #### NES
 * Dpad-up: Pop-up

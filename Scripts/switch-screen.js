@@ -19,6 +19,7 @@ function updateSelection() {
     const activeButton = screenButtons[currentIndex];
     activeButton.classList.add("active");
 
+    // Keep active button visible
     const content = document.querySelector(".switch-screen .content");
 
     const target =
@@ -48,22 +49,6 @@ function openCurrentScreen() {
         );
     });
 }
-
-function closeCurrentScreen() {
-    viewingScreen = false;
-
-    detailScreens.forEach(screen => {
-        screen.classList.remove("active-screen");
-    });
-
-    screenMenu.classList.remove("hidden");
-
-    updateSelection();
-}
-
-/* ------------------------
-   BUTTON CONTROLS
------------------------- */
 
 // LEFT
 leftBtn.addEventListener("click", () => {
@@ -95,13 +80,21 @@ rightBtn.addEventListener("click", () => {
 aBtn.addEventListener("click", openCurrentScreen);
 
 // BACK (B)
-bBtn.addEventListener("click", closeCurrentScreen);
+bBtn.addEventListener("click", () => {
+    viewingScreen = false;
 
-/* ------------------------
-   MOUSE CONTROLS
------------------------- */
+    detailScreens.forEach(screen => {
+        screen.classList.remove("active-screen");
+    });
 
+    screenMenu.classList.remove("hidden");
+
+    updateSelection();
+});
+
+// Mouse controls
 screenButtons.forEach((button, index) => {
+    // Single click = select
     button.addEventListener("click", () => {
         if (viewingScreen) return;
 
@@ -109,6 +102,7 @@ screenButtons.forEach((button, index) => {
         updateSelection();
     });
 
+    // Double click = open
     button.addEventListener("dblclick", () => {
         if (viewingScreen) return;
 
@@ -118,71 +112,5 @@ screenButtons.forEach((button, index) => {
     });
 });
 
-/* ------------------------
-   KEYBOARD CONTROLS
------------------------- */
-
-document.addEventListener("keydown", (e) => {
-    if (e.repeat) return;
-
-    switch (e.key) {
-        /* navigation */
-        case "ArrowLeft":
-            if (viewingScreen) return;
-
-            currentIndex--;
-            if (currentIndex < 0) {
-                currentIndex = screenButtons.length - 1;
-            }
-            updateSelection();
-            break;
-
-        case "ArrowRight":
-            if (viewingScreen) return;
-
-            currentIndex++;
-            if (currentIndex >= screenButtons.length) {
-                currentIndex = 0;
-            }
-            updateSelection();
-            break;
-
-        case "ArrowUp":
-            if (viewingScreen) return;
-
-            currentIndex--;
-            if (currentIndex < 0) {
-                currentIndex = screenButtons.length - 1;
-            }
-            updateSelection();
-            break;
-
-        case "ArrowDown":
-            if (viewingScreen) return;
-
-            currentIndex++;
-            if (currentIndex >= screenButtons.length) {
-                currentIndex = 0;
-            }
-            updateSelection();
-            break;
-
-        /* open */
-        case "Enter":
-            openCurrentScreen();
-            break;
-
-        /* close */
-        case "Escape":
-            if (viewingScreen) {
-                closeCurrentScreen();
-            }
-            break;
-    }
-});
-
-/* ------------------------
-   INIT
------------------------- */
-
+// Initialize
 updateSelection();
