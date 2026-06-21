@@ -19,11 +19,34 @@ function updateSelection() {
     const activeButton = screenButtons[currentIndex];
     activeButton.classList.add("active");
 
-    // keep active button visible + centered in scroll area
-    activeButton.scrollIntoView({
-        behavior: "smooth",
-        inline: "center",
-        block: "nearest"
+    // Keep active button visible
+    const content = document.querySelector(".switch-screen .content");
+
+    const target =
+        activeButton.offsetLeft -
+        (content.clientWidth / 2) +
+        (activeButton.offsetWidth / 2);
+
+    content.scrollTo({
+        left: target,
+        behavior: "smooth"
+    });
+}
+
+function openCurrentScreen() {
+    if (viewingScreen) return;
+
+    viewingScreen = true;
+
+    const target = screenButtons[currentIndex].dataset.page;
+
+    screenMenu.classList.add("hidden");
+
+    detailScreens.forEach(screen => {
+        screen.classList.toggle(
+            "active-screen",
+            screen.dataset.page === target
+        );
     });
 }
 
@@ -54,21 +77,7 @@ rightBtn.addEventListener("click", () => {
 });
 
 // OPEN (A)
-aBtn.addEventListener("click", () => {
-    if (viewingScreen) return;
-
-    viewingScreen = true;
-
-    const target = screenButtons[currentIndex].dataset.page;
-
-    screenMenu.classList.add("hidden");
-
-    detailScreens.forEach(screen => {
-        const match = screen.dataset.page === target;
-
-        screen.classList.toggle("active-screen", match);
-    });
-});
+aBtn.addEventListener("click", openCurrentScreen);
 
 // BACK (B)
 bBtn.addEventListener("click", () => {
@@ -83,5 +92,25 @@ bBtn.addEventListener("click", () => {
     updateSelection();
 });
 
-// init
+// Mouse controls
+screenButtons.forEach((button, index) => {
+    // Single click = select
+    button.addEventListener("click", () => {
+        if (viewingScreen) return;
+
+        currentIndex = index;
+        updateSelection();
+    });
+
+    // Double click = open
+    button.addEventListener("dblclick", () => {
+        if (viewingScreen) return;
+
+        currentIndex = index;
+        updateSelection();
+        openCurrentScreen();
+    });
+});
+
+// Initialize
 updateSelection();
