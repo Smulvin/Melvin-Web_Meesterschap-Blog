@@ -337,10 +337,10 @@ button:hover, a:hover {
         padding: 3rem;
         background:
             radial-gradient(circle at top left,
-                #53b8dc14,
+                hsla(196, 66%, 59%, 0.078),
                 transparent 30%),
             radial-gradient(circle at bottom right,
-                #fd886f14,
+                hsla(11, 97%, 71%, 0.078),
                 transparent 30%),
             var(--switch-screen-color);
         border-radius: 1rem;
@@ -482,6 +482,13 @@ button:hover, a:hover {
                     object-fit: cover;
                 }
             }
+        }
+
+        .screen-menu::after {
+            content: "";
+            height: 100%;
+            width: 3rem;
+            flex: 0 0 3rem;
         }
     }
 }
