@@ -96,3 +96,20 @@ minusButton.addEventListener("click", () => {
     wiiSportsTheme.pause();
     wiiSportsTheme.currentTime = 0;
 });
+
+// =======================
+// Player Lights
+// =======================
+const lights = document.querySelectorAll("#player-lights > div");
+
+document.addEventListener("keydown", (event) => {
+    const key = parseInt(event.key);
+
+    if (key >= 1 && key <= 4) {
+        // Remove the id from all divs
+        lights.forEach(light => light.removeAttribute("id"));
+
+        // Assign it to the selected div
+        lights[key - 1].id = "player-light";
+    }
+});
