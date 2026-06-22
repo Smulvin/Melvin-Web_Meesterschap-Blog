@@ -734,6 +734,7 @@ Meesterproef: https://cdn-icons-png.flaticon.com/512/8920/8920811.png
 Wii player lights
 Switch screen keyboard toegankelijkheid
 Beetje extra ruimte aan einde van de scroll door ::after
+Link van meesterproef website toegevoegd aan switch button
 
 ### Button functionaliteiten lijst
 #### NES
