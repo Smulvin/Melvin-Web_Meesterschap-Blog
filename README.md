@@ -731,10 +731,11 @@ Ik heb vandaag nog een extra plaatje toegevoegd specifiek voor de meesterproef o
 Meesterproef: https://cdn-icons-png.flaticon.com/512/8920/8920811.png
 
 ### Zondag 21 - 6 - 2026
-Wii player lights
-Switch screen keyboard toegankelijkheid
-Beetje extra ruimte aan einde van de scroll door ::after
-Link van meesterproef website toegevoegd aan switch button
+Ik had vandaag een paar laatste puntjes op de i gezet. Zo had ik nog een easter egg op mijn sprint 0 website die ik nog toe kon voegen aan mijn huididge blog. Namelijk dat je met de nummers 1 - 4 op je toetsenbord de lampjes van de Wii controller kan aanpassen. 
+
+Maar ook een beetje functionaliteit heb ik vandaag nog toegepast. Zo heb ik toegevoegd dat voor beide switch controllers je met de muis ook knoppen kan selecteren en met dubbel klik hem kan openen. Maar ook styling voor de knoppen. Aan het einde van de reeks knoppen zat er namelijk geen wit ruimte vanwege scroll-behaviour. Ik heb dit weten op te lossen door de laatste knop een ::after te geven met een breedte die evenveel is als de padding.
+
+Ik kwam er later op de dag tijdens testen nog achter dat de home button knop op de switch nog naar dezelfde pagina gaat, ik was hier nog vergeten de link van het product van de meesterproef aan toe te voegen.
 
 ### Button functionaliteiten lijst
 #### NES
