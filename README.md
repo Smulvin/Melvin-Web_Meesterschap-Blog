@@ -804,8 +804,6 @@ Ik kwam er later op de dag tijdens testen nog achter dat de home button knop op 
 * B: Stop Unown Font
 * Start: Github
 * Select: Website
-* Volume-slider:
-* 3D-slider:
 
 #### Switch
 * Minus: Verander kleur linker kant
