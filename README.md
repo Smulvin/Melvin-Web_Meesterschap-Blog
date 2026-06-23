@@ -797,7 +797,6 @@ Ik kwam er later op de dag tijdens testen nog achter dat de home button knop op 
 * Dpad-right: Volgende slide
 * Dpad-down: Pokemon XY Gym Leader theme
 * Home: Hey Listen SFX
-* C-stick:
 * X: Start SMB2 Coins
 * Y: Stop SMB2 Coins
 * A: Start Unown Font
